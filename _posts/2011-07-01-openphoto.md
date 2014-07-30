@@ -3,7 +3,7 @@ layout: post
 title: "In The Beginning..."
 description: "The first of many posts chronicling my journey from having an idea to selling it."
 category: articles
-tags: [sample-post, readability, test, intro]
+#tags: [sample-post, readability, test, intro]
 image:
   feature: so-simple-sample-image-2.jpg
   credit: Michael Rose
