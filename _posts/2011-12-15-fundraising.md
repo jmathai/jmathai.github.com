@@ -14,6 +14,8 @@ share: true
 
 *Runway* is what start-ups call the amount of time remaining until there's no money left to leave the lights on. Prior to funding, a start-up's runway is a function of each founder's ability to survive without collecting a paycheck. Since Rachel was staying at home with Tavin (and later our daughter Elodie) it meant our runway was whatever money we had available in the bank and brokerage accounts.
 
+## When a start-up meets life
+
 I remember telling Rachel when I left my job in May that I'd go no longer than 6 months without funding. Determined to close a round of funding by the end of 2012 I warmed up leads and had a spreadsheet of a couple dozen angel investors I knew by 1 or 2 degrees of separation. I probably still have that spreadsheet laying around; it'd be fun to dig up.
 
 The [Kickstarter funding](../openphoto/#kickstarter) wasn't a proper angel or seed round but I knew it would help. The exposure from Kickstarter helped get us accepted by Mozilla into their WebFWD accelerator. WebFWD didn't include any funding but legitimized us a little bit more and we got access to some great mentors and investors.
