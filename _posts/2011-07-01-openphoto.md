@@ -29,7 +29,7 @@ In June of 2010 we had our son, Tavin. Life became infinitely better and busier.
 
 I revisted the question of what to do with all these photos. It was important to us that these photos be around when Tavin was in his 20s and beyond. I realized everything was converging on being able to write software making it easy to organize and share photos without sacrificing data ownership or portability.
 
-## Kickstarting OpenPhoto
+## <a name="kickstarter"></a>Kickstarting OpenPhoto
 
 It was 2011 and Kickstarter was only 2 years old. The largest campaign hadn't yet broke the $1M funding level. It was also a time when Kickstarter had to approve which project could launch a crowdfunding campaign on their site. Fortunately they picked an idea I submitted.
 
