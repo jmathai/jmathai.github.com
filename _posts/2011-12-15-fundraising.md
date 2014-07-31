@@ -16,7 +16,7 @@ share: true
 
 ## When my start-up met reality
 
-I remember telling Rachel when I left my job in May that I'd go no longer than 6 months without funding. Founders tend to underestimate the time required to raise funding. I tried to keep that in mind and felt 6 months was both aggressive and realistic.
+I remember telling Rachel when I left my job in May that I'd go no longer than 6 months without funding. Founders tend to underestimate the time required to raise funding. Keeping that in mind, I felt 6 months was both aggressive and realistic.
 
 Determined to close a round of funding by the end of 2012 I warmed up leads and had a spreadsheet of a couple dozen angel investors I knew by 1 or 2 degrees of separation. I probably still have that spreadsheet laying around; it'd be fun to dig up.
 
