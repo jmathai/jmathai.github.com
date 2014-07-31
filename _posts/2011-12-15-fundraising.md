@@ -20,7 +20,7 @@ I remember telling Rachel when I left my job in May that I'd go no longer than 6
 
 Determined to close a round of funding by the end of 2012 I warmed up leads and had a spreadsheet of a couple dozen angel investors I knew by 1 or 2 degrees of separation. I probably still have that spreadsheet laying around; it'd be fun to dig up.
 
-The [Kickstarter funding](../openphoto/#kickstarter) wasn't a proper angel or seed round but I knew it would help. The exposure from Kickstarter helped get us accepted by Mozilla into their WebFWD accelerator. WebFWD didn't include any funding but legitimized us a little bit more and we got access to some great mentors and investors.
+The [Kickstarter funding](../openphoto/#kickstarter) wasn't a proper angel or seed round but I knew it would help. The exposure from Kickstarter [helped get us accepted by Mozilla into their WebFWD accelerator](http://blog.webfwd.org/post/9300091721/webfwd-welcomes-the-first-fellows). WebFWD didn't include any funding but legitimized us a little bit more and we got access to some great mentors and investors.
 
 It was time to turn that into a successful angel round.
 
@@ -28,7 +28,7 @@ It was time to turn that into a successful angel round.
 
 Between October and March we talked with numerous angel investors while also pitching Kapoor Ventures and Khosla Ventures amoung others. I knew the pitches weren't going well. If an investor is interested, you'll know. I knew anything else meant there wasn't chemistry.
 
-When fundraising it's vital that you don't take rejection personally or as a sign that you won't get funding elsewhere. This is one of the most difficult parts of fundraising. I had prepared for maximum rejection and it was paying off; the rejection didn't phase me.
+When fundraising it's vital not to take rejection personally or as a sign you won't get funding elsewhere. This is one of the most difficult parts of fundraising. I had prepared for maximum rejection and it was paying off; the rejection didn't phase me.
 
 2012 came to an end and I was faced with a decision and an unfulfilled promise I made to Rachel. I experienced something at that time which would be a recurring theme over the next 3 years; Rachel's unflinching support.
 
@@ -36,11 +36,11 @@ In February of 2012 we were invited to interview for the IO Ventures accelerator
 
 The thing about start-ups is you only dwell on failure long enough to learn something and then you move on. There's always too much to do in too little time. We continued looking at funding opportunities which led us to the Knight News Challenge.
 
-I was introduced to someone at the Knight Foundation by someone we pitched to at Kapoor Ventures. I was too naive at the time to know better than to ask for an introduction to an investor from an investor that wasn't intersted in investing. Nonetheless we wound up not receiving any funding from the Knight Foundation. As with previous dissapointments we didn't let this stop us.
+I was introduced to someone at the Knight Foundation by the person we pitched to at Kapoor Ventures. I was too naive at the time to know better than to ask an investor who didn't invest for an introduction to someone else. Nonetheless we wound up not receiving any funding from the Knight Foundation. As with previous dissapointments we didn't let this stop us.
 
 ### A most memorable pitch
 
-Oh, this is good. My most memorable pitch by far was to the Band of Angels. We were one of 3 companies selected to pitch to a group of angel investors. Keep in mind that I'd been practicing my pitch for months. It had evolved but I knew the pitch like the back of my hand.
+Oh, this is good. My most memorable pitch by far was to the Band of Angels. We were one of 3 companies selected to pitch to a group of angel investors. Keep in mind that I'd been practicing this pitch for months. It had evolved but I knew the pitch like the back of my hand.
 
 I arrived to pitch and was asked to wait in the lobby because a few of the angel investors were running late. My point of contact, Nicola, kindly showed me to the room in which I'd be pitching. I was expecting the room to be empty and for the investors to arrive shortly after me. Turns out all the investors were packed into this room and I was sat down in a chair. The formalities were skipped and before I knew it I was fielding questions about how our Dropbox integration worked and what our projected revenue was. I knew all of this but the shock precluded me from articulating it.
 
