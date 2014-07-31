@@ -1,6 +1,6 @@
-title:            The Story of OpenPhoto / Trovebox
-description:      Documenting my 3 year startup journey founding OpenPhoto / Trovebox.
-logo:             site-logo.png
+title:            Jaisen Mathai
+description:      
+logo:             bio-photo.jpg
 disqus_shortname:
 search:           true
 # Change url to your domain. Leave localhost server or blank when working locally.
@@ -34,9 +34,12 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: Articles
-    url: /articles/
-    external: true
+  - title: Home
+    url: /
+    external: false
+  - title: Start-up
+    url: /openphoto-trovebox/
+    external: false
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Los_Angeles

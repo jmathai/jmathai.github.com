@@ -2,7 +2,8 @@
 layout: post
 title: "In The Beginning..."
 description: "The first of many posts chronicling my journey from having an idea to selling it."
-category: articles
+category: openphoto-trovebox
+logo:             site-logo.png
 #tags: [sample-post, readability, test, intro]
 image:
   feature: so-simple-sample-image-2.jpg
@@ -29,12 +30,4 @@ In June of 2010 we had our son, Tavin. Life became infinitely better and busier.
 
 I revisted the question of what to do with all these photos. It was important to us that these photos be around when Tavin was in his 20s and beyond. I realized everything was converging on being able to write software making it easy to organize and share photos without sacrificing data ownership or portability.
 
-## <a name="kickstarter"></a>Kickstarting OpenPhoto
-
-It was 2011 and Kickstarter was only 2 years old. The largest campaign hadn't yet broke the $1M funding level. It was also a time when Kickstarter had to approve which project could launch a crowdfunding campaign on their site. Fortunately they picked an idea I submitted.
-
-I launched my [Kickstarter campaign for OpenPhoto](https://www.kickstarter.com/projects/jmathai/openphoto-a-photo-service-for-your-s3-or-dropbox-a) on July 1<sup>st</sup> of 2011. It was an intense 30 days that didn't follow the typical inverted bell curve of funding that most Kickstarter campaigns do. Instead I received a big boost in the middle of the 30 day campaign when [Techcrunch covered OpenPhoto](http://techcrunch.com/2011/06/29/former-yahoo-engineer-quits-to-build-a-flickr-killer-on-kickstarter/).
-
-By the end of the campaign I crossed my funding goal by raising $25,242 of my $25,000 goal. The successful funding from Kickstarter helped validate not only that people were interested in OpenPhoto but that they were willing to pay for it.
-
-After celebrating I realized that the real work was still ahead of me...
+The seeds for OpenPhoto had been planted.

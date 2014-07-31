@@ -2,7 +2,8 @@
 layout: post
 title: "The Road To Funding"
 description: "Our path to fundraising took many detours and caused a lot more stress than I imagined."
-category: articles
+category: openphoto-trovebox
+logo:  site-logo.png
 #tags: [sample-post, readability, test, intro]
 image:
   feature: so-simple-sample-image-2.jpg
@@ -20,13 +21,23 @@ I remember telling Rachel when I left my job in May that I'd go no longer than 6
 
 Determined to close a round of funding by the end of 2012 I warmed up leads and had a spreadsheet of a couple dozen angel investors I knew by 1 or 2 degrees of separation. I probably still have that spreadsheet laying around; it'd be fun to dig up.
 
-The [Kickstarter funding](../openphoto/#kickstarter) wasn't a proper angel or seed round but I knew it would help. The exposure from Kickstarter [helped get us accepted by Mozilla into their WebFWD accelerator](http://blog.webfwd.org/post/9300091721/webfwd-welcomes-the-first-fellows). WebFWD didn't include any funding but legitimized us a little bit more and we got access to some great mentors and investors.
+## Kickstarting OpenPhoto
+
+It was 2011 and Kickstarter was only 2 years old. The largest campaign hadn't yet broke the $1M funding level. It was also a time when Kickstarter had to approve which project could launch a crowdfunding campaign on their site. Fortunately they picked an idea I submitted.
+
+I launched my [Kickstarter campaign for OpenPhoto](https://www.kickstarter.com/projects/jmathai/openphoto-a-photo-service-for-your-s3-or-dropbox-a) on July 1<sup>st</sup> of 2011. It was an intense 30 days that didn't follow the typical inverted bell curve of funding that most Kickstarter campaigns do. Instead I received a big boost in the middle of the 30 day campaign when [Techcrunch covered OpenPhoto](http://techcrunch.com/2011/06/29/former-yahoo-engineer-quits-to-build-a-flickr-killer-on-kickstarter/).
+
+By the end of the campaign I crossed my funding goal by raising $25,242 of my $25,000 goal. The successful funding from Kickstarter helped validate not only that people were interested in OpenPhoto but that they were willing to pay for it.
+
+The Kickstarter funding wasn't a proper angel or seed round but I knew it would help. The exposure from Kickstarter [helped get us accepted by Mozilla into their WebFWD accelerator](http://blog.webfwd.org/post/9300091721/webfwd-welcomes-the-first-fellows). WebFWD didn't include any funding but legitimized us a little bit more and we got access to some great mentors and investors.
 
 It was time to turn that into a successful angel round.
 
 ## The first wave
 
 Between October and March we talked with numerous angel investors while also pitching Kapoor Ventures and Khosla Ventures amoung others. I knew the pitches weren't going well. If an investor is interested, you'll know. I knew anything else meant there wasn't chemistry.
+
+> "I have reviewed the idea and the material with [partner] and our team, and we’ve decided it’s not a fit for [firm]." -- one of the VC firms we pitched
 
 When fundraising it's vital not to take rejection personally or as a sign you won't get funding elsewhere. This is one of the most difficult parts of fundraising. I had prepared for maximum rejection and it was paying off; the rejection didn't phase me.
 

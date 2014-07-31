@@ -10,7 +10,7 @@
 				{% endif %} 
 			</li>
 	        {% endfor %}
-	        <li><a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>
+          <!--<li><a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>-->
 	        {% if site.search %}<li class="dosearch"><i class="icon-search"></i> Search</li>{% endif %}
 	    </ul>
 	</nav>
@@ -26,19 +26,26 @@
 	</div><!-- /.search-form -->
 </div><!-- ./search-wrapper -->{% endif %}
 
-{% if page.image.feature %}<header class="masthead">
-	{% if site.logo != null %}
-		<div class="wrap">
-			<a href="{{ site.url }}/" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated bounceInDown"></a>
-		</div>
-	{% endif %}
-</header><!-- /.masthead -->
-{% else %}<header class="masthead">
-	<div class="wrap">
-        {% if site.logo != null %}
-    		<a href="{{ site.url }}/" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated fadeInUp"></a>
+<header class="masthead">
+  <div class="wrap">
+    <div class="site-logo">
+      {% if page.image.feature %}
+        {% if page.logo != null %}
+          <img src="{{ site.url }}/images/{{ page.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated bounceInDown page"></div>
+        {% else if site.logo != null %}
+          <img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated bounceInDown site"></a>
         {% endif %}
-        <h1 class="site-title animated fadeIn"><a href="{{ site.url }}/">{{ site.title }}</a></h1>
-		<h2 class="site-description animated fadeIn" itemprop="description">{{ site.description }}</h2>
-	</div>
-</header><!-- /.masthead -->{% endif %}
+      {% else %}<header class="masthead">
+        {% if page.logo != null %}
+          <img src="{{ site.url }}/images/{{ page.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated fadeInUp page">
+        {% else if site.logo != null %}
+          <img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated fadeInUp site">
+        {% endif %}
+      {% endif %}
+    </div>
+    {% if page.layout == 'page' %}
+      <h1 class="site-title animated fadeIn"><a href="{{ site.url }}/">{{ page.title or site.title }}</a></h1>
+      <h2 class="site-description animated fadeIn" itemprop="description">{{ page.description or site.description }}</h2>
+    {% endif %}
+  </div>
+</header><!-- /.masthead -->
