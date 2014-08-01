@@ -63,7 +63,7 @@ Unsurprisingly, I received an email from Nicola in March letting me know we were
 
 No shit.
 
-## Reflecting on failed funding attempts
+## <a name="failed"></a>Reflecting on failed funding attempts
 
 By now we had spent more than 6 months trying to raise funding. It was starting to seem hopeless. Fundraising is a complicated beast. There are a few ways you can almost certainly secure funding. Traffic and a prior exit; preferably the former. We didn't have either.
 
