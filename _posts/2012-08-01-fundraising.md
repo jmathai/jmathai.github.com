@@ -15,25 +15,23 @@ share: true
 
 *Runway* is what start-up founders call the amount of time until there's no money left to feed their kids. Prior to funding, a start-up's runway is a function of each founder's ability to survive without collecting a paycheck. Since Rachel was staying at home with Tavin (and later our daughter Elodie) it meant our runway was whatever money we had available in the bank and brokerage accounts.
 
-## When my start-up met reality
-
-I remember telling Rachel when I left my job in May that I'd go no longer than 6 months without funding. Founders tend to underestimate the time required to raise funding. Keeping that in mind, I felt 6 months was both aggressive and realistic.
-
-Determined to close a round of funding by the end of 2012 I warmed up leads and had a spreadsheet of a couple dozen angel investors I knew by 1 or 2 degrees of separation. I probably still have that spreadsheet laying around; it'd be fun to dig up.
-
 ## Kickstarting OpenPhoto
 
-It was 2011 and Kickstarter was only 2 years old. The largest campaign hadn't yet broke the $1M funding level. It was also a time when Kickstarter had to approve which project could launch a crowdfunding campaign on their site. Fortunately they picked an idea I submitted.
+It was 2011 and Kickstarter was only 2 years old. The largest campaign hadn't yet broke the $1M funding level. It was also a time when Kickstarter had to approve which projects could launch a crowdfunding campaign on their site. Fortunately they picked an idea I submitted.
 
-I launched my [Kickstarter campaign for OpenPhoto](https://www.kickstarter.com/projects/jmathai/openphoto-a-photo-service-for-your-s3-or-dropbox-a) on July 1<sup>st</sup> of 2011. It was an intense 30 days that didn't follow the typical inverted bell curve of funding that most Kickstarter campaigns do. Instead I received a big boost in the middle of the 30 day campaign when [Techcrunch covered OpenPhoto](http://techcrunch.com/2011/06/29/former-yahoo-engineer-quits-to-build-a-flickr-killer-on-kickstarter/).
+I launched my [Kickstarter campaign for OpenPhoto](https://www.kickstarter.com/projects/jmathai/openphoto-a-photo-service-for-your-s3-or-dropbox-a) on July 1<sup>st</sup> of 2011. It was an intense 30 days during which I received press coverage from [Techcrunch](http://techcrunch.com/2011/06/29/former-yahoo-engineer-quits-to-build-a-flickr-killer-on-kickstarter/), [ReadWrite](http://readwrite.com/2011/06/20/save_your_photos_to_amazon_or_dropbox_with_app_pla) and others. By the end of the campaign I crossed my funding goal by raising $25,242 of my $25,000 goal. The successful funding from Kickstarter helped validate not only that people were interested in OpenPhoto but that they were willing to pay for it.
 
-By the end of the campaign I crossed my funding goal by raising $25,242 of my $25,000 goal. The successful funding from Kickstarter helped validate not only that people were interested in OpenPhoto but that they were willing to pay for it.
-
-The Kickstarter funding wasn't a proper angel or seed round but I knew it would help. The exposure from Kickstarter [helped get us accepted by Mozilla into their WebFWD accelerator](http://blog.webfwd.org/post/9300091721/webfwd-welcomes-the-first-fellows). WebFWD didn't include any funding but legitimized us a little bit more and we got access to some great mentors and investors.
+The Kickstarter funding wasn't a proper angel or seed round but I knew it would help. In fact, the exposure from Kickstarter [helped get us accepted by Mozilla into their WebFWD accelerator](http://blog.webfwd.org/post/9300091721/webfwd-welcomes-the-first-fellows). WebFWD didn't include any funding but legitimized us a little bit more and we got access to some great mentors and investors.
 
 It was time to turn that into a successful angel round.
 
-## The first wave
+## When my start-up met reality
+
+Determined to close a round of funding by the end of 2012 I warmed up leads and had a spreadsheet of a couple dozen angel investors I knew by 1 or 2 degrees of separation. I probably still have that spreadsheet laying around; it'd be fun to dig up.
+
+It had been 15 months since I told Rachel that I'd go no longer than 6 months without funding. Founders tend to underestimate the time required to raise funding. Knowing that, I felt 6 months was both aggressive and realistic.
+
+## <a name="first-wave"></a>The first wave
 
 Between October and March we talked with numerous angel investors while also pitching Kapoor Ventures and Khosla Ventures amoung others. I knew the pitches weren't going well. If an investor is interested, you'll know. I knew anything else meant there wasn't chemistry.
 
@@ -43,9 +41,11 @@ When fundraising it's vital not to take rejection personally or as a sign you wo
 
 2012 came to an end and I was faced with a decision and an unfulfilled promise I made to Rachel. I experienced something at that time which would be a recurring theme over the next 3 years; Rachel's unflinching support.
 
-In February of 2012 we were invited to interview for the IO Ventures accelerator. Over 700 companies apply and they pick a few dozen to interview. I was optimistic about our chances but in March we got the email that we didn't make it in.
+In February of 2012 we were invited to interview for the IO Ventures accelerator. Over 650 companies apply and they pick a few dozen to interview. I was optimistic about our chances but in March we got the email that we didn't make it in.
 
-The thing about start-ups is you only dwell on failure long enough to learn something and then you move on. There's always too much to do in too little time. We continued looking at funding opportunities which led us to the Knight News Challenge.
+> Unfortunately I have to inform you that your company wasn't chosen to participate in the spring i/o startup program.  You were one of over 650+ companies to apply and made it to the last round in our process.
+
+The thing about start-ups is you can only dwell on failure long enough to learn something and then you move on. There's always too much to do in too little time. We continued looking at funding opportunities which led us to the Knight News Challenge.
 
 I was introduced to someone at the Knight Foundation by the person we pitched to at Kapoor Ventures. I was too naive at the time to know better than to ask an investor who didn't invest for an introduction to someone else. Nonetheless we wound up not receiving any funding from the Knight Foundation. As with previous dissapointments we didn't let this stop us.
 
@@ -75,9 +75,9 @@ We never decide anything that day.
 
 At any given point we were in discussions with or waiting to hear back from several potential investors. In February I had come across a foundation I'd never heard of before, the [Shuttleworth Foundation](https://www.shuttleworthfoundation.org/).
 
-The Shuttleworth Foundation invests in people working in the areas of open data, open science, open government and other open things. It was a long shot but that hadn't stopped me in the past so I did the work to find out more about the foundation and figuring out who I might know working there.
+The Shuttleworth Foundation invests in people working in the areas of open data, open science, open government and other open things. It was a long shot but that hadn't stopped me in the past so I did the work to find out more about the foundation and figured out who I might know working there.
 
-A friend of an acquaintence, Philipp Schmidt, had previously received a grant from the Shuttleworth Foundation. I talked with him and told him about OpenPhoto. He thought it was a good fit and introduced me to Karien Bezuidenhout, COO at the Shuttleworth Foundation.
+A friend of an acquaintence, [Philipp Schmidt](http://www.media.mit.edu/people/ps1), had previously received a grant from the Shuttleworth Foundation. I talked with him and told him about OpenPhoto. He thought it was a good fit and introduced me to [Karien Bezuidenhout](https://www.shuttleworthfoundation.org/about-us/team/karien-bezuidenhout-chief-operating-officer/), COO at the Shuttleworth Foundation.
 
 I'd go on to receive a fellowship grant from the Shuttleworth Foundation. It wasn't until later that I realized how fundamental the foundation's fellowship model would be to the ultimate success of OpenPhoto.
 
