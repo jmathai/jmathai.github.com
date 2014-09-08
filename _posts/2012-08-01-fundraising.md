@@ -4,7 +4,7 @@ title: "The Road To Funding"
 description: "Our path to fundraising took many detours and caused a lot more stress than I imagined."
 category: openphoto-trovebox
 logo:  site-logo.png
-#tags: [sample-post, readability, test, intro]
+tags: [trovebox]
 image:
   feature: so-simple-sample-image-2.jpg
   credit: Michael Rose

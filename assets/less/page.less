@@ -300,6 +300,29 @@ span + .entry-title {
 			border-bottom-style: solid;
 		}
 	}
+  .related {
+    span {
+      display:block;
+      position: relative;
+      font-size: 30px;
+      z-index: 1;
+      overflow: hidden;
+      text-align: center;
+    }
+    span:before, span:after {
+      position: absolute;
+      top: 51%;
+      overflow: hidden;
+      width: 50%;
+      height: 1px;
+      content: '\a0';
+      background-color: #dadada;
+    }
+    span:before {
+      margin-left: -50%;
+      text-align: right;
+    }
+  }
 }
 .post-list {
 	li > a {

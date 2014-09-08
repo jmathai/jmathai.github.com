@@ -4,7 +4,7 @@ title: "In The Beginning..."
 description: "The first of many posts chronicling my journey from having an idea to selling it."
 category: openphoto-trovebox
 logo:             site-logo.png
-#tags: [sample-post, readability, test, intro]
+tags: [trovebox]
 image:
   feature: so-simple-sample-image-2.jpg
   credit: Michael Rose

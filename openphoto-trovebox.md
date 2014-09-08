@@ -10,7 +10,9 @@ description: Documenting my 3 year startup journey founding OpenPhoto / Trovebox
 
 <ul class="post-list">
 {% for post in site.posts reversed %} 
-  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
+  {% if post.tags contains 'trovebox' %}
+    <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
+  {% endif %}
 {% endfor %}
 </ul>
 
