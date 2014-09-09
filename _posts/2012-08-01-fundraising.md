@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Road To Funding"
+title: "Road To Funding"
 description: "Our path to fundraising took many detours and caused a lot more stress than I imagined."
 category: openphoto-trovebox
 logo:  skip

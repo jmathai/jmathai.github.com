@@ -181,12 +181,14 @@ body {
 .entry-feature-image {
 	margin: 20px 0 0;
 	width: 100%;
+	@media @small {
+	  margin-top: -40px;
+  }
 	@media @medium {
-		margin-top: -75px;
+		margin-top: -85px;
 	}
 	@media @large {
-		//margin-top: -145px;
-		margin-top: -289px;
+    position: relative;
 	}
 }
 .entry-header {
