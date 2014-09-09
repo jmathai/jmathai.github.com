@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /about/
-title: About the Jekyll Theme
+title: A few words about this site.
 #tags: [Jekyll, theme, simple, minimal, minimalism, responsive]
 modified: 2013-09-13
 image:

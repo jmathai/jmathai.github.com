@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "In The Beginning..."
-description: "The first of many posts chronicling my journey from having an idea to selling it."
+description: "Filled with naivety and excitement I dove in head first."
 category: openphoto-trovebox
-logo:             site-logo.png
+logo:  skip
 tags: [trovebox]
 image:
-  feature: so-simple-sample-image-2.jpg
-  credit: Michael Rose
-  creditlink: http://mademistakes.com
+  feature: main-i-would-love-to-change-the-world-but.jpg
+  credit: Jaisen Mathai
+  creditlink: http://photos.jaisenmathai.com
 comments: true
 share: true
 ---
@@ -26,8 +26,8 @@ That's when the seeds for OpenPhoto were planted though they lay dormant for sev
 
 I was newly married and we had just moved to the San Francisco Bay Area from Ohio. The last thing I wanted to think about was pursuing another idea. Instead Rachel and I spent the next 3 years discovering and falling in love with Sunnyvale; the city we moved to.
 
-In June of 2010 we had our son, Tavin. Life became infinitely better and busier. My collection of photos started getting infinitely bigger as well. We were taking a ridiculous number of photos and videos. Each one of these photos were priceless and grew in value as Tavin became older.
+In June of 2010 we had our son, Tavin. Life became infinitely better and busier. My collection of photos started getting infinitely bigger as well. We were taking a ridiculous number of photos and videos. They were all priceless and grew in value as Tavin became older.
 
-I revisted the question of what to do with all these photos. It was important to us that these photos be around when Tavin was in his 20s and beyond. I realized everything was converging on being able to write software making it easy to organize and share photos without sacrificing data ownership or portability.
+I revisted the question of what to do with all these photos. It was important to us that they be around when Tavin was in his 20s and beyond. I began realizing that technology was converging to enable the organization and sharing of photos without sacrificing data ownership or portability.
 
 The seeds for OpenPhoto had been planted.

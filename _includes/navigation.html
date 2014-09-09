@@ -29,15 +29,15 @@
 <header class="masthead">
   <div class="wrap">
     <div class="site-logo">
-      {% if page.image.feature %}
+      {% if page.image.feature and page.logo != 'skip' %}
         {% if page.logo != null %}
-          <img src="{{ site.url }}/images/{{ page.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated bounceInDown page"></div>
+          HI<img src="{{ site.url }}/images/{{ page.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated bounceInDown page">
         {% else if site.logo != null %}
-          <img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated bounceInDown site"></a>
+          HIHI<img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated bounceInDown site">
         {% endif %}
-      {% else %}<header class="masthead">
+      {% else %}
         {% if page.logo != null %}
-          <img src="{{ site.url }}/images/{{ page.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated fadeInUp page">
+        <img src="{{ site.url }}/images/{{ page.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated fadeInUp page">
         {% else if site.logo != null %}
           <img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated fadeInUp site">
         {% endif %}

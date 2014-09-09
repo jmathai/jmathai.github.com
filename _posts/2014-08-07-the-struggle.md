@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "The Struggle"
-description: "Our path to fundraising took many detours and caused a lot more stress than I imagined."
+description: "Saying a startup is hard is generally a broad understatement."
 category: openphoto-trovebox
-logo:  site-logo.png
+logo:  'skip'
 tags: [trovebox]
 image:
-  feature: so-simple-sample-image-2.jpg
-  credit: Michael Rose
-  creditlink: http://mademistakes.com
+  feature: main-tavin-bowling.jpg
+  credit: Jaisen Mathai
+  creditlink: http://photos.jaisenmathai.com
 comments: true
 share: true
 ---
