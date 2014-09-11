@@ -20,7 +20,7 @@ There exists in Cape Town, South Africa a small group of people taking bold risk
 
 <iframe src="//player.vimeo.com/video/54762523" width="500" height="281" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-On the surface the Foundation looks like part venture capitalist and foundational grant institution. It's an accurate description but to say that's *all* the Foundation is would be a gross understatement.
+On the surface the Foundation looks like part venture capitalist and part foundational grant institution. It's an accurate description but to say that's *all* the Foundation is would be a gross understatement.
 
 Bi-annually the Foundation gives up to 3 years of fellowship to individuals working on something [in an open manner](https://shuttleworthfoundation.org/thinking/thinking-openness/). That includes openness in education, science, data, government, software and more. The Foundation measures success not in dollars but in positive social change.
 
