@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "In The Beginning..."
+title: "In The Beginning"
 description: "Filled with naivety and excitement I dove in head first."
 category: openphoto-trovebox
 logo:  skip
