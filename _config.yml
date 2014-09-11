@@ -37,6 +37,9 @@ links:
   - title: Home
     url: /
     external: false
+  - title: Articles
+    url: /articles/
+    external: false
   - title: Startup Journey
     url: /openphoto-trovebox/
     external: false
