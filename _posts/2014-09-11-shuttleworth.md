@@ -26,7 +26,13 @@ Bi-annually the Foundation gives up to 3 years of fellowship to individuals work
 
 ## My fellowship for Trovebox
 
-[My fellowship](https://shuttleworthfoundation.org/fellows/jaisen-mathai/) was for [Trovebox](http://en.wikipedia.org/wiki/Trovebox) (originally OpenPhoto). We set out to make possible the preservation of digital photo archives for posterity. Openness is innate to solving that problem. Ideas like data ownership and portability need to be cornerstones; not an afterthought. Our approach of open sourcing our software and experimenting with distributed storage for digital media are what made it a good fit to receive a fellowship.
+[My fellowship](https://shuttleworthfoundation.org/fellows/jaisen-mathai/) was for [Trovebox](http://en.wikipedia.org/wiki/Trovebox) (originally OpenPhoto). We set out to make possible the preservation of digital photo archives for posterity. Openness is innate to solving that problem. Ideas like data ownership and portability need to be cornerstones; not an afterthought. Our approach of [open sourcing our software](https://github.com/photo) and experimenting with distributed storage for digital media are what made it a good fit to receive a fellowship.
+
+<figure class="half">
+	<img src="/images/photos/2014-04-17-wd-mycloud-bricked.jpg" alt="Restoring the image on a bricked Western Digital MyCloud device">
+	<img src="/images/photos/2014-04-17-wd-mycloud-internals.jpg" alt="The internals of a Western Digital MyCloud device">
+	<figcaption>We experimented with and prototyped having Trovebox installed on a NAS.</figcaption>
+</figure>
 
 ## A mix of funding and community
 
@@ -62,4 +68,3 @@ By now I've been an alumni for just over a week. The Foundation published [Arthu
 It's hard to put into words how much my fellowship meant to me and how much I learned as a result. As I continue towards our original goal of permanence for digital media I'll do it with more openness, more ambition and with the support of a small army of people around the world.
 
 Once a fellow, always a fellow.
-
