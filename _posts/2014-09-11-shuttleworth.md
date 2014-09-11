@@ -36,7 +36,7 @@ Bi-annually the Foundation gives up to 3 years of fellowship to individuals work
 
 ## A mix of funding and community
 
-The Foundation provides over $1,000,000 over 3 years. It takes a lot of resources to do big things and the financial support provided by the Foundation is critical. But it's the less interesting of two components.
+The Foundation provides over $1,000,000 in funding over 3 years. It takes a lot of resources to do big things and the financial support provided by the Foundation is critical. But it's the less interesting of two components.
 
 > I came for the money and stayed for the community. -- Me
 
