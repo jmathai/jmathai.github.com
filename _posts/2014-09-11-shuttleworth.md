@@ -36,6 +36,8 @@ Bi-annually the Foundation gives up to 3 years of fellowship to individuals work
 
 ## A mix of funding and community
 
+The Foundation provides over $1,000,000 over 3 years. It takes a lot of resources to do big things and the financial support provided by the Foundation is critical. But it's the less interesting of two components.
+
 > I came for the money and stayed for the community. -- Me
 
 It's impossible to know how the community plays into a fellowship until you arrive at your first Gathering. The Foundation has bi-annual Gatherings where every fellow, current and alumni, converge in a single location. It's a week crammed together in a room talking about everyone's projects or around a dinner table discussing everything from the [lack of transparency at large corporations](https://shuttleworthfoundation.org/fellows/johnny-west/) to [putting educational materials into the hands of the poor in South Africa](https://shuttleworthfoundation.org/fellows/arthur-atwell/).
