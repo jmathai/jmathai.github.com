@@ -59,14 +59,16 @@
 
         {{ content }}
 
-        <nav class="pagination" role="navigation">
-          {% if page.previous %}
-            <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}"><i class="icon-angle-left"></i> {{ page.previous.title }}</a>
-          {% endif %}
-          {% if page.next %}
-            <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">{{ page.next.title }} <i class="icon-angle-right"></i></a>
-          {% endif %}
-        </nav><!-- /.pagination -->
+        {% if page.tags contains 'trovebox' %}
+          <nav class="pagination" role="navigation">
+            {% if page.previous %}
+              <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}"><i class="icon-angle-left"></i> {{ page.previous.title }}</a>
+            {% endif %}
+            {% if page.next %}
+              <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">{{ page.next.title }} <i class="icon-angle-right"></i></a>
+            {% endif %}
+          </nav><!-- /.pagination -->
+        {% endif %}
 
 
         {% if page.tags contains 'trovebox' %}
