@@ -115,7 +115,7 @@ Nothing.
 These were particularly difficult because when we crashed we crashed hard.
 Forging partnerships with companies is difficult because you have little insight into their roadmap.
 A company maybe highly interested but then go silent for 6 months and come back to restart the conversation.
-You can only do your best stay on their radar.
+You can only do your best and stay on their radar.
 
 ## Everyday will bring a struggle
 
