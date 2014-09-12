@@ -90,7 +90,7 @@ Namely growth is largely out of your control and all you can do is try and make 
 The feeling of not acheiving growth was as stressful as when we couldn't finding funding.
 It was a sign that the product was headed in the wrong direction and it felt like we were trying to turn the Titanic around.
 
-I spent the beginning of January going through a spreadsheet of 600 potential customers we could sell to.
+I spent the beginning of 2014 going through a spreadsheet of 600 potential customers we could sell to.
 I called them up on the phone and in the unlikely event there was interest it started a series of calls to close a sale.
 None of them panned out.
 
