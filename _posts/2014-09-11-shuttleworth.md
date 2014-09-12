@@ -14,19 +14,19 @@ share: true
 ---
 
 > [We are the Shuttleworth Foundation and we fund people who are unafraid to re-imagine the world
-and the way we live in it.](https://shuttleworthfoundation.org/)
+and the way we live in it.](https://shuttleworthfoundation.org/) <small><i class="icon-external-link"></i></small>
 
-There exists in Cape Town, South Africa a small group of people taking bold risks by investing in people ambitious enough to change the world through openness. I only came to know about the [Shuttleworth Foundation](https://shuttleworthfoundation.org/) in 2012 while we were looking for [funding sources](../fundraising/). It's founded and funded by entrepreneur [Mark Shuttleworth](http://en.wikipedia.org/wiki/Mark_Shuttleworth).
+There exists in Cape Town, South Africa a small group of people taking bold risks by investing in people ambitious enough to change the world through openness. I only came to know about the [Shuttleworth Foundation](https://shuttleworthfoundation.org/) <small><i class="icon-external-link"></i></small> in 2012 while we were looking for [funding sources](../fundraising/). It's founded and funded by entrepreneur [Mark Shuttleworth](http://en.wikipedia.org/wiki/Mark_Shuttleworth) <small><i class="icon-external-link"></i></small>.
 
 <iframe src="//player.vimeo.com/video/54762523" width="500" height="281" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 On the surface the Foundation looks like part venture capitalist and part foundational grant institution. It's an accurate description but to say that's *all* the Foundation is would be a gross understatement.
 
-Bi-annually the Foundation gives up to 3 years of fellowship to individuals working on something [in an open manner](https://shuttleworthfoundation.org/thinking/thinking-openness/). That includes openness in education, science, data, government, software and more. The Foundation measures success not in dollars but in positive social change.
+Bi-annually the Foundation gives up to 3 years of fellowship to individuals working on something [in an open manner](https://shuttleworthfoundation.org/thinking/thinking-openness/) <small><i class="icon-external-link"></i></small>. That includes openness in education, science, data, government, software and more. The Foundation measures success not in dollars but in positive social change.
 
 ## My fellowship for Trovebox
 
-[My fellowship](https://shuttleworthfoundation.org/fellows/jaisen-mathai/) was for [Trovebox](http://en.wikipedia.org/wiki/Trovebox) (originally OpenPhoto). We set out to make possible the preservation of digital photo archives for posterity. Openness is innate to solving that problem. Ideas like data ownership and portability need to be cornerstones; not an afterthought. Our approach of [open sourcing our software](https://github.com/photo) and experimenting with distributed storage for digital media are what made it a good fit to receive a fellowship.
+[My fellowship](https://shuttleworthfoundation.org/fellows/jaisen-mathai/) <small><i class="icon-external-link"></i></small> was for [Trovebox](http://en.wikipedia.org/wiki/Trovebox) <small><i class="icon-external-link"></i></small> (originally OpenPhoto). We set out to make possible the preservation of digital photo archives for posterity. Openness is innate to solving that problem. Ideas like data ownership and portability need to be cornerstones; not an afterthought. Our approach of [open sourcing our software](https://github.com/photo) <small><i class="icon-external-link"></i></small> and experimenting with distributed storage for digital media are what made it a good fit to receive a fellowship.
 
 <figure class="half">
 	<img src="/images/photos/2014-04-17-wd-mycloud-bricked.jpg" alt="Restoring the image on a bricked Western Digital MyCloud device">
@@ -40,7 +40,7 @@ The Foundation provides over $1,000,000 in funding over 3 years. It takes a lot 
 
 > I came for the money and stayed for the community. -- Me
 
-It's impossible to know how the community plays into a fellowship until you arrive at your first Gathering. The Foundation has bi-annual Gatherings where every fellow, current and alumni, converge in a single location. It's a week crammed together in a room talking about everyone's projects or around a dinner table discussing everything from the [lack of transparency at large corporations](https://shuttleworthfoundation.org/fellows/johnny-west/) to [putting educational materials into the hands of the poor in South Africa](https://shuttleworthfoundation.org/fellows/arthur-atwell/).
+It's impossible to know how the community plays into a fellowship until you arrive at your first Gathering. The Foundation has bi-annual Gatherings where every fellow, current and alumni, converge in a single location. It's a week crammed together in a room talking about everyone's projects or around a dinner table discussing everything from the [lack of transparency at large corporations](https://shuttleworthfoundation.org/fellows/johnny-west/) <small><i class="icon-external-link"></i></small> to [putting educational materials into the hands of the poor in South Africa](https://shuttleworthfoundation.org/fellows/arthur-atwell/) <small><i class="icon-external-link"></i></small>.
 
 <figure>
 	<img src="/images/photos/2013-11-12-gathering-edinburgh.jpg" alt="image" /></a>
@@ -63,7 +63,7 @@ Ultimately I decided not to apply; one of the most difficult decisions during [t
 
 ## Becoming an alumni
 
-By now I've been an alumni for just over a week. The Foundation published [Arthur and my exit from the fellowship program](https://shuttleworthfoundation.org/thinking/thinking-fellowship-exit-2014/) on their site today. Reading that page and watching the video made the transition from my fellowship and the next chapter quite concrete.
+By now I've been an alumni for just over a week. The Foundation published [Arthur and my exit from the fellowship program](https://shuttleworthfoundation.org/thinking/thinking-fellowship-exit-2014/) <small><i class="icon-external-link"></i></small> on their site today. Reading that page and watching the video made the transition from my fellowship and the next chapter quite concrete.
 
 <iframe src="//player.vimeo.com/video/103912044" width="500" height="281" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 

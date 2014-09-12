@@ -14,7 +14,7 @@ share: true
 ---
 
 There were many days and even weeks where I was convinced all this was a huge mistake.
-Ben Horrowitz, a well known venture capitalist, blogged on this topic in 2012 in blog post also called [The Struggle](http://www.bhorowitz.com/the_struggle).
+Ben Horrowitz, a well known venture capitalist, blogged on this topic in 2012 in blog post also called [The Struggle](http://www.bhorowitz.com/the_struggle) <small><i class="icon-external-link"></i></small>.
 
 ## It's complicated
 
@@ -55,7 +55,7 @@ One day I hope to sit with my kids and show them photos of their childhood; much
 
 I believed something needed to be changed. Looking around at how everyone dealt with, or didn't deal with, archiving photos I knew something had to change.
 
-I believed we could build a successful busines. I've always been driven to create businesses. In middle school I would buy [Zotz](http://en.wikipedia.org/wiki/ZotZ_%28candy%29) candy for $.03 and sell it for $.05. A hefty 66% margin.
+I believed we could build a successful busines. I've always been driven to create businesses. In middle school I would buy [Zotz](http://en.wikipedia.org/wiki/ZotZ_%28candy%29) <small><i class="icon-external-link"></i></small> candy for $.03 and sell it for $.05. A hefty 66% margin.
 
 As with any strong belief it's difficult to come to terms with the idea that things won't pan out the way you believed.
 
@@ -71,7 +71,7 @@ I imagine it drives more entrepreneurs than you'd imagine.
 
 ## The effect of having no money
 
-Louis C.K., a comedian, has a great bit titled *[Being Broke](https://www.youtube.com/watch?v=J0rSXjVuJVg)*.
+Louis C.K., a comedian, has a great bit titled *[Being Broke](https://www.youtube.com/watch?v=J0rSXjVuJVg)* <small><i class="icon-external-link"></i></small>.
 Besides being hilarious I felt like I could relate<sup>1</sup>.
 
 > You ever have negative money? You look at your bank account and you have negative $10. [...] I wish I didn't have anything but I have less than that. If it's free I can't f*****g afford it.

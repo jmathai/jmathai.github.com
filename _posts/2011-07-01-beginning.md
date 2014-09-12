@@ -13,7 +13,7 @@ comments: true
 share: true
 ---
 
-It was February 6, 2011 when [I posted to HackerNews](https://news.ycombinator.com/item?id=2184603) about an idea I had. The idea was a way store and share your photos while ensuring their permanence for decades into the future. This wasn't the first idea I've had nor was it the first idea I'd end up leaving my job to pursue. In fact, this ended up being the third photo service I'd launch.
+It was February 6, 2011 when [I posted to HackerNews](https://news.ycombinator.com/item?id=2184603) <small><i class="icon-external-link"></i></small> about an idea I had. The idea was a way store and share your photos while ensuring their permanence for decades into the future. This wasn't the first idea I've had nor was it the first idea I'd end up leaving my job to pursue. In fact, this ended up being the third photo service I'd launch.
 
 8 years prior I had started working on something named Photagious. It was 2003 and the Internet looked much different then than it does today.
 
