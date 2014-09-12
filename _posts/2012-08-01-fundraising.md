@@ -27,7 +27,7 @@ The Kickstarter funding wasn't a proper angel or seed round but I knew it would 
 
 It was time to turn that into a successful angel round.
 
-## When my start-up met reality
+## When our start-up met reality
 
 Determined to close a round of funding by the end of 2012 I warmed up leads and had a spreadsheet of a couple dozen angel investors I knew by 1 or 2 degrees of separation. I probably still have that spreadsheet laying around; it'd be fun to dig up.
 

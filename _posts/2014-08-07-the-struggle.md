@@ -26,11 +26,9 @@ It started for me near the end of 2011 when we were failing to raise funding.
 I knew we absolutely needed to secure funding to succeed.
 I won't go into the details of our fundraising journey in this article but you can [read about it here](../fundraising/).
 
-I wrote about [my worst day](../worst-day/) but there were countless days similar in nature.
-
 ## Being a team
 
-The pros of having a co-founder outweigh the cons.
+The pros of having a co-founder undoubtably outweigh the cons.
 But I'd be lying if I didn't admit that having a co-founder increased the pressure I put on myself.
 If we couldn't figure out how to make Trovebox successful then I'd feel some guilt along with it.
 
