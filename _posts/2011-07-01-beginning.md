@@ -21,13 +21,33 @@ Facebook or Flickr hadn't been launched and everyone had a Hotmail account. Digi
 
 That's when the seeds for OpenPhoto were planted though they lay dormant for several years.
 
-
 ## Detoxing from start-up life in California
 
-I was newly married and we had just moved to the San Francisco Bay Area from Ohio. The last thing I wanted to think about was pursuing another idea. Instead Rachel and I spent the next 3 years discovering and falling in love with Sunnyvale; the city we moved to.
+I was newly married and we had just moved to the San Francisco Bay Area from Ohio to start my new job at Yahoo!. The last thing I wanted to think about was pursuing another idea. Instead Rachel and I spent the next 3 years discovering and falling in love with Sunnyvale; the city we moved to.
+
+<figure>
+	<img src="/images/photos/2007-11-20-first-day-at-yahoo.jpg" alt="image" /></a>
+	<figcaption>My first day at Yahoo!. November 20, 2007. Credit: <a href="/">Jaisen Mathai</a> CC BY.</figcaption>
+</figure>
 
 In June of 2010 we had our son, Tavin. Life became infinitely better and busier. My collection of photos started getting infinitely bigger as well. We were taking a ridiculous number of photos and videos. They were all priceless and grew in value as Tavin became older.
 
 I revisted the question of what to do with all these photos. It was important to us that they be around when Tavin was in his 20s and beyond. I began realizing that technology was converging to enable the organization and sharing of photos without sacrificing data ownership or portability.
 
 The seeds for OpenPhoto had been planted.
+
+## Leaving Yahoo!
+
+I decided to take the bold step of quitting my job to start OpenPhoto.
+With Yahoo! owning Flickr I didn't want there to be any muddy waters.
+It wasn't an easy decision but one I don't regret looking back.
+
+<figure>
+	<img src="/images/photos/2011-05-31-last-latte-at-yahoo.jpg" alt="image" /></a>
+	<figcaption>My last day at Yahoo!. May 31, 2011. Credit: <a href="/">Jaisen Mathai</a> CC BY.</figcaption>
+</figure>
+
+I'd eventually miss the free lattes I enjoyed at Yahoo! but my body was probably better off.
+
+<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/collinstm">@collinstm</a> 80k calories in my first year at Yahoo! via white chocolate mochas.</p>&mdash; Jaisen Mathai (@jmathai) <a href="https://twitter.com/jmathai/status/217743726112538625">June 26, 2012</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

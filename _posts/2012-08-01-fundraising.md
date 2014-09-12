@@ -19,9 +19,11 @@ share: true
 
 It was 2011 and Kickstarter was only 2 years old. The largest campaign hadn't yet broke the $1M funding level. It was also a time when Kickstarter had to approve which projects could launch a crowdfunding campaign on their site. Fortunately they picked an idea I submitted.
 
-I launched my [Kickstarter campaign for OpenPhoto](https://www.kickstarter.com/projects/jmathai/openphoto-a-photo-service-for-your-s3-or-dropbox-a) on July 1<sup>st</sup> of 2011. It was an intense 30 days during which I received press coverage from [Techcrunch](http://techcrunch.com/2011/06/29/former-yahoo-engineer-quits-to-build-a-flickr-killer-on-kickstarter/), [ReadWrite](http://readwrite.com/2011/06/20/save_your_photos_to_amazon_or_dropbox_with_app_pla) and others. By the end of the campaign I crossed my funding goal by raising $25,242 of my $25,000 goal. The successful funding from Kickstarter helped validate not only that people were interested in OpenPhoto but that they were willing to pay for it.
+I launched my [Kickstarter campaign for OpenPhoto](https://www.kickstarter.com/projects/jmathai/openphoto-a-photo-service-for-your-s3-or-dropbox-a) <small><i class="icon-external-link"></i></small> on July 1<sup>st</sup> of 2011. It was an intense 30 days during which I received press coverage from [Techcrunch](http://techcrunch.com/2011/06/29/former-yahoo-engineer-quits-to-build-a-flickr-killer-on-kickstarter/) <small><i class="icon-external-link"></i></small>, [ReadWrite](http://readwrite.com/2011/06/20/save_your_photos_to_amazon_or_dropbox_with_app_pla) <small><i class="icon-external-link"></i></small> and others. By the end of the campaign I crossed my funding goal by raising $25,242 of my $25,000 goal. The successful funding from Kickstarter helped validate not only that people were interested in OpenPhoto but that they were willing to pay for it.
 
-The Kickstarter funding wasn't a proper angel or seed round but I knew it would help. In fact, the exposure from Kickstarter [helped get us accepted by Mozilla into their WebFWD accelerator](http://blog.webfwd.org/post/9300091721/webfwd-welcomes-the-first-fellows). WebFWD didn't include any funding but legitimized us a little bit more and we got access to some great mentors and investors.
+<iframe width="560" height="315" src="//www.youtube.com/embed/DO5PSaB8LYs?rel=0" frameborder="0" allowfullscreen></iframe>
+
+The Kickstarter funding wasn't a proper angel or seed round but I knew it would help. In fact, the exposure from Kickstarter [helped get us accepted by Mozilla into their WebFWD accelerator](http://blog.webfwd.org/post/9300091721/webfwd-welcomes-the-first-fellows) <small><i class="icon-external-link"></i></small>. WebFWD didn't include any funding but legitimized us a little bit more and we got access to some great mentors and investors.
 
 It was time to turn that into a successful angel round.
 
@@ -73,16 +75,21 @@ We never decide anything that day.
 
 ## The Shuttleworth Foundation
 
-At any given point we were in discussions with or waiting to hear back from several potential investors. In February I had come across a foundation I'd never heard of before, the [Shuttleworth Foundation](https://www.shuttleworthfoundation.org/).
+At any given point we were in discussions with or waiting to hear back from several potential investors. In February I had come across a foundation I'd never heard of before, the [Shuttleworth Foundation](https://www.shuttleworthfoundation.org/) <small><i class="icon-external-link"></i></small>.
 
 The Shuttleworth Foundation invests in people working in the areas of open data, open science, open government and other open things. It was a long shot but that hadn't stopped me in the past so I did the work to find out more about the foundation and figured out who I might know working there.
 
-A friend of an acquaintence, [Philipp Schmidt](http://www.media.mit.edu/people/ps1), had previously received a grant from the Shuttleworth Foundation. I talked with him and told him about OpenPhoto. He thought it was a good fit and introduced me to [Karien Bezuidenhout](https://www.shuttleworthfoundation.org/about-us/team/karien-bezuidenhout-chief-operating-officer/), COO at the Shuttleworth Foundation.
+A friend of an acquaintence, [Philipp Schmidt](http://www.media.mit.edu/people/ps1) <small><i class="icon-external-link"></i></small>, had previously received a grant from the Shuttleworth Foundation. I talked with him and told him about OpenPhoto. He thought it was a good fit and introduced me to [Karien Bezuidenhout](https://www.shuttleworthfoundation.org/about-us/team/karien-bezuidenhout-chief-operating-officer/) <small><i class="icon-external-link"></i></small>, COO at the Shuttleworth Foundation.
 
 I'd go on to receive a fellowship grant from the Shuttleworth Foundation. It wasn't until later that I realized how fundamental the foundation's fellowship model would be to the ultimate success of OpenPhoto.
 
 It took roughly 14 months after quitting my job to get funding. That's more than twice my promise of 6 months to Rachel; only days before our credit card bill was due that we couldn't pay off.
 
 The waiting was difficult but finding a partner in the Shuttleworth Foundation made the waiting worthwhile.
+
+<figure>
+	<img src="/images/photos/2013-05-27-shuttleworth-gathering-mit-media-lab.jpg" alt="image" /></a>
+	<figcaption>Shuttleworth Gathering at the MIT Media Lab. Credit: <a href="/">Jaisen Mathai</a> CC BY.</figcaption>
+</figure>
 
 Had Patrick and I been on the same continent we would have popped open a bottle of champagne.
