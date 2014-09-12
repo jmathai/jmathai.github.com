@@ -31,7 +31,9 @@ It was time to turn that into a successful angel round.
 
 Determined to close a round of funding by the end of 2012 I warmed up leads and had a spreadsheet of a couple dozen angel investors I knew by 1 or 2 degrees of separation. I probably still have that spreadsheet laying around; it'd be fun to dig up.
 
-It had been 15 months since I told Rachel that I'd go no longer than 6 months without funding. Founders tend to underestimate the time required to raise funding. Knowing that, I felt 6 months was both aggressive and realistic.
+It would be 9 months longer than the 6 months I told Rachel before we'd get funding. That's 15 months of not getting a paycheck. Founders tend to underestimate the time required to raise funding. Knowing that, I felt 6 months was both aggressive and realistic. 
+
+Let me fill in what happened during those those 15 months.
 
 ## <a name="first-wave"></a>The first wave
 
