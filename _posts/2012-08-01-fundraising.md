@@ -69,7 +69,7 @@ No shit.
 
 ## <a name="failed"></a>Reflecting on failed funding attempts
 
-By now we had spent more than 6 months trying to raise funding. It was starting to seem hopeless. Fundraising is a complicated beast. There are a few ways you can almost certainly secure funding. Traffic and a prior exit; preferably the former. We didn't have either.
+By now we had spent more than 6 months trying to raise funding. It was starting to seem hopeless. Fundraising is a complicated beast. There are a few ways you can almost certainly secure funding. Traction and a prior exit; preferably the former. We didn't have either.
 
 This was a tough time as Patrick and I both faced the possibility of shutting OpenPhoto down.  We took a long stroll down Castro street in Downtown Mountain View. We reflected on all the amazing accomplishments we made that year. No matter how well the community was going or how much a small group of afficiandos loved what we were building we simply couldn't continue doing it without raising funding. That was the nature of our business and we were faced with it's frailty.
 
