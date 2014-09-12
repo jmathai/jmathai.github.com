@@ -22,7 +22,7 @@ Us humans are neither binary or entirely logical; thank goodness.
 We're complex creatures and what constitutes happiness, contentment, joy or any of the opposite emotions depend on a large number of factors.
 This makes *The Struggle* even more acute.
 
-The struggle started near the end of 2011 when we were failing to raise funding.
+It started for me near the end of 2011 when we were failing to raise funding.
 I knew we absolutely needed to secure funding to succeed.
 I won't go into the details of our fundraising journey in this article but you can [read about it here](../fundraising/).
 
