@@ -31,7 +31,7 @@ Bi-annually the Foundation gives up to 3 years of fellowship to individuals work
 <figure class="half">
 	<img src="/images/photos/2014-04-17-wd-mycloud-bricked.jpg" alt="Restoring the image on a bricked Western Digital MyCloud device">
 	<img src="/images/photos/2014-04-17-wd-mycloud-internals.jpg" alt="The internals of a Western Digital MyCloud device">
-	<figcaption>We experimented with and prototyped having Trovebox installed on a NAS.</figcaption>
+	<figcaption>We experimented with and prototyped having Trovebox installed on a NAS. Credit: <a href="/">Jaisen Mathai</a> CC BY.</figcaption>
 </figure>
 
 ## A mix of funding and community
@@ -44,7 +44,7 @@ It's impossible to know how the community plays into a fellowship until you arri
 
 <figure>
 	<img src="/images/photos/2013-11-12-gathering-edinburgh.jpg" alt="image" /></a>
-	<figcaption>At a Gathering in Edinburgh, Scotland. Credit <a href="https://shuttleworthfoundation.org">Jason Hudson</a>.</figcaption>
+	<figcaption>At a Gathering in Edinburgh, Scotland. Credit: <a href="https://shuttleworthfoundation.org">Jason Hudson</a> CC BY.</figcaption>
 </figure>
 
 I've been surrounded by brilliance at many points in my life but I've never been inspired like I am when I'm with this group of people. The support system between fellows was unparalleled.
