@@ -65,7 +65,7 @@ Do I just go back and get a normal job?*
 
 Hello ego, pride and insecurity.
 Not traits I'm particularly proud of but they helped motivate me to continue building OpenPhoto.
-I imagine it drives more entrepreneurs than you'd imagine.
+I imagine ego drives more entrepreneurs than you'd imagine.
 
 ## The effect of having no money
 
@@ -75,7 +75,7 @@ Besides being hilarious I felt like I could relate<sup>1</sup>.
 > You ever have negative money? You look at your bank account and you have negative $10. [...] I wish I didn't have anything but I have less than that. If it's free I can't f*****g afford it.
 
 It turns out that the lack of money can act as a crucial forcing function.
-When you're facing the reality of shutting down a startup because you can't pay your bill you'll quickly focus on what matters most.
+When you're facing the reality of shutting down a startup because you can't pay your bills you'll quickly focus on what matters most.
 Even in hindsight I know we didn't waste much time focusing on the wrong things.
 I have our dwindling bank account to thank for this.
 
