@@ -65,7 +65,7 @@ Do I just go back and get a normal job?*
 
 Hello ego, pride and insecurity.
 Not traits I'm particularly proud of but they helped motivate me to continue building OpenPhoto.
-I imagine ego drives more entrepreneurs than you'd imagine.
+I imagine ego drives more entrepreneurs than you'd think.
 
 ## The effect of having no money
 
