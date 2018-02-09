@@ -63,7 +63,7 @@ Ultimately I decided not to apply; one of the most difficult decisions during [t
 
 ## Becoming an alumni
 
-By now I've been an alumni for just over a week. The Foundation published [Arthur and my exit from the fellowship program](https://shuttleworthfoundation.org/thinking/thinking-fellowship-exit-2014/) <small><i class="icon-external-link"></i></small> on their site today. Reading that page and watching the video made the transition from my fellowship and the next chapter quite concrete.
+By now I've been an alumni for just over a week. The Foundation published [Arthur and my exit from the fellowship program](https://shuttleworthfoundation.org/thinking/thinking-fellowship-exit-2014/) <small><i class="icon-external-link"></i></small> on their site today. Reading that page and watching the video made the transition from my fellowship to the next chapter quite concrete.
 
 <iframe src="//player.vimeo.com/video/103912044" width="500" height="281" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
