@@ -43,7 +43,7 @@ The Foundation provides over $1,000,000 in funding over 3 years. It takes a lot 
 It's impossible to know how the community plays into a fellowship until you arrive at your first Gathering. The Foundation has bi-annual Gatherings where every fellow, current and alumni, converge in a single location. It's a week crammed together in a room talking about everyone's projects or around a dinner table discussing everything from the [lack of transparency at large corporations](https://shuttleworthfoundation.org/fellows/johnny-west/) <small><i class="icon-external-link"></i></small> to [putting educational materials into the hands of the poor in South Africa](https://shuttleworthfoundation.org/fellows/arthur-atwell/) <small><i class="icon-external-link"></i></small>.
 
 <figure>
-	<img src="/images/photos/2013-11-12-gathering-edinburgh.jpg" alt="image" /></a>
+	<img src="/images/photos/2013-11-12-gathering-edinburgh.jpg" alt="image" />
 	<figcaption>At a Gathering in Edinburgh, Scotland. Credit: <a href="https://shuttleworthfoundation.org">Jason Hudson</a> CC BY.</figcaption>
 </figure>
 
