@@ -26,7 +26,7 @@ That's when the seeds for OpenPhoto were planted though they lay dormant for sev
 I was newly married and we had just moved to the San Francisco Bay Area from Ohio to start my new job at Yahoo!. The last thing I wanted to think about was pursuing another idea. Instead Rachel and I spent the next 3 years discovering and falling in love with Sunnyvale; the city we moved to.
 
 <figure>
-	<img src="/images/photos/2007-11-20-first-day-at-yahoo.jpg" alt="image" /></a>
+	<img src="/images/photos/2007-11-20-first-day-at-yahoo.jpg" alt="image" />
 	<figcaption>My first day at Yahoo!. November 20, 2007. Credit: <a href="/">Jaisen Mathai</a> CC BY.</figcaption>
 </figure>
 
@@ -43,7 +43,7 @@ With Yahoo! owning Flickr I didn't want there to be any muddy waters.
 It wasn't an easy decision but one I don't regret looking back.
 
 <figure>
-	<img src="/images/photos/2011-05-31-last-latte-at-yahoo.jpg" alt="image" /></a>
+	<img src="/images/photos/2011-05-31-last-latte-at-yahoo.jpg" alt="image" />
 	<figcaption>My last day at Yahoo!. May 31, 2011. Credit: <a href="/">Jaisen Mathai</a> CC BY.</figcaption>
 </figure>
 

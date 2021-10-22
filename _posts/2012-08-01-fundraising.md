@@ -90,7 +90,7 @@ It took roughly 14 months after quitting my job to get funding. That's more than
 The waiting was difficult but finding a partner in the Shuttleworth Foundation made the waiting worthwhile.
 
 <figure>
-	<img src="/images/photos/2013-05-27-shuttleworth-gathering-mit-media-lab.jpg" alt="image" /></a>
+	<img src="/images/photos/2013-05-27-shuttleworth-gathering-mit-media-lab.jpg" alt="image" />
 	<figcaption>Shuttleworth Gathering at the MIT Media Lab. Credit: <a href="/">Jaisen Mathai</a> CC BY.</figcaption>
 </figure>
 

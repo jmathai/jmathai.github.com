@@ -43,7 +43,9 @@
         {% if page.modified %}<span class="entry-date date modified"><time datetime="{{ page.modified }}"><i class="icon-pencil"></i> {{ page.modified | date: "%B %d, %Y" }}</time></span>{% endif %}
         {% if site.disqus_shortname and page.comments %}<span class="entry-comments"><i class="icon-comment-alt"></i> <a href="#disqus_thread">Comment</a></span>{% endif %}
         <span><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}"><i class="icon-link"></i> Permalink</a></span>
-        {% if page.share %}
+        <span><a href="/articles/"><i class="icon-list"></i> Articles</a></span>
+        <span><a href="/"><i class="icon-home"></i> Back Home</a></span>
+        {% if page.share contains 'invalid-made-up-by-jaisen' %}
         <span class="social-share-facebook">
             <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook" itemprop="Facebook"><i class="icon-facebook-sign"></i> Like</a></span>
         <span class="social-share-twitter">
