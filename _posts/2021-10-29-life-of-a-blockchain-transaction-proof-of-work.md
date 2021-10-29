@@ -47,3 +47,17 @@ The life of a crypto/blockchain transaction. Proof of Work version.
 
 Your transaction is confirmed once it is included in a block that is added to the blockchain.</li>
 </ol>
+
+<hr>
+
+<a name="references"></a>
+I've read a lot of documentation and articles which helped me understand how blockchain transactions work. Read the articles below or contact me if you have questions.
+
+<ul>
+<li><a href="https://ethereum.org/en/developers/docs/consensus-mechanisms/pow/">https://ethereum.org/en/developers/docs/consensus-mechanisms/pow/</a></li>
+<li><a href="https://medium.com/ethereum-grid/ethereum-101-how-are-transactions-included-in-a-block-9ae5f491853f">https://medium.com/ethereum-grid/ethereum-101-how-are-transactions-included-in-a-block-9ae5f491853f</a></li>
+<li><a href="https://blog.goodaudience.com/blockchain-for-beginners-what-is-blockchain-519db8c6677a">https://blog.goodaudience.com/blockchain-for-beginners-what-is-blockchain-519db8c6677a</a></li>
+<li><a href="https://blog.goodaudience.com/how-a-miner-adds-transactions-to-the-blockchain-in-seven-steps-856053271476">https://blog.goodaudience.com/how-a-miner-adds-transactions-to-the-blockchain-in-seven-steps-856053271476</a></li>
+<li><a href="https://www.dummies.com/personal-finance/investing/cryptocurrency-mining-and-proof-of-work-algorithms/">https://www.dummies.com/personal-finance/investing/cryptocurrency-mining-and-proof-of-work-algorithms/</a></li>
+<li><a href="https://www.dummies.com/personal-finance/the-structure-of-blockchains/">https://www.dummies.com/personal-finance/the-structure-of-blockchains/</a></li>
+</ul>
