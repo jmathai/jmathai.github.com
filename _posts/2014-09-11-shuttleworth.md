@@ -9,7 +9,7 @@ image:
   feature: main-shuttleworth-converse.jpg
   credit: Jason Hudson
   creditlink: https://shuttleworthfoundation.org/
-comments: true
+comments: false
 share: true
 ---
 

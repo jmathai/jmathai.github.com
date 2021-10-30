@@ -8,8 +8,8 @@ tags: [trovebox]
 image:
   feature: main-tavin-bowling.jpg
   credit: Jaisen Mathai
-  creditlink: http://photos.jaisenmathai.com
-comments: true
+  creditlink: https://jaisenmathai.com
+comments: false
 share: true
 ---
 

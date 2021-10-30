@@ -8,8 +8,8 @@ tags: [web3]
 image:
   feature: main-blockchain-proof-of-work.jpg
   credit: Jaisen Mathai
-  creditlink: http://photos.jaisenmathai.com
-comments: true
+  creditlink: https://jaisenmathai.com
+comments: false
 share: true
 ---
 
