@@ -1,4 +1,5 @@
 
-.icon-linkedin:before { content: '\e802'; } /* '' */
-.icon-github-circled:before { content: '\e803'; } /* '' */
-.icon-file-pdf:before { content: '\e804'; } /* '' */
+.icon-video:before { content: '\e800'; } /* '' */
+.icon-github-circled:before { content: '\f09b'; } /* '' */
+.icon-linkedin:before { content: '\f0e1'; } /* '' */
+.icon-rocket:before { content: '\f135'; } /* '' */
