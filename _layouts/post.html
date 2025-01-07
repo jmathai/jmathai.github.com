@@ -5,6 +5,25 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 {% include head.html %}
+<style type="text/css">
+  #post article header h1 small {
+    display:block;
+    font-size: .3em;
+    letter-spacing: .02em;
+  }
+  #post .entry-content {
+    font-family: 'volkhov',serif;
+    letter-spacing: .025em;
+  }
+  #post .entry-content h1,
+  #post .entry-content h2,
+  #post .entry-content h3,
+  #post .entry-content h4,
+  #post .entry-content h5
+  {
+    font-family: 'volkhov',serif;
+  }
+</style>
 </head>
 
 <body id="post">
@@ -18,10 +37,17 @@
       <header class="entry-header">
         <!--<span class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tags/#{{ tag }}" title="Pages tagged {{ tag }}">{{ tag }}</a>{% unless forloop.last %}&nbsp;&bull;&nbsp;{% endunless %}{% endfor %}</span>-->
         {% if page.link %}
-          <h1 class="entry-title"><a href="{{ page.link }}">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %} <span class="link-arrow">&rarr;</span></a></h1>
+          <h1 class="entry-title">
+            <a href="{{ page.link }}">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %} <span class="link-arrow">&rarr;</span></a>
+            <small>This post was not written with or by AI.</small>
+          </h1>
         {% else %}
-          <h1 class="entry-title">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
+          <h1 class="entry-title">
+            {% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}
+            <small>This post was not written with or by AI.</small>
+          </h1>
         {% endif %}
+        
       </header>
       <footer class="entry-meta">
         {% if page.author.name %}
