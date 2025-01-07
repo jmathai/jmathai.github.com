@@ -31,3 +31,7 @@ I get pitched a lot of ideas and I almost always encourage people to think deepe
 </ul>
 
 The common thread is that latent thinking will happen naturally when your brain is in a restful state for 15 minutes to 30 minutes. Not much to ask for great ideas.
+
+Latent product development is easier to do on smaller teams where everyone pays attention to craftsmanship. You can tell if the craftsmanship is ingrained into every aspect of the product including what the user does and does not see. I'd say it's part of the team's culture.
+
+If your product has a well defined 24 month roadmap, forget it. There's no room for latent product development. The entire product is extruded through the machine. The incentives are aligned elsewhere for reasons that are important for some.
