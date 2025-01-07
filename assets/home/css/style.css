@@ -257,6 +257,9 @@ h1.subtitle {
       background: #dedede; }
     .cd-timeline-img.cd-picture .elodie-app-logo {
       height: auto;
+      width: 24px;
+      margin-top: -14px;
+      margin-left: -11px;
     }
     .cd-timeline-img.cd-picture .elodie-logo {
       display: block;
@@ -271,11 +274,12 @@ h1.subtitle {
       font-weight: 900;
       color: #2086ac; }
     @media only screen and (min-width: 768px) {
-      .cd-timeline-img.cd-picture .elodie-logo {
-        margin-top: -14px;
-        margin-left: -10px;
-        font-size: 30px;
-        font-size: 1.875rem; } }
+      .cd-timeline-img.cd-picture .elodie-app-logo {
+        width: 35px;
+        margin-top: -22px;
+        margin-left: -17px;
+      }
+    }
   .cd-timeline-img.cd-movie {
     background: #c03b44; }
   .cd-timeline-img.cd-location {
