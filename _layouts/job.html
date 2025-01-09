@@ -14,6 +14,15 @@
     <style>
       body {
           font-family: "Roboto Serif", "Times New Roman", serif;
+          line-height: 1.4rem;
+          color: #333;
+      }
+      em {
+        color:#666;
+      }
+      strong {
+        font-weight: 600;
+        color: #555;
       }
       .letter-container {
         max-width: 800px;
@@ -25,8 +34,9 @@
 
       h1, h2, h3 {
         font-family: "Roboto Serif", "Times New Roman", serif;
-        font-weight: 300;
+        font-weight: 500;
         margin-bottom: 0.5rem;
+        color: #2c3e50;
       }
 
       hr {
@@ -40,12 +50,27 @@
   </head>
   <body>
     <div class="letter-container">
-      <p>Written entirely by me, no AI used.</p>
-      <h1>{{ page.title }}</h1>
-      {% case page.url %}
-        {% when '/work-at-acorns' %}
-          {% include job{{ page.url }}.html %}
-      {% endcase %}
+      <div class="row">
+        <div class="col">
+          <p>Written entirely by me, no AI used.</p>
+          <h1>{{ page.title }}</h1>
+          {% case page.url %}
+            {% when '/work-at-acorns' %}
+              {% include job{{ page.url }}.html %}
+          {% endcase %}
+          <section>
+            <h2>What's Next?</h2>
+            <p>
+              I've already applied for the <a href="https://jobs.ashbyhq.com/Acorns/3f3b316e-ec49-4731-8c9d-edc726e3b195/application?utm_source=v4GYmjxLN3">role</a>. Take a look and reach out via email or LinkedIn.
+              <ul>
+                <li><a href="mailto:jaisen@jmathai.com">jaisen@jmathai.com</a></li>
+                <li><a href="https://www.linkedin.com/in/jaisenmathai/">Profile on LinkedIn</a></li>
+              </ul>
+            </p>
+          </section>
+        </div>
+      </div>
     </div>
   </body>
+  <script defer async data-host="jaisenmathai.com" src="https://liteanalytics.com/lite.js"></script>
 </html>
