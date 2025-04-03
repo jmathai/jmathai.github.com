@@ -34,6 +34,7 @@
       }
 
       h1, h2, h3 {
+        line-height: 1.2em;
         font-family: "Roboto Serif", "Times New Roman", serif;
         font-weight: 500;
         margin-bottom: 0.5rem;
@@ -63,6 +64,8 @@
             {% when '/work-at-stripe' %}
               {% include job{{ page.url }}.html %}
             {% when '/work-at-netflix' %}
+              {% include job{{ page.url }}.html %}
+            {% when '/work-at-netflix-ai' %}
               {% include job{{ page.url }}.html %}
           {% endcase %}
         </div>
