@@ -54,7 +54,9 @@
     <div class="letter-container">
       <div class="row">
         <div class="col">
-          <p>Written entirely by me, no AI used.</p>
+          {% if page.yes_ai != true %}
+            <p>Written entirely by me, no AI used.</p>
+          {% endif %}
           <h1>{{ page.title }}</h1>
           {% case page.url %}
             {% when '/work-at-acorns' %}
@@ -72,6 +74,8 @@
             {% when '/work-at-facet' %}
               {% include job{{ page.url }}.html %}
             {% when '/work-at-gitlab' %}
+              {% include job{{ page.url }}.html %}
+            {% when '/work-at-8451' %}
               {% include job{{ page.url }}.html %}
           {% endcase %}
         </div>
