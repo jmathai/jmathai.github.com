@@ -1,0 +1,60 @@
+ul {
+  &.post-list {
+    font-size: .8em;
+  }
+}
+
+// Articles page customizations
+body#post {
+  article {
+    footer {
+      &.entry-meta {
+        // Hide entry-meta footer on articles pages  
+        display: none;
+      }
+        
+      &.entry-content {
+        max-width: none;
+      }
+    }
+
+    .entry-content {
+      max-width: none;
+      text-align: justify;
+    }
+
+    .entry-title {
+      max-width: none;
+      text-align: center;
+      margin-bottom: 0;
+      
+      small {
+        margin-top: 10px;
+      }
+    }
+
+    .twitter-tweet {
+      margin: auto;
+    }
+    .video {
+      margin: auto;
+    }
+    
+    .post-nav-links {
+      font-size: .9em;
+      text-align: center;
+      margin: 20px 0;
+      
+      a {
+        display: inline-block;
+        margin: 0 10px;
+        color: @text-color;
+        text-decoration: none;
+        
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
