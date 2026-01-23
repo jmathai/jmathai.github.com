@@ -4417,9 +4417,21 @@ body#post article .entry-title {
   max-width: none;
   text-align: center;
   margin-bottom: 0;
+  letter-spacing: normal;
+}
+@media only screen and (min-width: 48em) {
+  body#post article .entry-title {
+    letter-spacing: -3px;
+  }
 }
 body#post article .entry-title small {
   margin-top: 10px;
+  font-size: 0.5em;
+}
+@media only screen and (min-width: 48em) {
+  body#post article .entry-title small {
+    font-size: 0.3em;
+  }
 }
 body#post article .twitter-tweet {
   margin: auto;

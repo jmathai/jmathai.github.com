@@ -27,9 +27,19 @@ body#post {
       max-width: none;
       text-align: center;
       margin-bottom: 0;
+      letter-spacing: normal;
+      
+      @media @medium {
+        letter-spacing: -3px;
+      }
       
       small {
         margin-top: 10px;
+        font-size: .5em;
+        
+        @media @medium {
+          font-size: 0.3em;
+        }
       }
     }
 
