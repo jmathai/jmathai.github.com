@@ -6,7 +6,7 @@ category: articles
 logo:  skip
 tags: []
 image:
-  feature: main-photo-workflow-immich.png
+  feature: main-photo-workflow-immich.png?1
 comments: false
 share: true
 ---
@@ -15,10 +15,9 @@ share: true
 
 TL;DR: Changes to albums, descriptions, location, date/time and favorites through Immich are stored in the photo's EXIF and automatically backed up to my Synology NAS and into Dropbox; no database needed. Below is a video for those who prefer to watch instead of read.
 
+I created a simpler version of the plugin I use that suitable for those with their own workflows which might differ from mine. It's available at <a href="https://github.com/jmathai/immich-exif">immich-exif</a>.
 
-  <!-- NeetoRecord inline embed code begins -->
-  <div style="position: relative; padding-bottom: 62.5%; height: 0;" id="inline-embed-container" class="video">
-    <!-- NeetoRecord widget will be added here -->
+  <div style="position: relative; padding-bottom: 62.5%; height: 0;" id="inline-embed-container">
   </div>
   <script>window.neetoRecord = window.neetoRecord || { embed: function(){(neetoRecord.q=neetoRecord.q||[]).push(arguments)} };</script>
   <script async
@@ -27,14 +26,12 @@ TL;DR: Changes to albums, descriptions, location, date/time and favorites throug
   <script>
     neetoRecord.embed({
       type: "inline",
-      id: "27098ea5-8712-4416-a6ee-4148a7ee0c51",
+      id: "c1ad81a2-5f96-443b-9f74-83f4065c957e",
       organization: "lattice",
       elementSelector: "#inline-embed-container",
       styles: "position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;", 
     });
   </script>
-  <!-- NeetoRecord inline embed code ends -->
-
 <hr>
 
 I've been working on my photo management and archiving workflow for over 2 decades. It's changed a lot over that time but usually in bursts. It works really well and I don't have to touch it much.
