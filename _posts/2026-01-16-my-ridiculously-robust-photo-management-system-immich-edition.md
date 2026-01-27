@@ -15,7 +15,7 @@ share: true
 
 TL;DR: Changes to albums, descriptions, location, date/time and favorites through Immich are stored in the photo's EXIF and automatically backed up to my Synology NAS and into Dropbox; no database needed. Below is a video for those who prefer to watch instead of read.
 
-I created a simpler version of the plugin I use that suitable for those with their own workflows which might differ from mine. It's available at <a href="https://github.com/jmathai/immich-exif">immich-exif</a>.
+I created a simpler version of the plugin I use that is suitable for those with their own workflows which might differ from mine. It's available at <a href="https://github.com/jmathai/immich-exif">immich-exif</a>.
 
   <div style="position: relative; padding-bottom: 62.5%; height: 0;" id="inline-embed-container">
   </div>
