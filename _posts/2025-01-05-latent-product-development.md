@@ -27,10 +27,10 @@ I get pitched a lot of ideas and I almost always encourage people to think deepe
     <li>Take breaks often while working before your brain feels overloaded.</li>
     <li>Perform activities which require low mental attention like walking or showering.</li>
     <li>Start your morning with something relaxing like sitting on a couch drinking coffee (no devices).</li>
-    <li>End some evenings early and to go lay down in bed before your tired.</li>
+    <li>End some evenings early and to go lay down in bed before you're tired.</li>
 </ul>
 
-The common thread is that latent thinking will happen naturally when your brain is in a restful state for 15 minutes to 30 minutes. Not much to ask for great ideas.
+The common thread is that latent thinking will happen naturally when your brain is in a restful state for 15 minutes to 30 minutes. Not much to ask in exchange for great ideas.
 
 Latent product development is easier to do on smaller teams where everyone pays attention to craftsmanship. You can tell if the craftsmanship is ingrained into every aspect of the product including what the user does and does not see. I'd say it's part of the team's culture.
 
