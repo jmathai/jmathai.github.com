@@ -38,9 +38,6 @@ roots almost always lands on the correct file. Use it first.
   `_includes/head.html`). The `Gruntfile.js` Less→CSS pipeline exists but is dormant —
   see §3 and §7.3.
 - **Theme origin:** `so-simple-theme` by mmistakes (`package.json`), customized.
-- **Editor wiring:** `lattice.js` is loaded by `_includes/scripts.html` (post/page
-  layouts) and inline near the bottom of `_layouts/job.html`. The homepage
-  (`index.html`) does **not** load it, so the editor will not appear on `/`.
 
 ---
 
@@ -107,9 +104,9 @@ Apply rules in order; first match wins.
 
 4. **Homepage** — URL is `/`:
    - Source is `index.html` at the repo root. It is a **standalone** HTML document — it
-     does **not** use a Jekyll layout, has its own `<head>` and stylesheets in
-     `assets/home/css/`, and does not load `lattice.js`. Edits to the homepage go
-     directly in `index.html` and/or `assets/home/css/style.css`.
+     does **not** use a Jekyll layout and has its own `<head>` and stylesheets in
+     `assets/home/css/`. Edits to the homepage go directly in `index.html` and/or
+     `assets/home/css/style.css`.
 
 If the URL doesn't match any of the above, `grep -r "permalink: <url>" --include='*.md'
 --include='*.html'` across the repo (excluding `_site/`). The matching file is the source.
