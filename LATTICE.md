@@ -241,6 +241,57 @@ Identify which family the URL belongs to (§4), then edit the right stylesheet:
   edit `assets/home/css/style.css` (or `reset.css` for resets). Do not edit
   `assets/less/main.css` for homepage changes — the homepage doesn't load it.
 
+**Scope before extending.** A CSS change requested on one URL almost always means
+*on this page* — not *everywhere this selector matches*. Before writing any CSS,
+decide whether the change should be page-scoped or site-wide:
+
+- **Page-scoped — default when the annotation came from one URL.** The
+  instruction is implicitly about the page the user was annotating. Do **not**
+  modify a globally-matching rule's property values; that leaks the change to
+  every page the selector touches. Scope via one of the mechanisms below.
+- **Site-wide — only when the instruction is explicit.** Phrases like "make
+  all X…", "everywhere", "site-wide", or "globally" mean the change can apply
+  unscoped. In that case, modify the existing rule directly.
+
+Scope mechanisms available on this site, preferred order:
+
+1. **Swap the element's class.** If a sibling page already has the look the user
+   wants under a different class (e.g. `.entry-title`), add that class to the
+   target element in the page's source or the relevant layout/include so the
+   existing rule covers it. No CSS change needed — cleanest fix when applicable.
+2. **Body class via `_layouts/page.html`.** The layout already conditions
+   `<body class>` on `page.title` (the `'Articles'` arm). Add a parallel
+   `{% if page.permalink == '/<url>/' %}<slug>{% endif %}` arm, then use
+   `body.<slug>` in the CSS selector chain.
+3. **Inline `<style>` in the page source.** Last resort; useful when neither
+   of the above fits.
+
+Do **not** invent a scoping mechanism the site doesn't already use (new per-page
+stylesheets, new `<link>` injection, etc.).
+
+**Extend, don't duplicate.** Once scope is decided, add the new selector to the
+existing rule's selector list rather than writing a parallel rule that copies its
+property values. If the existing rule has companion `@media` blocks for responsive
+sizing, chain the new selector inside each existing `@media` block — don't create
+new `@media` blocks with copied values. A duplicated rule diverges silently the
+next time the original is updated; an extended selector list does not.
+
+Concretely, prefer:
+
+```css
+/* existing rule, now extended */
+.entry-title,
+body.openphoto-trovebox .site-title {
+  font-family: 'volkhov', serif;
+  font-style: italic;
+  /* ... */
+}
+```
+
+over (a) modifying `.site-title`'s own property block — that leaks to every page
+that renders the masthead — or (b) creating a new `body.openphoto-trovebox
+.site-title` rule with the same property values, which duplicates and diverges.
+
 When in doubt, find the class in `element_html`, grep the CSS files referenced by the
 page's `<head>` (or `_includes/head.html` for Jekyll-rendered pages), and edit the file
 where the rule is currently defined. Add a new rule at the bottom of the same file when
