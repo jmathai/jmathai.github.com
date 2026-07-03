@@ -25,7 +25,7 @@ Giving in to generosity means I need to systematize it. It needs to be on autopi
 
 **Donor Advised Funds**
 
-I initially looked into DAFs because of their tax efficiency. I do love that about them. But what I love more is that they let you take large steps of faith. I donated 5 years worth of charitable giving at the start of 2026 to our DAF. It was quite frightening because once I clicked that button, there was no way to claw the money back.
+I initially looked into DAFs because of their tax efficiency. I do love that about them. But what I love more is that they let you take large steps of faith. We donated 5 years worth of charitable giving at the start of 2026 to our DAF. It was quite frightening because once I clicked that button, there was no way to claw the money back.
 
 I contemplated doing it for weeks. But once I did it, I felt complete relief. All the fear I had vanished. I was surprised.
 
