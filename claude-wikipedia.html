@@ -665,8 +665,9 @@
       if(reduced){ res(); return; }
       var r = el.getBoundingClientRect();
       var root = screenRoot.getBoundingClientRect();
-      tapper.style.left = (r.left - root.left + r.width/2) + "px";
-      tapper.style.top  = (r.top - root.top + r.height/2) + "px";
+      var scale = root.width / screenRoot.offsetWidth || 1;
+      tapper.style.left = ((r.left - root.left + r.width/2) / scale) + "px";
+      tapper.style.top  = ((r.top - root.top + r.height/2) / scale) + "px";
       tapper.classList.remove("go");
       void tapper.offsetWidth; /* restart animation */
       tapper.classList.add("go");
