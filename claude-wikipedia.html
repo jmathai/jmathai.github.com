@@ -1,112 +1,826 @@
-<h2 class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">Five numbered phone screens of the dive and return loop, each with a coral circular pointer badge marking exactly what is tapped in that step.</h2>
-<div style="background: var(--surface-1, #F1EFE8); border: 0.5px solid var(--border, #D3D1C7); border-radius: 12px; padding: 24px 20px;">
-  <p style="font-size: 12px; color: var(--text-secondary, #5F5E5A); margin: 0 0 20px; display: flex; align-items: center; gap: 8px;"><span style="width: 22px; height: 22px; border-radius: 50%; background: #D85A30; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0;"><svg width="12" height="12" viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M6 2l13 10-5.6 1.1 3.2 6.1-2.7 1.4-3.2-6.2-4.7 3.6z"/></svg></span> marks the tap in each step</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Selah &middot; every verse is a door</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F7F3EA;
+    --paper-2:#EFE8DA;
+    --ink:#221B12;
+    --ink-2:#5D5442;
+    --faint:#8E8471;
+    --line:#DFD6C3;
+    --rubric:#A32E22;
+    --rubric-soft:#C9584B;
+    --cite:#1D5FA8;
+    --cite-line:#9DBEE2;
+    --wash:#F3E3B5;
+    --screen:#FDFBF5;
+    --bubble:#EDE7D9;
+    --chrome:#101013;
+    --serif:'EB Garamond', Georgia, 'Times New Roman', serif;
+    --sans:'Instrument Sans', -apple-system, 'Segoe UI', sans-serif;
+    --app-sans:-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:var(--serif);
+    font-size:18px;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  ::selection{background:var(--wash);}
 
-  <div style="display: flex; gap: 20px; align-items: center; margin-bottom: 28px;">
-    <div style="position: relative; flex-shrink: 0;">
-      <div style="position: absolute; top: -10px; left: -10px; width: 26px; height: 26px; border-radius: 50%; background: var(--fill-primary, #2C2C2A); color: var(--on-primary, #fff); font-size: 13px; font-weight: 500; display: flex; align-items: center; justify-content: center; z-index: 2;">1</div>
-      <div style="width: 200px; height: 316px; background: var(--surface-2, #fff); border: 1px solid var(--border-strong, #B4B2A9); border-radius: 18px; padding: 12px 11px; display: flex; flex-direction: column;">
-        <p style="font-size: 11px; color: var(--text-muted, #888780); margin: 0 0 8px;">&#8249; Envy</p>
-        <div style="display: flex; flex-direction: column; gap: 8px;">
-          <div style="align-self: flex-end; max-width: 90%; background: var(--surface-1, #F1EFE8); border-radius: 10px 10px 3px 10px; padding: 7px 9px; font-size: 11px; line-height: 1.45; color: var(--text-primary, #2C2C2A);">Why does envy show up even when things are going well for me?</div>
-          <div style="font-family: var(--font-voice, Georgia, serif); font-size: 11px; line-height: 1.6; padding: 0 2px; color: var(--text-primary, #2C2C2A);">Because envy isn't about lack, it's about comparison. Scripture calls it a disordering force <span style="color: var(--text-accent, #185FA5); border-bottom: 1px dotted var(--border-accent, #85B7EB);">(James 3:16)</span> that corrodes from within: <span style="color: var(--text-accent, #185FA5); border-bottom: 1px dotted var(--border-accent, #85B7EB);">"envy makes the bones rot" (Prov 14:30)</span>.</div>
-          <div style="align-self: flex-end; max-width: 70%; background: var(--surface-1, #F1EFE8); border-radius: 10px 10px 3px 10px; padding: 7px 9px; font-size: 11px; line-height: 1.45; color: var(--text-primary, #2C2C2A);">So what displaces it?</div>
-          <div style="font-family: var(--font-voice, Georgia, serif); font-size: 11px; line-height: 1.6; padding: 0 2px; color: var(--text-primary, #2C2C2A);">In Paul's telling, love: <span style="position: relative; display: inline-block; color: var(--text-accent, #185FA5); border-bottom: 1px dotted var(--border-accent, #85B7EB);">"love does not envy" (1 Cor 13:4)<span style="position: absolute; right: -12px; bottom: -12px; width: 22px; height: 22px; border-radius: 50%; background: #D85A30; display: flex; align-items: center; justify-content: center;"><svg width="12" height="12" viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M6 2l13 10-5.6 1.1 3.2 6.1-2.7 1.4-3.2-6.2-4.7 3.6z"/></svg></span></span></div>
-        </div>
-        <div style="flex: 1;"></div>
-        <div style="border: 0.5px solid var(--border, #D3D1C7); border-radius: 14px; padding: 7px 10px; font-size: 11px; color: var(--text-muted, #888780);">Reply</div>
-      </div>
-    </div>
-    <div>
-      <p style="font-size: 14px; font-weight: 500; margin: 0 0 4px; color: var(--text-primary, #2C2C2A);">A real conversation, verses accumulating</p>
-      <p style="font-size: 13px; color: var(--text-secondary, #5F5E5A); line-height: 1.6; margin: 0;">Multi-turn chat like any AI conversation, except every cited verse is live. Three doors already exist; the user taps the one that catches them.</p>
-    </div>
-  </div>
+  /* ---------- layout ---------- */
+  .wrap{max-width:1120px;margin:0 auto;padding:0 32px;}
+  header.top{
+    display:flex;align-items:baseline;justify-content:space-between;
+    padding:28px 0 0;
+  }
+  .wordmark{
+    font-family:var(--serif);font-weight:600;font-size:22px;letter-spacing:.02em;
+  }
+  .wordmark .mark{color:var(--rubric);}
+  .top-note{
+    font-family:var(--sans);font-size:12px;color:var(--faint);letter-spacing:.06em;text-transform:uppercase;
+  }
 
-  <div style="display: flex; gap: 20px; align-items: center; margin-bottom: 28px;">
-    <div style="position: relative; flex-shrink: 0;">
-      <div style="position: absolute; top: -10px; left: -10px; width: 26px; height: 26px; border-radius: 50%; background: var(--fill-primary, #2C2C2A); color: var(--on-primary, #fff); font-size: 13px; font-weight: 500; display: flex; align-items: center; justify-content: center; z-index: 2;">2</div>
-      <div style="width: 200px; height: 252px; background: var(--surface-2, #fff); border: 1px solid var(--border-strong, #B4B2A9); border-radius: 18px; position: relative;">
-        <div style="padding: 12px 11px; opacity: 0.4; font-size: 11px; color: var(--text-muted, #888780);">Envy</div>
-        <div style="position: absolute; inset: 0; background: rgba(0,0,0,0.22); border-radius: 18px;"></div>
-        <div style="position: absolute; left: 0; right: 0; bottom: 0; background: var(--surface-2, #fff); border-top: 0.5px solid var(--border, #D3D1C7); border-radius: 14px 14px 18px 18px; padding: 10px 12px 12px;">
-          <div style="width: 28px; height: 3px; background: var(--border-strong, #B4B2A9); border-radius: 2px; margin: 0 auto 8px;"></div>
-          <p style="font-size: 12px; font-weight: 500; margin: 0; color: var(--text-primary, #2C2C2A);">1 Corinthians 13:1&ndash;7</p>
-          <p style="font-size: 11px; color: var(--text-muted, #888780); margin: 1px 0 6px;">A church competing over gifts</p>
-          <p style="font-family: var(--font-voice, Georgia, serif); font-size: 11px; line-height: 1.55; margin: 0 0 8px; color: var(--text-primary, #2C2C2A);">Love is patient and kind; <span style="background: var(--bg-warning, #FAEEDA); border-radius: 2px; padding: 0 2px;">love does not envy</span> or boast&hellip;</p>
-          <div style="display: flex; gap: 6px; align-items: center;">
-            <span style="flex: 1; position: relative; text-align: center; font-size: 11px; color: var(--text-accent, #185FA5); background: var(--bg-accent, #E6F1FB); border-radius: 6px; padding: 6px 0;">Keep reading<span style="position: absolute; right: -6px; top: -13px; width: 22px; height: 22px; border-radius: 50%; background: #D85A30; display: flex; align-items: center; justify-content: center;"><svg width="12" height="12" viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M6 2l13 10-5.6 1.1 3.2 6.1-2.7 1.4-3.2-6.2-4.7 3.6z"/></svg></span></span>
-            <span style="flex: 1; text-align: center; font-size: 11px; color: var(--text-secondary, #5F5E5A); border: 0.5px solid var(--border-strong, #B4B2A9); border-radius: 6px; padding: 6px 0;">Dismiss</span>
+  .hero{
+    display:grid;
+    grid-template-columns:minmax(0,1fr) minmax(0,460px);
+    gap:56px;
+    align-items:center;
+    padding:64px 0 88px;
+  }
+  .eyebrow{
+    font-family:var(--sans);font-size:12px;font-weight:600;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--rubric);margin-bottom:22px;
+  }
+  h1{
+    font-weight:500;
+    font-size:clamp(40px,4.6vw,58px);
+    line-height:1.08;
+    letter-spacing:-0.01em;
+    margin-bottom:24px;
+  }
+  h1 .rubric{color:var(--rubric);}
+  .lede{
+    font-size:21px;color:var(--ink-2);max-width:46ch;margin-bottom:36px;
+  }
+  .hero-points{list-style:none;display:grid;gap:14px;max-width:52ch;}
+  .hero-points li{
+    display:grid;grid-template-columns:14px 1fr;gap:14px;align-items:baseline;
+    font-size:17.5px;color:var(--ink-2);
+  }
+  .hero-points .pilcrow{color:var(--rubric);font-weight:600;}
+  .hero-points b{color:var(--ink);font-weight:600;}
+
+  /* ---------- stage / phone ---------- */
+  .stage{display:flex;flex-direction:column;align-items:center;gap:18px;}
+  .iphone{
+    position:relative;
+    width:340px;height:702px;
+    background:var(--chrome);
+    border-radius:56px;
+    padding:10px;
+    box-shadow:
+      0 2px 3px rgba(30,20,5,.10),
+      0 24px 60px -18px rgba(30,20,5,.35),
+      inset 0 0 0 2px #2a2a2e;
+    flex-shrink:0;
+  }
+  .iphone .btn-side{position:absolute;background:#2a2a2e;border-radius:2px;}
+  .iphone .btn-power{right:-3px;top:190px;width:3px;height:70px;}
+  .iphone .btn-vol1{left:-3px;top:160px;width:3px;height:44px;}
+  .iphone .btn-vol2{left:-3px;top:214px;width:3px;height:44px;}
+  .screen{
+    position:relative;
+    width:100%;height:100%;
+    background:var(--screen);
+    border-radius:46px;
+    overflow:hidden;
+    font-family:var(--app-sans);
+  }
+  .island{
+    position:absolute;top:12px;left:50%;transform:translateX(-50%);
+    width:104px;height:30px;border-radius:20px;background:#000;z-index:40;
+  }
+  .statusbar{
+    position:absolute;top:0;left:0;right:0;height:52px;z-index:30;
+    display:flex;align-items:center;justify-content:space-between;
+    padding:14px 30px 0;
+    font-size:14px;font-weight:600;color:var(--ink);
+    pointer-events:none;
+  }
+  .statusbar svg{display:block;}
+  .home-indicator{
+    position:absolute;bottom:8px;left:50%;transform:translateX(-50%);
+    width:120px;height:5px;border-radius:3px;background:rgba(20,15,5,.28);z-index:40;
+  }
+
+  /* screens slider */
+  .screens{
+    position:absolute;inset:0;
+    display:flex;width:200%;height:100%;
+    transition:transform .46s cubic-bezier(.32,.72,.34,1);
+  }
+  .screens.pushed{transform:translateX(-50%);}
+  .app-screen{
+    width:50%;height:100%;position:relative;
+    display:flex;flex-direction:column;
+    background:var(--screen);
+  }
+
+  .app-nav{
+    padding:60px 18px 10px;
+    display:flex;align-items:center;gap:6px;
+    font-size:14px;color:var(--faint);
+    border-bottom:1px solid rgba(0,0,0,.05);
+    background:var(--screen);
+    z-index:5;
+  }
+  .app-nav .title{font-weight:600;color:var(--ink);font-size:16px;}
+  .app-nav .crumb-root{font-weight:600;color:var(--ink);cursor:pointer;}
+  .app-nav .chev{color:var(--faint);}
+
+  .thread{
+    flex:1;overflow:hidden;
+    padding:14px 16px 10px;
+    display:flex;flex-direction:column;gap:12px;
+  }
+  .thread-inner{margin-top:auto;display:flex;flex-direction:column;gap:12px;}
+
+  .msg-user{
+    align-self:flex-end;max-width:82%;
+    background:var(--bubble);
+    border-radius:18px 18px 5px 18px;
+    padding:9px 13px;
+    font-size:14.5px;line-height:1.4;color:var(--ink);
+    animation:pop .32s cubic-bezier(.2,1.2,.4,1);
+    transform-origin:bottom right;
+  }
+  .msg-ai{
+    max-width:96%;
+    font-family:var(--serif);
+    font-size:15.5px;line-height:1.62;color:var(--ink);
+    padding:0 2px;
+  }
+  @keyframes pop{from{transform:scale(.7);opacity:0;}to{transform:scale(1);opacity:1;}}
+
+  .cite{
+    color:var(--cite);
+    border-bottom:1px dotted var(--cite-line);
+    cursor:pointer;white-space:normal;
+  }
+
+  .typing-dots{display:inline-flex;gap:4px;padding:6px 2px;}
+  .typing-dots i{
+    width:6px;height:6px;border-radius:50%;background:var(--faint);
+    animation:blink 1.1s infinite ease-in-out;
+  }
+  .typing-dots i:nth-child(2){animation-delay:.15s;}
+  .typing-dots i:nth-child(3){animation-delay:.3s;}
+  @keyframes blink{0%,60%,100%{opacity:.25;transform:translateY(0);}30%{opacity:1;transform:translateY(-2px);}}
+
+  .caret{
+    display:inline-block;width:1.5px;height:1.05em;background:var(--cite);
+    vertical-align:text-bottom;margin-left:1px;
+    animation:caret 1s steps(1) infinite;
+  }
+  @keyframes caret{50%{opacity:0;}}
+
+  .inputbar{
+    display:flex;align-items:flex-end;gap:8px;
+    padding:8px 12px 30px;
+    background:var(--screen);
+  }
+  .inputbar .field{
+    flex:1;min-height:36px;
+    border:1px solid var(--line);
+    border-radius:19px;
+    padding:7.5px 14px;
+    font-size:14.5px;line-height:1.4;color:var(--ink);
+    background:#fff;
+  }
+  .inputbar .field .placeholder{color:var(--faint);}
+  .inputbar .send{
+    width:34px;height:34px;border-radius:50%;
+    background:var(--cite);color:#fff;
+    display:flex;align-items:center;justify-content:center;
+    font-size:17px;font-weight:600;
+    flex-shrink:0;
+    opacity:.25;transition:opacity .25s;
+  }
+  .inputbar .send.ready{opacity:1;}
+
+  /* dive record (provenance) */
+  .dive-record{
+    border-left:2px solid var(--line);
+    padding-left:10px;
+    display:flex;flex-direction:column;gap:10px;
+    opacity:0;transform:translateY(6px);
+    transition:opacity .5s ease,transform .5s ease;
+  }
+  .dive-record.show{opacity:1;transform:none;}
+  .prov-chip{
+    align-self:flex-start;
+    font-family:var(--app-sans);
+    font-size:12px;font-weight:600;color:var(--cite);
+    background:#E8F0FA;border-radius:11px;padding:3.5px 10px;
+  }
+
+  /* ---------- peek sheet ---------- */
+  .dim{
+    position:absolute;inset:0;background:rgba(15,10,2,.32);
+    opacity:0;pointer-events:none;transition:opacity .4s ease;z-index:18;
+  }
+  .dim.on{opacity:1;}
+  .sheet{
+    position:absolute;left:0;right:0;bottom:0;z-index:20;
+    background:var(--screen);
+    border-radius:22px 22px 0 0;
+    padding:12px 20px 34px;
+    transform:translateY(103%);
+    transition:transform .5s cubic-bezier(.3,1.02,.36,1);
+    box-shadow:0 -8px 30px rgba(20,10,0,.14);
+  }
+  .sheet.open{transform:translateY(0);}
+  .sheet .grab{width:38px;height:4.5px;border-radius:3px;background:var(--line);margin:0 auto 14px;}
+  .sheet h3{font-family:var(--app-sans);font-size:16.5px;font-weight:650;margin-bottom:2px;}
+  .sheet .setting{font-family:var(--app-sans);font-size:12.5px;color:var(--faint);margin-bottom:12px;}
+  .sheet .passage{
+    font-family:var(--serif);font-size:15.5px;line-height:1.72;margin-bottom:16px;
+  }
+  .sheet .vnum{font-size:10.5px;color:var(--faint);vertical-align:super;margin-right:2px;}
+  .sheet .anchor{background:var(--wash);border-radius:3px;padding:0 3px;}
+  .sheet .actions{display:flex;gap:9px;font-family:var(--app-sans);}
+  .sheet .actions .a{
+    flex:1;text-align:center;font-size:14px;font-weight:600;
+    padding:11px 0;border-radius:11px;
+  }
+  .sheet .a-primary{background:#E8F0FA;color:var(--cite);}
+  .sheet .a-ghost{border:1px solid var(--line);color:var(--ink-2);}
+
+  /* ---------- passage node screen ---------- */
+  .node-body{flex:1;overflow:hidden;padding:14px 16px 8px;display:flex;flex-direction:column;gap:12px;}
+  .passage-card{
+    background:var(--paper-2);
+    border-radius:14px;padding:13px 15px;
+  }
+  .passage-card .txt{font-family:var(--serif);font-size:15.5px;line-height:1.66;margin-bottom:8px;}
+  .passage-card .read{
+    font-family:var(--app-sans);font-size:13.5px;font-weight:600;color:var(--cite);
+  }
+  .chips{display:flex;flex-wrap:wrap;gap:7px;}
+  .chip{
+    font-family:var(--app-sans);font-size:13px;color:var(--ink);
+    border:1px solid var(--line);border-radius:15px;padding:6px 12px;background:#fff;
+  }
+  .chip.practice{color:#3E6B33;border-color:#C9D8C2;background:#F1F6EE;}
+  .node-thread{
+    display:flex;flex-direction:column;gap:12px;margin-top:2px;
+  }
+  .section-label{
+    font-family:var(--app-sans);font-size:11px;font-weight:600;letter-spacing:.08em;
+    text-transform:uppercase;color:var(--faint);
+  }
+
+  /* ---------- tap ripple ---------- */
+  .tapper{
+    position:absolute;z-index:60;pointer-events:none;
+    width:22px;height:22px;margin:-11px 0 0 -11px;
+    opacity:0;
+  }
+  .tapper .dot{
+    position:absolute;inset:0;border-radius:50%;
+    background:var(--rubric);
+  }
+  .tapper .ring{
+    position:absolute;inset:0;border-radius:50%;
+    border:2.5px solid var(--rubric);
+  }
+  .tapper.go{animation:tapFade .85s ease-out forwards;}
+  .tapper.go .dot{animation:tapDot .85s ease-out forwards;}
+  .tapper.go .ring{animation:tapRing .85s ease-out forwards;}
+  @keyframes tapFade{0%{opacity:0;}8%{opacity:1;}80%{opacity:1;}100%{opacity:0;}}
+  @keyframes tapDot{0%{transform:scale(.4);}22%{transform:scale(1);}100%{transform:scale(.85);}}
+  @keyframes tapRing{0%{transform:scale(.5);opacity:.9;}100%{transform:scale(3);opacity:0;}}
+
+  /* ---------- phase caption / controls ---------- */
+  .phase{
+    font-family:var(--sans);font-size:14px;color:var(--ink-2);
+    letter-spacing:.01em;text-align:center;min-height:22px;
+    transition:opacity .3s ease;
+  }
+  .phase .n{color:var(--rubric);font-weight:600;margin-right:8px;}
+  .phase.fade{opacity:0;}
+  .replay{
+    font-family:var(--sans);font-size:13px;font-weight:600;
+    color:var(--rubric);background:none;border:1px solid var(--rubric-soft);
+    border-radius:20px;padding:7px 18px;cursor:pointer;
+    transition:background .2s,color .2s;
+  }
+  .replay:hover{background:var(--rubric);color:var(--paper);}
+  .replay:focus-visible{outline:2px solid var(--rubric);outline-offset:3px;}
+
+  /* ---------- principles ---------- */
+  .principles{
+    border-top:1px solid var(--line);
+    padding:72px 0 40px;
+  }
+  .principles .grid{
+    display:grid;grid-template-columns:repeat(3,1fr);gap:48px;
+  }
+  .principle .label{
+    font-family:var(--sans);font-size:12px;font-weight:600;
+    letter-spacing:.14em;text-transform:uppercase;color:var(--rubric);
+    margin-bottom:14px;
+  }
+  .principle h2{
+    font-weight:500;font-size:26px;line-height:1.2;margin-bottom:12px;letter-spacing:-.005em;
+  }
+  .principle p{font-size:16.5px;color:var(--ink-2);}
+
+  footer{
+    padding:26px 0 44px;
+    display:flex;justify-content:space-between;align-items:baseline;
+    border-top:1px solid var(--line);
+    font-family:var(--sans);font-size:12.5px;color:var(--faint);
+  }
+
+  /* ---------- responsive ---------- */
+  @media (max-width:960px){
+    .hero{grid-template-columns:1fr;gap:56px;padding:48px 0 64px;}
+    .stage{order:-1;}
+    .principles .grid{grid-template-columns:1fr;gap:40px;}
+  }
+  @media (max-width:420px){
+    .wrap{padding:0 20px;}
+    .iphone{transform:scale(.88);transform-origin:top center;margin-bottom:-80px;}
+  }
+
+  @media (prefers-reduced-motion:reduce){
+    .screens,.sheet,.dim,.msg-user,.dive-record{transition:none;animation:none;}
+    .tapper.go,.tapper.go .dot,.tapper.go .ring{animation:none;opacity:0;}
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header class="top">
+    <div class="wordmark"><span class="mark">S</span>elah</div>
+    <div class="top-note">A concept study</div>
+  </header>
+
+  <section class="hero">
+    <div class="copy">
+      <p class="eyebrow">Scripture-rooted conversation</p>
+      <h1><span class="rubric">Every verse</span> is a door,<br>not a footnote.</h1>
+      <p class="lede">Ask honestly. When scripture is cited, tap it: the passage opens in context, the whole chapter is one gesture away, and your question follows you in. Come back out and the conversation is exactly where you left it.</p>
+      <ul class="hero-points">
+        <li><span class="pilcrow">&para;</span><span><b>Peek, then keep reading.</b> A cited verse opens with its surroundings and one line of setting. Engaging promotes it to a place in your topic.</span></li>
+        <li><span class="pilcrow">&para;</span><span><b>One thread.</b> Questions asked inside a passage return to the same conversation, marked with where you stood.</span></li>
+        <li><span class="pilcrow">&para;</span><span><b>A place, not a ping.</b> No streaks, no notifications. Your topic waits, and remembers your trail.</span></li>
+      </ul>
+    </div>
+
+    <div class="stage">
+      <div class="iphone" aria-label="Animated demo of the Selah app">
+        <span class="btn-side btn-power"></span>
+        <span class="btn-side btn-vol1"></span>
+        <span class="btn-side btn-vol2"></span>
+        <div class="screen" id="screenRoot">
+          <div class="island"></div>
+          <div class="statusbar">
+            <span>9:41</span>
+            <span style="display:flex;gap:6px;align-items:center;">
+              <svg width="18" height="11" viewBox="0 0 18 11" fill="none"><rect x="0" y="7" width="3" height="4" rx="1" fill="#221B12"/><rect x="5" y="5" width="3" height="6" rx="1" fill="#221B12"/><rect x="10" y="2.5" width="3" height="8.5" rx="1" fill="#221B12"/><rect x="15" y="0" width="3" height="11" rx="1" fill="#221B12" opacity=".35"/></svg>
+              <svg width="16" height="12" viewBox="0 0 16 12" fill="none"><path d="M1.5 4.4a9.2 9.2 0 0 1 13 0" stroke="#221B12" stroke-width="1.6" stroke-linecap="round"/><path d="M4 7a5.7 5.7 0 0 1 8 0" stroke="#221B12" stroke-width="1.6" stroke-linecap="round"/><circle cx="8" cy="10.2" r="1.4" fill="#221B12"/></svg>
+              <svg width="25" height="12" viewBox="0 0 25 12" fill="none"><rect x="0.5" y="0.5" width="21" height="11" rx="3" stroke="#221B12" opacity=".4"/><rect x="2" y="2" width="15" height="8" rx="1.6" fill="#221B12"/><path d="M23 4v4c1-.3 1.6-1.1 1.6-2S24 4.3 23 4z" fill="#221B12" opacity=".4"/></svg>
+            </span>
           </div>
+
+          <div class="screens" id="screens">
+            <!-- SCREEN 1 · topic chat -->
+            <div class="app-screen" id="chatScreen">
+              <div class="app-nav">
+                <svg width="11" height="18" viewBox="0 0 11 18" fill="none"><path d="M9.5 1.5 2 9l7.5 7.5" stroke="#8E8471" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <span class="title">Envy</span>
+              </div>
+              <div class="thread" id="chatThread"><div class="thread-inner" id="chatInner"></div></div>
+              <div class="inputbar">
+                <div class="field" id="chatField"><span class="placeholder">Message</span></div>
+                <div class="send" id="chatSend">&#8593;</div>
+              </div>
+            </div>
+
+            <!-- SCREEN 2 · passage node -->
+            <div class="app-screen" id="nodeScreen">
+              <div class="app-nav">
+                <span class="crumb-root" id="crumbEnvy">Envy</span>
+                <span class="chev">&#8250;</span>
+                <span style="color:var(--ink-2);font-weight:500;">1 Corinthians 13</span>
+              </div>
+              <div class="node-body">
+                <div class="passage-card">
+                  <div class="txt">Love is patient and kind; love does not envy or boast; it is not arrogant or rude. It does not insist on its own way&hellip;</div>
+                  <div class="read">Read the chapter &#8594;</div>
+                </div>
+                <div class="section-label">Branches</div>
+                <div class="chips">
+                  <span class="chip">Rivalry in Corinth</span>
+                  <span class="chip">Saul watches David</span>
+                  <span class="chip practice">Speaking blessing</span>
+                </div>
+                <div class="node-thread" id="nodeThread"></div>
+              </div>
+              <div class="inputbar">
+                <div class="field" id="nodeField"><span class="placeholder">Ask about this passage</span></div>
+                <div class="send" id="nodeSend">&#8593;</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- peek sheet -->
+          <div class="dim" id="dim"></div>
+          <div class="sheet" id="sheet">
+            <div class="grab"></div>
+            <h3>1 Corinthians 13:1&ndash;7</h3>
+            <div class="setting">A letter to a church competing over spiritual gifts</div>
+            <div class="passage"><span class="vnum">1</span>If I speak in the tongues of men and of angels, but have not love, I am a noisy gong&hellip; <span class="vnum">4</span>Love is patient and kind; <span class="anchor">love does not envy</span> or boast; it is not arrogant <span class="vnum">5</span>or rude&hellip;</div>
+            <div class="actions">
+              <div class="a a-primary" id="btnKeepReading">Keep reading</div>
+              <div class="a a-ghost">Dismiss</div>
+            </div>
+          </div>
+
+          <div class="tapper" id="tapper"><span class="ring"></span><span class="dot"></span></div>
+          <div class="home-indicator"></div>
         </div>
       </div>
-    </div>
-    <div>
-      <p style="font-size: 14px; font-weight: 500; margin: 0 0 4px; color: var(--text-primary, #2C2C2A);">The peek rises</p>
-      <p style="font-size: 13px; color: var(--text-secondary, #5F5E5A); line-height: 1.6; margin: 0;">Passage in context, one line of setting. Dismiss returns to the chat untouched; keep reading promotes it to a place in the topic.</p>
-    </div>
-  </div>
 
-  <div style="display: flex; gap: 20px; align-items: center; margin-bottom: 28px;">
-    <div style="position: relative; flex-shrink: 0;">
-      <div style="position: absolute; top: -10px; left: -10px; width: 26px; height: 26px; border-radius: 50%; background: var(--fill-primary, #2C2C2A); color: var(--on-primary, #fff); font-size: 13px; font-weight: 500; display: flex; align-items: center; justify-content: center; z-index: 2;">3</div>
-      <div style="width: 200px; height: 252px; background: var(--surface-2, #fff); border: 1px solid var(--border-strong, #B4B2A9); border-radius: 18px; padding: 12px 11px; display: flex; flex-direction: column;">
-        <p style="font-size: 11px; color: var(--text-muted, #888780); margin: 0 0 8px;">Envy &#8250; 1 Cor 13</p>
-        <div style="background: var(--surface-1, #F1EFE8); border-radius: 8px; padding: 8px 10px; margin-bottom: 8px;">
-          <p style="font-family: var(--font-voice, Georgia, serif); font-size: 11px; line-height: 1.5; margin: 0 0 5px; color: var(--text-primary, #2C2C2A);">Love is patient and kind; love does not envy&hellip;</p>
-          <p style="font-size: 11px; color: var(--text-accent, #185FA5); margin: 0;">Read the chapter &#8594;</p>
-        </div>
-        <div style="display: flex; flex-wrap: wrap; gap: 5px;">
-          <span style="font-size: 11px; border: 0.5px solid var(--border-strong, #B4B2A9); border-radius: 11px; padding: 4px 8px; color: var(--text-primary, #2C2C2A);">Rivalry in Corinth</span>
-          <span style="font-size: 11px; border: 0.5px solid var(--border-strong, #B4B2A9); border-radius: 11px; padding: 4px 8px; color: var(--text-primary, #2C2C2A);">Speaking blessing</span>
-        </div>
-        <div style="flex: 1;"></div>
-        <div style="position: relative; border: 0.5px solid var(--border, #D3D1C7); border-radius: 14px; padding: 7px 10px; font-size: 11px; color: var(--text-secondary, #5F5E5A);">Ask about this passage<span style="position: absolute; right: -6px; top: -13px; width: 22px; height: 22px; border-radius: 50%; background: #D85A30; display: flex; align-items: center; justify-content: center;"><svg width="12" height="12" viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M6 2l13 10-5.6 1.1 3.2 6.1-2.7 1.4-3.2-6.2-4.7 3.6z"/></svg></span></div>
-      </div>
+      <p class="phase" id="phase" aria-live="polite"></p>
+      <button class="replay" id="replayBtn" type="button">Replay the journey</button>
     </div>
-    <div>
-      <p style="font-size: 14px; font-weight: 500; margin: 0 0 4px; color: var(--text-primary, #2C2C2A);">The passage node, with the same keyboard</p>
-      <p style="font-size: 13px; color: var(--text-secondary, #5F5E5A); line-height: 1.6; margin: 0;">The conversation follows you here. The ask bar is the one thread, scoped to where you're standing; branches wait if you'd rather wander.</p>
-    </div>
-  </div>
-
-  <div style="display: flex; gap: 20px; align-items: center; margin-bottom: 28px;">
-    <div style="position: relative; flex-shrink: 0;">
-      <div style="position: absolute; top: -10px; left: -10px; width: 26px; height: 26px; border-radius: 50%; background: var(--fill-primary, #2C2C2A); color: var(--on-primary, #fff); font-size: 13px; font-weight: 500; display: flex; align-items: center; justify-content: center; z-index: 2;">4</div>
-      <div style="width: 200px; height: 252px; background: var(--surface-2, #fff); border: 1px solid var(--border-strong, #B4B2A9); border-radius: 18px; padding: 12px 11px; display: flex; flex-direction: column;">
-        <p style="font-size: 11px; margin: 0 0 14px;"><span style="position: relative; display: inline-block; color: var(--text-primary, #2C2C2A); font-weight: 500;">Envy<span style="position: absolute; right: -16px; bottom: -13px; width: 22px; height: 22px; border-radius: 50%; background: #D85A30; display: flex; align-items: center; justify-content: center;"><svg width="12" height="12" viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M6 2l13 10-5.6 1.1 3.2 6.1-2.7 1.4-3.2-6.2-4.7 3.6z"/></svg></span></span> <span style="color: var(--text-muted, #888780); margin-left: 18px;">&#8250; 1 Cor 13</span></p>
-        <div style="align-self: flex-end; max-width: 88%; background: var(--surface-1, #F1EFE8); border-radius: 10px 10px 3px 10px; padding: 7px 9px; font-size: 11px; line-height: 1.45; color: var(--text-primary, #2C2C2A);">Is Paul describing a feeling or a behavior?</div>
-        <div style="font-family: var(--font-voice, Georgia, serif); font-size: 11px; line-height: 1.6; margin: 8px 0 0; color: var(--text-primary, #2C2C2A);">A behavior with a feeling underneath. All fifteen verbs in vv. 4&ndash;7 are actions, which is why Paul can command it. Same pattern in <span style="color: var(--text-accent, #185FA5); border-bottom: 1px dotted var(--border-accent, #85B7EB);">Romans 12:9&ndash;21</span>.</div>
-        <div style="flex: 1;"></div>
-        <div style="border: 0.5px solid var(--border, #D3D1C7); border-radius: 14px; padding: 7px 10px; font-size: 11px; color: var(--text-muted, #888780);">Ask</div>
-      </div>
-    </div>
-    <div>
-      <p style="font-size: 14px; font-weight: 500; margin: 0 0 4px; color: var(--text-primary, #2C2C2A);">Ask right there; answers open new doors</p>
-      <p style="font-size: 13px; color: var(--text-secondary, #5F5E5A); line-height: 1.6; margin: 0;">No setup needed, the companion knows where you stand. Its answer cites Romans 12, itself tappable: dives can nest. Done? Tap the topic crumb to surface.</p>
-    </div>
-  </div>
-
-  <div style="display: flex; gap: 20px; align-items: center;">
-    <div style="position: relative; flex-shrink: 0;">
-      <div style="position: absolute; top: -10px; left: -10px; width: 26px; height: 26px; border-radius: 50%; background: var(--fill-primary, #2C2C2A); color: var(--on-primary, #fff); font-size: 13px; font-weight: 500; display: flex; align-items: center; justify-content: center; z-index: 2;">5</div>
-      <div style="width: 200px; height: 280px; background: var(--surface-2, #fff); border: 1px solid var(--border-strong, #B4B2A9); border-radius: 18px; padding: 12px 11px; display: flex; flex-direction: column;">
-        <p style="font-size: 11px; color: var(--text-muted, #888780); margin: 0 0 8px;">&#8249; Envy</p>
-        <div style="font-family: var(--font-voice, Georgia, serif); font-size: 11px; line-height: 1.55; color: var(--text-secondary, #5F5E5A); margin-bottom: 8px;">&hellip;love: <span style="color: var(--text-accent, #185FA5); border-bottom: 1px dotted var(--border-accent, #85B7EB);">"love does not envy" (1 Cor 13:4)</span>.</div>
-        <div style="border-left: 2px solid var(--border-strong, #B4B2A9); padding-left: 8px; display: flex; flex-direction: column; gap: 7px;">
-          <span style="align-self: flex-start; font-size: 11px; color: var(--text-accent, #185FA5); background: var(--bg-accent, #E6F1FB); border-radius: 9px; padding: 2px 8px;">Asked from 1 Cor 13</span>
-          <div style="align-self: flex-end; max-width: 90%; background: var(--surface-1, #F1EFE8); border-radius: 10px 10px 3px 10px; padding: 6px 8px; font-size: 11px; line-height: 1.45; color: var(--text-primary, #2C2C2A);">Feeling or behavior?</div>
-          <div style="font-family: var(--font-voice, Georgia, serif); font-size: 11px; line-height: 1.55; color: var(--text-primary, #2C2C2A);">A behavior with a feeling underneath&hellip;</div>
-        </div>
-        <div style="align-self: flex-end; max-width: 88%; background: var(--surface-1, #F1EFE8); border-radius: 10px 10px 3px 10px; padding: 6px 8px; font-size: 11px; line-height: 1.45; margin-top: 8px; color: var(--text-primary, #2C2C2A);">That makes it feel more doable.</div>
-        <div style="flex: 1;"></div>
-        <div style="border: 0.5px solid var(--border, #D3D1C7); border-radius: 14px; padding: 7px 10px; font-size: 11px; color: var(--text-muted, #888780);">Reply</div>
-      </div>
-    </div>
-    <div>
-      <p style="font-size: 14px; font-weight: 500; margin: 0 0 4px; color: var(--text-primary, #2C2C2A);">Surface: one thread, fully intact</p>
-      <p style="font-size: 13px; color: var(--text-secondary, #5F5E5A); line-height: 1.6; margin: 0;">Back at the top, the dive sits inline under its provenance chip and the conversation simply continues. No tap needed; this is where step 4's tap landed you.</p>
-    </div>
-  </div>
-
+  </section>
 </div>
+
+<div class="wrap">
+  <section class="principles">
+    <div class="grid">
+      <div class="principle">
+        <div class="label">Explore</div>
+        <h2>Doors, not footnotes</h2>
+        <p>Every cited verse opens its passage in context, with the whole chapter and its neighbors one swipe away. Reading around a verse is the difference between a quote and its meaning.</p>
+      </div>
+      <div class="principle">
+        <div class="label">Converse</div>
+        <h2>One thread that follows you</h2>
+        <p>Ask from anywhere. Questions asked inside a passage flow back into the topic conversation, marked with where they were asked, so nothing you think gets stranded.</p>
+      </div>
+      <div class="principle">
+        <div class="label">Return</div>
+        <h2>A place, not a ping</h2>
+        <p>Selah never notifies you. When you come back on your own, your trail is the first thing you see, and you step back in exactly where you left off.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span>Selah is a working title &middot; concept exploration</span>
+    <span>Set in EB Garamond &middot; rubricated in the old manner</span>
+  </footer>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  var reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var runId = 0;
+
+  /* ---------- element handles ---------- */
+  var $ = function(id){ return document.getElementById(id); };
+  var screens = $("screens"), chatInner = $("chatInner"), chatThread = $("chatThread"),
+      chatField = $("chatField"), chatSend = $("chatSend"),
+      nodeThread = $("nodeThread"), nodeField = $("nodeField"), nodeSend = $("nodeSend"),
+      sheet = $("sheet"), dim = $("dim"), tapper = $("tapper"),
+      phase = $("phase"), screenRoot = $("screenRoot"),
+      btnKeepReading = $("btnKeepReading"), crumbEnvy = $("crumbEnvy"),
+      replayBtn = $("replayBtn");
+
+  /* ---------- timing helpers ---------- */
+  function sleep(ms){
+    return new Promise(function(res){ setTimeout(res, reduced ? 0 : ms); });
+  }
+  function alive(id){ return id === runId; }
+
+  /* ---------- content ---------- */
+  var Q1 = "Why does envy show up even when things are going well for me?";
+  var A1 = [
+    {t:"Because envy isn\u2019t about lack, it\u2019s about comparison. Scripture calls it a disordering force "},
+    {c:"(James 3:16)"},
+    {t:" that corrodes from within: "},
+    {c:"\u201Cenvy makes the bones rot\u201D (Proverbs 14:30)"},
+    {t:"."}
+  ];
+  var Q2 = "So what displaces it?";
+  var A2 = [
+    {t:"In Paul\u2019s telling, love, because the two can\u2019t share a room: "},
+    {c:"\u201Clove does not envy\u201D (1 Corinthians 13:4)", id:"citeTarget"},
+    {t:"."}
+  ];
+  var Q3 = "Is Paul describing a feeling or a behavior?";
+  var A3 = [
+    {t:"A behavior with a feeling underneath. All fifteen verbs in verses 4 to 7 are actions, things love does or refuses to do, which is why Paul can command it. The same pattern runs through "},
+    {c:"Romans 12:9\u201321"},
+    {t:"."}
+  ];
+  var Q4 = "That makes it feel more doable.";
+
+  /* ---------- ui builders ---------- */
+  function scrollBottom(el){ el.scrollTop = el.scrollHeight; }
+
+  function addUserBubble(container, text){
+    var b = document.createElement("div");
+    b.className = "msg-user";
+    b.textContent = text;
+    container.appendChild(b);
+    scrollBottom(container === chatInner ? chatThread : container);
+    return b;
+  }
+
+  function addAiMsg(container){
+    var m = document.createElement("div");
+    m.className = "msg-ai";
+    container.appendChild(m);
+    return m;
+  }
+
+  function typingDots(){
+    var d = document.createElement("span");
+    d.className = "typing-dots";
+    d.innerHTML = "<i></i><i></i><i></i>";
+    return d;
+  }
+
+  /* type into an input field, char by char */
+  function typeField(field, send, text, id){
+    return new Promise(function(res){
+      field.innerHTML = "";
+      var caret = document.createElement("span");
+      caret.className = "caret";
+      var span = document.createElement("span");
+      field.appendChild(span); field.appendChild(caret);
+      var i = 0;
+      function tick(){
+        if(!alive(id)){ res(); return; }
+        if(i === 2) send.classList.add("ready");
+        if(i < text.length){
+          span.textContent += text[i++];
+          setTimeout(tick, reduced ? 0 : 22 + Math.random()*30);
+        } else {
+          setTimeout(res, reduced ? 0 : 220);
+        }
+      }
+      tick();
+    });
+  }
+
+  function clearField(field, send, placeholder){
+    field.innerHTML = "<span class='placeholder'>" + placeholder + "</span>";
+    send.classList.remove("ready");
+  }
+
+  /* stream ai segments word by word */
+  function streamAi(msgEl, scrollEl, segments, id){
+    return new Promise(function(res){
+      var queue = [];
+      segments.forEach(function(seg){
+        if(seg.t){
+          var words = seg.t.split(" ");
+          words.forEach(function(w, idx){
+            var token = w + (idx < words.length - 1 ? " " : "");
+            if(token !== "") queue.push({text:token});
+          });
+        } else {
+          queue.push({cite:seg.c, id:seg.id});
+        }
+      });
+      var i = 0;
+      function tick(){
+        if(!alive(id)){ res(); return; }
+        if(i >= queue.length){ res(); return; }
+        var item = queue[i++];
+        if(item.cite){
+          var c = document.createElement("span");
+          c.className = "cite";
+          c.textContent = item.cite;
+          if(item.id) c.id = item.id;
+          msgEl.appendChild(c);
+        } else {
+          msgEl.appendChild(document.createTextNode(item.text));
+        }
+        scrollBottom(scrollEl);
+        setTimeout(tick, reduced ? 0 : (item.cite ? 120 : 34 + Math.random()*46));
+      }
+      tick();
+    });
+  }
+
+  /* full exchange: type, send, bubble, dots, stream */
+  function exchange(field, send, container, scrollEl, qText, aSegments, id){
+    return typeField(field, send, qText, id).then(function(){
+      if(!alive(id)) return;
+      return tap(send);
+    }).then(function(){
+      if(!alive(id)) return;
+      clearField(field, send, field === chatField ? "Message" : "Ask about this passage");
+      addUserBubble(container, qText);
+      if(!aSegments) return;
+      var m = addAiMsg(container);
+      var dots = typingDots();
+      m.appendChild(dots);
+      scrollBottom(scrollEl);
+      return sleep(850).then(function(){
+        if(!alive(id)) return;
+        dots.remove();
+        return streamAi(m, scrollEl, aSegments, id);
+      });
+    });
+  }
+
+  /* ---------- tap indicator ---------- */
+  function tap(el){
+    return new Promise(function(res){
+      if(reduced){ res(); return; }
+      var r = el.getBoundingClientRect();
+      var root = screenRoot.getBoundingClientRect();
+      tapper.style.left = (r.left - root.left + r.width/2) + "px";
+      tapper.style.top  = (r.top - root.top + r.height/2) + "px";
+      tapper.classList.remove("go");
+      void tapper.offsetWidth; /* restart animation */
+      tapper.classList.add("go");
+      setTimeout(res, 620);
+    });
+  }
+
+  /* ---------- phase caption ---------- */
+  function setPhase(n, text){
+    phase.classList.add("fade");
+    setTimeout(function(){
+      phase.innerHTML = "<span class='n'>" + n + "</span>" + text;
+      phase.classList.remove("fade");
+    }, reduced ? 0 : 240);
+  }
+
+  /* ---------- screen state ---------- */
+  function resetAll(){
+    chatInner.innerHTML = "";
+    nodeThread.innerHTML = "";
+    clearField(chatField, chatSend, "Message");
+    clearField(nodeField, nodeSend, "Ask about this passage");
+    sheet.classList.remove("open");
+    dim.classList.remove("on");
+    screens.classList.remove("pushed");
+    tapper.classList.remove("go");
+  }
+
+  function buildDiveRecord(){
+    var wrap = document.createElement("div");
+    wrap.className = "dive-record";
+    var chip = document.createElement("span");
+    chip.className = "prov-chip";
+    chip.textContent = "Asked from 1 Corinthians 13";
+    wrap.appendChild(chip);
+    var q = document.createElement("div");
+    q.className = "msg-user";
+    q.style.animation = "none";
+    q.textContent = Q3;
+    wrap.appendChild(q);
+    var a = document.createElement("div");
+    a.className = "msg-ai";
+    A3.forEach(function(seg){
+      if(seg.t){ a.appendChild(document.createTextNode(seg.t)); }
+      else {
+        var c = document.createElement("span");
+        c.className = "cite"; c.textContent = seg.c;
+        a.appendChild(c);
+      }
+    });
+    wrap.appendChild(a);
+    chatInner.appendChild(wrap);
+    return wrap;
+  }
+
+  /* ---------- the journey ---------- */
+  function play(){
+    var id = ++runId;
+    resetAll();
+
+    setPhase("1", "A real conversation, verses cited live");
+    sleep(900)
+    .then(function(){ if(!alive(id)) return;
+      return exchange(chatField, chatSend, chatInner, chatThread, Q1, A1, id);
+    })
+    .then(function(){ if(!alive(id)) return;
+      return sleep(1100);
+    })
+    .then(function(){ if(!alive(id)) return;
+      return exchange(chatField, chatSend, chatInner, chatThread, Q2, A2, id);
+    })
+    .then(function(){ if(!alive(id)) return;
+      setPhase("2", "Every citation is a door. Tap one");
+      return sleep(1300);
+    })
+    .then(function(){ if(!alive(id)) return;
+      var target = document.getElementById("citeTarget");
+      if(!target) return;
+      return tap(target);
+    })
+    .then(function(){ if(!alive(id)) return;
+      dim.classList.add("on");
+      sheet.classList.add("open");
+      setPhase("3", "The peek: the passage in its context");
+      return sleep(3000);
+    })
+    .then(function(){ if(!alive(id)) return;
+      return tap(btnKeepReading);
+    })
+    .then(function(){ if(!alive(id)) return;
+      sheet.classList.remove("open");
+      dim.classList.remove("on");
+      return sleep(240);
+    })
+    .then(function(){ if(!alive(id)) return;
+      screens.classList.add("pushed");
+      setPhase("4", "Promoted to a place: the passage node");
+      return sleep(2100);
+    })
+    .then(function(){ if(!alive(id)) return;
+      return tap(nodeField);
+    })
+    .then(function(){ if(!alive(id)) return;
+      setPhase("5", "Ask right where you stand");
+      return exchange(nodeField, nodeSend, nodeThread, nodeThread, Q3, A3, id);
+    })
+    .then(function(){ if(!alive(id)) return;
+      return sleep(1700);
+    })
+    .then(function(){ if(!alive(id)) return;
+      return tap(crumbEnvy);
+    })
+    .then(function(){ if(!alive(id)) return;
+      screens.classList.remove("pushed");
+      setPhase("6", "Surface: one thread, fully intact");
+      return sleep(500);
+    })
+    .then(function(){ if(!alive(id)) return;
+      var rec = buildDiveRecord();
+      scrollBottom(chatThread);
+      requestAnimationFrame(function(){ rec.classList.add("show"); scrollBottom(chatThread); });
+      return sleep(1400);
+    })
+    .then(function(){ if(!alive(id)) return;
+      return exchange(chatField, chatSend, chatInner, chatThread, Q4, null, id);
+    })
+    .then(function(){ if(!alive(id)) return;
+      setPhase("&#8226;", "The journey replays in a moment");
+      return sleep(4200);
+    })
+    .then(function(){ if(!alive(id)) return;
+      if(!reduced) play();
+    });
+  }
+
+  replayBtn.addEventListener("click", function(){ play(); });
+
+  /* reduced motion: compose the final state statically */
+  if(reduced){
+    resetAll();
+    addUserBubble(chatInner, Q1);
+    var m1 = addAiMsg(chatInner);
+    A1.forEach(function(s){ if(s.t){ m1.appendChild(document.createTextNode(s.t)); } else { var c=document.createElement("span"); c.className="cite"; c.textContent=s.c; m1.appendChild(c);} });
+    addUserBubble(chatInner, Q2);
+    var m2 = addAiMsg(chatInner);
+    A2.forEach(function(s){ if(s.t){ m2.appendChild(document.createTextNode(s.t)); } else { var c=document.createElement("span"); c.className="cite"; c.textContent=s.c; m2.appendChild(c);} });
+    buildDiveRecord().classList.add("show");
+    addUserBubble(chatInner, Q4);
+    setPhase("&#8226;", "One thread: dives return to the same conversation");
+    scrollBottom(chatThread);
+  } else {
+    setTimeout(play, 600);
+  }
+})();
+</script>
+</body>
+</html>
