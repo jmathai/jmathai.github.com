@@ -130,7 +130,7 @@
   .screens{
     position:absolute;inset:0;
     display:flex;width:200%;height:100%;
-    transition:transform .46s cubic-bezier(.32,.72,.34,1);
+    transition:transform .58s cubic-bezier(.32,.72,.34,1);
   }
   .screens.pushed{transform:translateX(-50%);}
   .app-screen{
@@ -164,7 +164,7 @@
     border-radius:18px 18px 5px 18px;
     padding:9px 13px;
     font-size:14.5px;line-height:1.4;color:var(--ink);
-    animation:pop .32s cubic-bezier(.2,1.2,.4,1);
+    animation:pop .4s cubic-bezier(.2,1.2,.4,1);
     transform-origin:bottom right;
   }
   .msg-ai{
@@ -227,7 +227,7 @@
     padding-left:10px;
     display:flex;flex-direction:column;gap:10px;
     opacity:0;transform:translateY(6px);
-    transition:opacity .5s ease,transform .5s ease;
+    transition:opacity .62s ease,transform .62s ease;
   }
   .dive-record.show{opacity:1;transform:none;}
   .prov-chip{
@@ -240,7 +240,7 @@
   /* ---------- peek sheet ---------- */
   .dim{
     position:absolute;inset:0;background:rgba(15,10,2,.32);
-    opacity:0;pointer-events:none;transition:opacity .4s ease;z-index:18;
+    opacity:0;pointer-events:none;transition:opacity .5s ease;z-index:18;
   }
   .dim.on{opacity:1;}
   .sheet{
@@ -249,7 +249,7 @@
     border-radius:22px 22px 0 0;
     padding:12px 20px 34px;
     transform:translateY(103%);
-    transition:transform .5s cubic-bezier(.3,1.02,.36,1);
+    transition:transform .62s cubic-bezier(.3,1.02,.36,1);
     box-shadow:0 -8px 30px rgba(20,10,0,.14);
   }
   .sheet.open{transform:translateY(0);}
@@ -307,9 +307,9 @@
     position:absolute;inset:0;border-radius:50%;
     border:2.5px solid var(--rubric);
   }
-  .tapper.go{animation:tapFade .85s ease-out forwards;}
-  .tapper.go .dot{animation:tapDot .85s ease-out forwards;}
-  .tapper.go .ring{animation:tapRing .85s ease-out forwards;}
+  .tapper.go{animation:tapFade 1.06s ease-out forwards;}
+  .tapper.go .dot{animation:tapDot 1.06s ease-out forwards;}
+  .tapper.go .ring{animation:tapRing 1.06s ease-out forwards;}
   @keyframes tapFade{0%{opacity:0;}8%{opacity:1;}80%{opacity:1;}100%{opacity:0;}}
   @keyframes tapDot{0%{transform:scale(.4);}22%{transform:scale(1);}100%{transform:scale(.85);}}
   @keyframes tapRing{0%{transform:scale(.5);opacity:.9;}100%{transform:scale(3);opacity:0;}}
@@ -506,6 +506,7 @@
   "use strict";
 
   var reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var SPEED = 1.25; /* 1.0 = original pace; higher is slower */
   var runId = 0;
 
   /* ---------- element handles ---------- */
@@ -520,7 +521,7 @@
 
   /* ---------- timing helpers ---------- */
   function sleep(ms){
-    return new Promise(function(res){ setTimeout(res, reduced ? 0 : ms); });
+    return new Promise(function(res){ setTimeout(res, reduced ? 0 : ms * SPEED); });
   }
   function alive(id){ return id === runId; }
 
@@ -587,9 +588,9 @@
         if(i === 2) send.classList.add("ready");
         if(i < text.length){
           span.textContent += text[i++];
-          setTimeout(tick, reduced ? 0 : 22 + Math.random()*30);
+          setTimeout(tick, reduced ? 0 : (22 + Math.random()*30) * SPEED);
         } else {
-          setTimeout(res, reduced ? 0 : 220);
+          setTimeout(res, reduced ? 0 : 220 * SPEED);
         }
       }
       tick();
@@ -631,7 +632,7 @@
           msgEl.appendChild(document.createTextNode(item.text));
         }
         scrollBottom(scrollEl);
-        setTimeout(tick, reduced ? 0 : (item.cite ? 120 : 34 + Math.random()*46));
+        setTimeout(tick, reduced ? 0 : (item.cite ? 120 : 34 + Math.random()*46) * SPEED);
       }
       tick();
     });
@@ -671,7 +672,7 @@
       tapper.classList.remove("go");
       void tapper.offsetWidth; /* restart animation */
       tapper.classList.add("go");
-      setTimeout(res, 620);
+      setTimeout(res, 620 * SPEED);
     });
   }
 
@@ -681,7 +682,7 @@
     setTimeout(function(){
       phase.innerHTML = "<span class='n'>" + n + "</span>" + text;
       phase.classList.remove("fade");
-    }, reduced ? 0 : 240);
+    }, reduced ? 0 : 240 * SPEED);
   }
 
   /* ---------- screen state ---------- */
