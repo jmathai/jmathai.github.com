@@ -269,6 +269,32 @@
   .sheet .a-primary{background:#E8F0FA;color:var(--cite);}
   .sheet .a-ghost{border:1px solid var(--line);color:var(--ink-2);}
 
+  /* ---------- chapter reader ---------- */
+  .reader{
+    position:absolute;inset:0;z-index:22;
+    background:var(--screen);
+    display:flex;flex-direction:column;
+    transform:translateY(101%);
+    transition:transform .58s cubic-bezier(.32,.72,.34,1);
+  }
+  .reader.open{transform:translateY(0);}
+  .reader-head{
+    padding:60px 18px 10px;
+    display:flex;align-items:center;justify-content:space-between;
+    font-family:var(--app-sans);font-size:14px;
+    border-bottom:1px solid rgba(0,0,0,.05);
+  }
+  .reader-head .pager{color:var(--faint);}
+  .reader-head .pager b{color:var(--ink);font-weight:650;}
+  .reader-head .done{color:var(--cite);font-weight:600;}
+  .reader-body{
+    flex:1;overflow:hidden;
+    padding:18px 22px 60px;
+    font-family:var(--serif);font-size:15.5px;line-height:1.82;color:var(--ink);
+  }
+  .reader-body .vnum{font-size:10.5px;color:var(--faint);vertical-align:super;margin:0 2px 0 6px;}
+  .reader-body .anchor{background:var(--wash);border-radius:3px;padding:0 3px;}
+
   /* ---------- passage node screen ---------- */
   .node-body{flex:1;overflow:hidden;padding:14px 16px 8px;display:flex;flex-direction:column;gap:12px;}
   .passage-card{
@@ -322,14 +348,21 @@
   }
   .phase .n{color:var(--rubric);font-weight:600;margin-right:8px;}
   .phase.fade{opacity:0;}
-  .replay{
-    font-family:var(--sans);font-size:13px;font-weight:600;
-    color:var(--rubric);background:none;border:1px solid var(--rubric-soft);
-    border-radius:20px;padding:7px 18px;cursor:pointer;
-    transition:background .2s,color .2s;
+  .reload{
+    position:absolute;left:50%;top:38%;
+    transform:translate(-50%,-50%);
+    width:52px;height:52px;border-radius:50%;
+    background:rgba(22,16,8,.34);
+    border:none;cursor:pointer;z-index:55;
+    display:flex;align-items:center;justify-content:center;
+    opacity:0;
+    pointer-events:none;
+    transition:opacity .6s ease;
   }
-  .replay:hover{background:var(--rubric);color:var(--paper);}
-  .replay:focus-visible{outline:2px solid var(--rubric);outline-offset:3px;}
+  .reload.show{opacity:.5;pointer-events:auto;}
+  .reload.show:hover{opacity:.92;}
+  .reload:active{transform:translate(-50%,-50%) scale(.93);}
+  .reload:focus-visible{outline:2px solid #fff;outline-offset:3px;opacity:.92;}
 
   /* ---------- principles ---------- */
   .principles{
@@ -376,11 +409,6 @@
 <body>
 
 <div class="wrap">
-  <header class="top">
-    <div class="wordmark"><span class="mark">S</span>elah</div>
-    <div class="top-note">A concept study</div>
-  </header>
-
   <section class="hero">
     <div class="copy">
       <p class="eyebrow">Scripture-rooted conversation</p>
@@ -433,13 +461,12 @@
               <div class="node-body">
                 <div class="passage-card">
                   <div class="txt">Love is patient and kind; love does not envy or boast; it is not arrogant or rude. It does not insist on its own way&hellip;</div>
-                  <div class="read">Read the chapter &#8594;</div>
+                  <div class="read" id="readChapter">Read the chapter &#8594;</div>
                 </div>
                 <div class="section-label">Branches</div>
                 <div class="chips">
-                  <span class="chip">Rivalry in Corinth</span>
-                  <span class="chip">Saul watches David</span>
-                  <span class="chip practice">Speaking blessing</span>
+                  <span class="chip" id="chipStory">Saul watches David</span>
+                  <span class="chip practice" id="chipAction">Put this into action</span>
                 </div>
                 <div class="node-thread" id="nodeThread"></div>
               </div>
@@ -463,13 +490,52 @@
             </div>
           </div>
 
+          <div class="reader" id="reader">
+            <div class="reader-head">
+              <span style="width:44px;"></span>
+              <span class="pager">&#8249; 12 &nbsp; <b>1 Corinthians 13</b> &nbsp; 14 &#8250;</span>
+              <span class="done" id="readerDone">Done</span>
+            </div>
+            <div class="reader-body" id="readerBody">
+              <span class="vnum">1</span>If I speak with the languages of men and of angels, but don&rsquo;t have love, I have become sounding brass or a clanging cymbal.
+              <span class="vnum">2</span>If I have the gift of prophecy, and know all mysteries and all knowledge, and if I have all faith so as to remove mountains, but don&rsquo;t have love, I am nothing.
+              <span class="vnum">3</span>If I give away all my goods to feed the poor, and if I give my body to be burned, but don&rsquo;t have love, it profits me nothing.
+              <span class="vnum">4</span>Love is patient and is kind. <span class="anchor">Love doesn&rsquo;t envy.</span> Love doesn&rsquo;t brag, is not proud,
+              <span class="vnum">5</span>doesn&rsquo;t behave itself inappropriately, doesn&rsquo;t seek its own way, is not provoked, takes no account of evil;
+              <span class="vnum">6</span>doesn&rsquo;t rejoice in unrighteousness, but rejoices with the truth;
+              <span class="vnum">7</span>bears all things, believes all things, hopes all things, and endures all things.
+              <span class="vnum">8</span>Love never fails. But where there are prophecies, they will be done away with. Where there are various languages, they will cease. Where there is knowledge, it will be done away with.
+              <span class="vnum">9</span>For we know in part and we prophesy in part;
+              <span class="vnum">10</span>but when that which is complete has come, then that which is partial will be done away with.
+              <span class="vnum">11</span>When I was a child, I spoke as a child, I felt as a child, I thought as a child. Now that I have become a man, I have put away childish things.
+              <span class="vnum">12</span>For now we see in a mirror, dimly, but then face to face. Now I know in part, but then I will know fully, even as I was also fully known.
+              <span class="vnum">13</span>But now faith, hope, and love remain: these three. The greatest of these is love.
+            </div>
+          </div>
+
+          <!-- story branch sheet -->
+          <div class="sheet" id="storySheet">
+            <div class="grab"></div>
+            <h3>Saul watches David</h3>
+            <div class="setting">1 Samuel 18:6&ndash;9 &middot; where envy becomes a story</div>
+            <div class="passage">The women sing, &ldquo;Saul has slain his thousands, and David his ten thousands.&rdquo; Saul has the throne, the victories, the anointing; the song only hands him a comparison. &ldquo;And Saul eyed David from that day and forward.&rdquo; Envy begins as counting someone else&rsquo;s numbers, and it always watches. This is the life &ldquo;love does not envy&rdquo; protects you from.</div>
+            <div class="actions">
+              <div class="a a-ghost" id="storyBack">Back to the passage</div>
+            </div>
+          </div>
+
           <div class="tapper" id="tapper"><span class="ring"></span><span class="dot"></span></div>
+          <button class="reload" id="reloadBtn" type="button" aria-label="Replay the journey">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M19.5 12a7.5 7.5 0 1 1-2.2-5.3" stroke="#fff" stroke-width="2.3" stroke-linecap="round"/>
+              <path d="M19.8 2.8v4.6h-4.6" stroke="#fff" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
           <div class="home-indicator"></div>
         </div>
       </div>
 
       <p class="phase" id="phase" aria-live="polite"></p>
-      <button class="replay" id="replayBtn" type="button">Replay the journey</button>
     </div>
   </section>
 </div>
@@ -515,9 +581,13 @@
       chatField = $("chatField"), chatSend = $("chatSend"),
       nodeThread = $("nodeThread"), nodeField = $("nodeField"), nodeSend = $("nodeSend"),
       sheet = $("sheet"), dim = $("dim"), tapper = $("tapper"),
+      reader = $("reader"), readerBody = $("readerBody"),
+      readChapter = $("readChapter"), readerDone = $("readerDone"),
+      chipAction = $("chipAction"), chipStory = $("chipStory"),
+      storySheet = $("storySheet"), storyBack = $("storyBack"),
       phase = $("phase"), screenRoot = $("screenRoot"),
       btnKeepReading = $("btnKeepReading"), crumbEnvy = $("crumbEnvy"),
-      replayBtn = $("replayBtn");
+      reloadBtn = $("reloadBtn");
 
   /* ---------- timing helpers ---------- */
   function sleep(ms){
@@ -546,7 +616,11 @@
     {c:"Romans 12:9\u201321"},
     {t:"."}
   ];
-  var Q4 = "That makes it feel more doable.";
+  var A4 = [
+    {t:"Here is one way to put it into action this week: when you notice envy rising toward a specific person, thank God for blessing them and pray for them to receive more blessing. It is Paul\u2019s own counter-move, "},
+    {c:"\u201Cbless and do not curse\u201D (Romans 12:14)"},
+    {t:". Envy keeps score of what they have; blessing names what you wish for them, and the two cannot be spoken at once."}
+  ];
 
   /* ---------- ui builders ---------- */
   function scrollBottom(el){ el.scrollTop = el.scrollHeight; }
@@ -575,7 +649,8 @@
   }
 
   /* type into an input field, char by char */
-  function typeField(field, send, text, id){
+  function typeField(field, send, text, id, mult){
+    mult = mult || 1;
     return new Promise(function(res){
       field.innerHTML = "";
       var caret = document.createElement("span");
@@ -588,7 +663,7 @@
         if(i === 2) send.classList.add("ready");
         if(i < text.length){
           span.textContent += text[i++];
-          setTimeout(tick, reduced ? 0 : (22 + Math.random()*30) * SPEED);
+          setTimeout(tick, reduced ? 0 : (22 + Math.random()*30) * SPEED * mult);
         } else {
           setTimeout(res, reduced ? 0 : 220 * SPEED);
         }
@@ -639,8 +714,8 @@
   }
 
   /* full exchange: type, send, bubble, dots, stream */
-  function exchange(field, send, container, scrollEl, qText, aSegments, id){
-    return typeField(field, send, qText, id).then(function(){
+  function exchange(field, send, container, scrollEl, qText, aSegments, id, typeMult){
+    return typeField(field, send, qText, id, typeMult).then(function(){
       if(!alive(id)) return;
       return tap(send);
     }).then(function(){
@@ -657,6 +732,36 @@
         dots.remove();
         return streamAi(m, scrollEl, aSegments, id);
       });
+    });
+  }
+
+  /* smooth auto-scroll through the chapter */
+  function scrollReader(dur){
+    return new Promise(function(res){
+      var to = readerBody.scrollHeight - readerBody.clientHeight;
+      if(reduced || to <= 0){ readerBody.scrollTop = to; res(); return; }
+      var start = null, d = dur * SPEED;
+      function step(ts){
+        if(start === null) start = ts;
+        var p = Math.min(1, (ts - start) / d);
+        var e = p < .5 ? 2*p*p : 1 - Math.pow(-2*p + 2, 2) / 2;
+        readerBody.scrollTop = to * e;
+        if(p < 1) requestAnimationFrame(step); else res();
+      }
+      requestAnimationFrame(step);
+    });
+  }
+
+  /* dots, then a streamed assistant message */
+  function aiStreamInto(container, scrollEl, segments, id){
+    var m = addAiMsg(container);
+    var dots = typingDots();
+    m.appendChild(dots);
+    scrollBottom(scrollEl);
+    return sleep(850).then(function(){
+      if(!alive(id)) return;
+      dots.remove();
+      return streamAi(m, scrollEl, segments, id);
     });
   }
 
@@ -692,9 +797,13 @@
     clearField(chatField, chatSend, "Message");
     clearField(nodeField, nodeSend, "Ask about this passage");
     sheet.classList.remove("open");
+    storySheet.classList.remove("open");
     dim.classList.remove("on");
+    reader.classList.remove("open");
+    readerBody.scrollTop = 0;
     screens.classList.remove("pushed");
     tapper.classList.remove("go");
+    reloadBtn.classList.remove("show");
   }
 
   function buildDiveRecord(){
@@ -732,13 +841,13 @@
     setPhase("1", "A real conversation, verses cited live");
     sleep(900)
     .then(function(){ if(!alive(id)) return;
-      return exchange(chatField, chatSend, chatInner, chatThread, Q1, A1, id);
+      return exchange(chatField, chatSend, chatInner, chatThread, Q1, A1, id, 1.8);
     })
     .then(function(){ if(!alive(id)) return;
       return sleep(1100);
     })
     .then(function(){ if(!alive(id)) return;
-      return exchange(chatField, chatSend, chatInner, chatThread, Q2, A2, id);
+      return exchange(chatField, chatSend, chatInner, chatThread, Q2, A2, id, 1.8);
     })
     .then(function(){ if(!alive(id)) return;
       setPhase("2", "Every citation is a door. Tap one");
@@ -769,42 +878,79 @@
       return sleep(2100);
     })
     .then(function(){ if(!alive(id)) return;
+      return tap(readChapter);
+    })
+    .then(function(){ if(!alive(id)) return;
+      reader.classList.add("open");
+      setPhase("5", "The whole chapter, one tap away");
+      return sleep(2000);
+    })
+    .then(function(){ if(!alive(id)) return;
+      return scrollReader(1600);
+    })
+    .then(function(){ if(!alive(id)) return;
+      return sleep(1000);
+    })
+    .then(function(){ if(!alive(id)) return;
+      return tap(readerDone);
+    })
+    .then(function(){ if(!alive(id)) return;
+      reader.classList.remove("open");
+      return sleep(700);
+    })
+    .then(function(){ if(!alive(id)) return;
+      return tap(chipStory);
+    })
+    .then(function(){ if(!alive(id)) return;
+      dim.classList.add("on");
+      storySheet.classList.add("open");
+      setPhase("6", "A branch: envy as a story");
+      return sleep(4200);
+    })
+    .then(function(){ if(!alive(id)) return;
+      return tap(storyBack);
+    })
+    .then(function(){ if(!alive(id)) return;
+      storySheet.classList.remove("open");
+      dim.classList.remove("on");
+      return sleep(800);
+    })
+    .then(function(){ if(!alive(id)) return;
       return tap(nodeField);
     })
     .then(function(){ if(!alive(id)) return;
-      setPhase("5", "Ask right where you stand");
+      setPhase("7", "Ask right where you stand");
       return exchange(nodeField, nodeSend, nodeThread, nodeThread, Q3, A3, id);
     })
     .then(function(){ if(!alive(id)) return;
-      return sleep(1700);
+      return sleep(1400);
     })
     .then(function(){ if(!alive(id)) return;
-      return tap(crumbEnvy);
+      return tap(chipAction);
     })
     .then(function(){ if(!alive(id)) return;
       screens.classList.remove("pushed");
-      setPhase("6", "Surface: one thread, fully intact");
-      return sleep(500);
+      setPhase("8", "Put into action, in the same thread");
+      return sleep(520);
     })
     .then(function(){ if(!alive(id)) return;
       var rec = buildDiveRecord();
       scrollBottom(chatThread);
       requestAnimationFrame(function(){ rec.classList.add("show"); scrollBottom(chatThread); });
-      return sleep(1400);
+      return sleep(1200);
     })
     .then(function(){ if(!alive(id)) return;
-      return exchange(chatField, chatSend, chatInner, chatThread, Q4, null, id);
+      return aiStreamInto(chatInner, chatThread, A4, id);
     })
     .then(function(){ if(!alive(id)) return;
-      setPhase("&#8226;", "The journey replays in a moment");
-      return sleep(4200);
+      return new Promise(function(res){ setTimeout(res, reduced ? 0 : 3000); });
     })
     .then(function(){ if(!alive(id)) return;
-      if(!reduced) play();
+      reloadBtn.classList.add("show");
     });
   }
 
-  replayBtn.addEventListener("click", function(){ play(); });
+  reloadBtn.addEventListener("click", function(){ play(); });
 
   /* reduced motion: compose the final state statically */
   if(reduced){
@@ -816,9 +962,11 @@
     var m2 = addAiMsg(chatInner);
     A2.forEach(function(s){ if(s.t){ m2.appendChild(document.createTextNode(s.t)); } else { var c=document.createElement("span"); c.className="cite"; c.textContent=s.c; m2.appendChild(c);} });
     buildDiveRecord().classList.add("show");
-    addUserBubble(chatInner, Q4);
+    var m3 = addAiMsg(chatInner);
+    A4.forEach(function(seg){ if(seg.t){ m3.appendChild(document.createTextNode(seg.t)); } else { var c=document.createElement("span"); c.className="cite"; c.textContent=seg.c; m3.appendChild(c);} });
     setPhase("&#8226;", "One thread: dives return to the same conversation");
     scrollBottom(chatThread);
+    reloadBtn.classList.add("show");
   } else {
     setTimeout(play, 600);
   }
