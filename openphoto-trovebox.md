@@ -1,18 +1,9 @@
 ---
-layout: page
+layout: archive
 permalink: /openphoto-trovebox/
-logo:             site-logo.png
-skipheader: true
 title: The Story of OpenPhoto / Trovebox
-description: Documenting my 3 year startup journey founding OpenPhoto / Trovebox.
-#tags: [Jekyll, theme, themes, responsive, blog, minimalism]
+eyebrow: Collection
+headline: The story of OpenPhoto / Trovebox
+description: "Documenting my three-year start-up journey, founding OpenPhoto, funding it through Kickstarter and a Shuttleworth fellowship, pivoting to Trovebox, and being acquired by Western Digital."
+list_tag: trovebox
 ---
-
-<ul class="post-list">
-{% for post in site.posts reversed %} 
-  {% if post.tags contains 'trovebox' %}
-    <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
-  {% endif %}
-{% endfor %}
-</ul>
-

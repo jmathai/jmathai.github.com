@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+
+  {% capture og_image %}{% if page.image.feature %}{{ site.url }}/images/{{ page.image.feature }}{% else %}{{ site.url }}/images/{{ site.logo }}{% endif %}{% endcapture %}
+  <!-- Open Graph -->
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:image" content="{{ og_image }}">
+  {% if site.owner.twitter %}
+  <meta name="twitter:card" content="{% if page.image.feature %}summary_large_image{% else %}summary{% endif %}">
+  <meta name="twitter:site" content="@{{ site.owner.twitter }}">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:image" content="{{ og_image }}">
+  {% endif %}
+
+  <link rel="canonical" href="{{ site.url }}{{ page.url | remove:'index.html' }}">
+  <link href="{{ site.url }}/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+  <link rel="shortcut icon" href="{{ '/favicon.png' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/nocturne.css' | relative_url }}">
+  {% if site.google_analytics %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','{{ site.google_analytics }}');</script>
+  {% endif %}
+</head>
+<body>
+{% if page.layout == 'post' %}{% assign fwrap = ' wrap--article' %}{% elsif page.layout == 'archive' %}{% assign fwrap = ' wrap--narrow' %}{% else %}{% assign fwrap = '' %}{% endif %}
+{% if page.layout == 'post' or page.layout == 'archive' %}{% assign in_writing = true %}{% endif %}
+
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="current" aria-current="page"{% endif %}>Home</a>
+      <a href="{{ '/articles/' | relative_url }}"{% if in_writing %} class="current" aria-current="page"{% endif %}>Writing</a>
+    </div>
+  </nav>
+
+  {{ content }}
+
+  <div class="wrap{{ fwrap }}">
+    <footer class="site-footer">
+      <span class="copyright">&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}</span>
+      <div class="social">
+        {% if site.owner.linkedin %}<a href="https://www.linkedin.com/in/{{ site.owner.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>{% endif %}
+        {% if site.owner.github %}<a href="https://github.com/{{ site.owner.github }}" target="_blank" rel="noopener">GitHub</a>{% endif %}
+        <a href="mailto:{{ site.owner.email }}">{{ site.owner.email }}</a>
+      </div>
+    </footer>
+  </div>
+
+</body>
+</html>

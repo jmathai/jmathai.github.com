@@ -1,0 +1,40 @@
+---
+layout: nocturne
+wrap_class: " wrap--narrow"
+nav_section: writing
+---
+{% if page.list_category %}{% assign postlist = site.categories[page.list_category] %}
+{% elsif page.list_tag %}{% assign postlist = site.tags[page.list_tag] %}
+{% else %}{% assign postlist = site.posts %}{% endif %}
+
+<div class="wrap wrap--narrow">
+  <header class="page-head">
+    <div class="eyebrow-row">
+      <span class="eyebrow-line"></span>
+      <span class="eyebrow">{{ page.eyebrow | default: 'Writing' }}</span>
+    </div>
+    <h1>{{ page.headline | default: page.title }}</h1>
+    {% if page.description %}<p>{{ page.description }}</p>{% endif %}
+    {% if page.show_collections %}
+    <div class="collections">
+      <span class="lbl">Collections:</span>
+      <a href="{{ '/openphoto-trovebox/' | relative_url }}">The OpenPhoto / Trovebox story &rarr;</a>
+      <a href="{{ '/generosity/' | relative_url }}">Generosity &rarr;</a>
+    </div>
+    {% endif %}
+  </header>
+
+  <main class="archive">
+    {% assign lastyear = '' %}
+    {% for post in postlist %}
+      {% assign y = post.date | date: '%Y' %}
+      {% if y != lastyear %}
+        {% unless forloop.first %}</div></section>{% endunless %}
+        <section class="yr-row"><div><div class="yr-label">{{ y }}</div></div><div class="yr-list">
+        {% assign lastyear = y %}
+      {% endif %}
+      <a href="{{ post.url | relative_url }}"><span class="t">{{ post.title }}</span><span class="d">{{ post.date | date: '%B %-d, %Y' }}</span></a>
+      {% if forloop.last %}</div></section>{% endif %}
+    {% endfor %}
+  </main>
+</div>

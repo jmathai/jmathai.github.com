@@ -1,0 +1,122 @@
+# Home page "Selected work" timeline — newest first.
+# icon: filename under /assets/home/img/  (omit for a monogram tile)
+# mono / mono_bg: fallback letter tile when there is no icon
+# with / avatars: collaborator label + optional avatar filenames under /assets/home/img/
+
+- name: Sojourn
+  mono: "S"
+  mono_bg: "#A32E22"
+  dates: "Jul 2026 – Present"
+  desc: "An experiment in using AI for good. Sojourn is a new way to explore scripture, designed so you spend more time in scripture and less time chatting with machines."
+  link: "https://trysojourn.app"
+  link_label: "trysojourn.app"
+
+- name: Preppy
+  icon: cd-icon-preppy.png
+  dates: "Jan 2025 – Present"
+  desc: "The absolute easiest way to shop for groceries."
+  link: "https://getpreppy.app"
+  link_label: "getpreppy.app"
+  with: "with Bex"
+  avatars: [jaisen.jpg, bex.jpg]
+
+- name: Lattice
+  icon: cd-icon-lattice.png
+  dates: "Sept 2024 – June 2025"
+  desc: "A platform which lets people without any technical expertise create applications."
+  link: "https://withlattice.com"
+  link_label: "withlattice.com"
+  with: "with Kevin"
+  avatars: [jaisen.jpg, kevin.jpg]
+
+- name: Wireshark
+  icon: cd-icon-wireshark.png
+  dates: "Jan 2024 – June 2025"
+  desc: "A better way to run wire, born from the seemingly simple task of mounting a television over a fireplace."
+  link: "https://trywireshark.com"
+  link_label: "trywireshark.com"
+
+- name: Google
+  icon: cd-icon-google.png
+  dates: "Jan 2017 – April 2024"
+  desc: "Worked at Google on Gemini, Serverless and Identity."
+
+- name: FIers
+  icon: cd-icon-fiers.png
+  dates: "Mar 2021 – Jan 2024"
+  desc: "FIers (fi-ers) helps people reach FI/RE, financial independence / retire early, with a forecasting tool that models your finances and a budgeting app that syncs and categorizes spending using the envelope method."
+  link: "https://fiers.jmathai.com/features"
+  link_label: "See the features"
+
+- name: Joule
+  icon: cd-icon-joule.svg
+  dates: "Jan 2016 – Jun 2016"
+  desc: "A serverless platform that automates deployment of Lambda functions and API Gateway configs. Every Joule is a forkable GitHub repo, deployed and updated on each push."
+  link: "https://github.com/joulehq"
+  link_label: "github.com/joulehq"
+  with: "with Kevin"
+  avatars: [jaisen.jpg, kevin.jpg]
+
+- name: Elodie
+  icon: cd-icon-elodie-app.png
+  dates: "Sept 2015 – Present"
+  desc: "A photo, video and audio workflow automation tool that syncs the file system with the EXIF stored in media files, organization without a central database."
+  link: "https://github.com/jmathai/elodie"
+  link_label: "github.com/jmathai/elodie"
+
+- name: Western Digital
+  icon: cd-icon-wd.png
+  dates: "Sept 2014 – Sept 2016"
+  desc: "Western Digital acquired Trovebox in 2014 to integrate our software into their MyCloud line. The Trovebox backend was built with multiple storage systems in mind and ported cleanly to the MyCloud NAS devices."
+
+- name: Trovebox
+  icon: cd-icon-trovebox.png
+  dates: "May 2011 – Sept 2014"
+  badge: "Acquired by Western Digital"
+  desc: "A Kickstarter-funded long-term digital preservation service for media archives. Its core idea was decoupling data store from application logic, media seamlessly stored and migrated across 10+ storage options."
+  link: "https://jaisenmathai.com/openphoto-trovebox/"
+  link_label: "Read the startup journey"
+  with: "with Patrick"
+  avatars: [jaisen.jpg, patrick.jpg]
+
+- name: Shuttleworth Foundation
+  icon: cd-icon-shuttleworth.png
+  dates: "Sept 2012 – Sept 2014"
+  desc: "A three-year fellowship from The Shuttleworth Foundation, including a $1 million grant to build Trovebox."
+  link: "https://jaisenmathai.com/articles/shuttleworth/"
+  link_label: "About the fellowship"
+
+- name: Mozilla
+  icon: cd-icon-mozilla.png
+  dates: "Jul 2011"
+  desc: "Accepted into the first cohort of Mozilla's WebFWD accelerator and incubator program."
+
+- name: The Scholar App
+  icon: cd-icon-tsa.png
+  dates: "Mar 2010 – Sept 2010"
+  desc: "One of the first education apps on the Facebook Platform, letting students and professors collaborate without friending each other, with attendance verified by college email."
+  with: "with Kevin"
+  avatars: [jaisen.jpg, kevin.jpg]
+
+- name: PubliciTweet
+  icon: cd-icon-pbct.png
+  dates: "Mar 2009 – Feb 2010"
+  desc: "The first direct-message marketing tool for Twitter, unique tracked links that measured social reach and revealed which followers amplified a message most."
+  with: "with Kevin"
+  avatars: [jaisen.jpg, kevin.jpg]
+
+- name: Textbook Revolt
+  icon: cd-icon-tbr.png
+  dates: "Apr 2007 – Nov 2010"
+  desc: "The first peer-to-peer textbook exchange, later a rental platform, backfilling rentals via the BookRenter API and printing pre-addressed labels through Stamps.com."
+  with: "with Kevin"
+  avatars: [jaisen.jpg, kevin.jpg]
+
+- name: Photagious
+  icon: cd-icon-photagious.png
+  dates: "Jan 2004 – Nov 2007"
+  desc: "Started long before smartphones and when Flickr was just beginning, ahead of its time with video support, drag-and-drop UI, and MySQL used as a no-SQL store. The first photo service to integrate with Blogger."
+  link: "https://github.com/jmathai/photos"
+  link_label: "github.com/jmathai/photos"
+  with: "with Jon"
+  avatars: [jaisen.jpg, jonathan.jpg]

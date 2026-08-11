@@ -1,0 +1,108 @@
+---
+layout: nocturne
+wrap_class: ""
+---
+<div class="wrap">
+
+  <header class="hero" id="top">
+    <div style="min-width:0">
+      <div class="eyebrow-row">
+        <span class="eyebrow-line"></span>
+        <span class="eyebrow">Christian &amp; Entrepreneur</span>
+      </div>
+      <h1>Hello.</h1>
+      <p class="lead">I&rsquo;m a Christian and an entrepreneur. For about thirty years I&rsquo;ve built software with people I care about, launched a handful of start-ups, <a href="https://github.com/{{ site.owner.github }}" target="_blank" rel="noopener">open sourced a lot of software</a>, and spent 7 years at Google. Lately I&rsquo;ve been trying not to be the greedy farmer from <button type="button" class="peek-trigger" data-peek-open>Luke 12:13&ndash;21</button>, and learning to be more generous.</p>
+    </div>
+    <div class="hero-photo">
+      <img src="{{ site.url }}/assets/home/img/jaisen.jpg" alt="{{ site.owner.name }}" onerror="this.onerror=null;this.src='{{ site.url }}/images/{{ site.owner.avatar }}'">
+    </div>
+  </header>
+
+  <section class="focus" aria-labelledby="focus-h">
+    <div class="focus-inner">
+      <div class="eyebrow-row">
+        <span class="eyebrow-line"></span>
+        <span class="eyebrow">What I&rsquo;m focused on now</span>
+      </div>
+      <h2 id="focus-h">Learning to be more generous</h2>
+      <p>Exploring ways to give more, and to help others do the same, through community, consulting, and a little software.</p>
+      <div class="roles">
+        <div class="role"><b>Generosity Board Member</b><span> &middot; Vineyard Christian Church</span></div>
+        <div class="role"><b>Board Member</b><span> &middot; Christhia Seva Mission</span></div>
+        <div class="role"><b>Nonprofit Technical Advisor</b><span> &middot; Consult Bridge</span></div>
+        <div class="role"><b>Faith-based Software</b><span> &middot; <a href="https://trysojourn.app" target="_blank" rel="noopener">Sojourn, a new way to explore scripture</a></span></div>
+      </div>
+      <div class="more">
+        <a href="{{ '/generosity/' | relative_url }}">Writing on generosity &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-work" id="work">
+    <div class="eyebrow-row" style="align-items:baseline">
+      <span class="eyebrow-line" style="transform:translateY(-4px)"></span>
+      <span class="eyebrow">Selected work</span>
+    </div>
+    <p class="lead">Three decades of start-ups, open source, and product work.</p>
+
+    <div class="tl-list">
+      {% for p in site.data.projects %}
+      <article class="tl-item">
+        <div class="tl-date">{{ p.dates }}</div>
+        <div class="tl-body">
+          <div class="tl-icon">
+            {% if p.icon %}<img src="{{ site.url }}/assets/home/img/{{ p.icon }}" alt="">
+            {% else %}<span style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:{{ p.mono_bg | default: 'var(--color-neutral-600)' }};color:#fff;font-family:var(--font-heading);font-weight:500;font-size:22px;line-height:1;padding-top:1px">{{ p.mono }}</span>{% endif %}
+          </div>
+          <h3>
+            <span>{{ p.name }}</span>
+            {% if p.badge %}<span class="tl-badge">{{ p.badge }}</span>{% endif %}
+          </h3>
+          <p>{{ p.desc }}</p>
+          {% if p.link %}<a class="proj-link" href="{{ p.link }}" target="_blank" rel="noopener">{{ p.link_label }} &rarr;</a>{% endif %}
+          {% if p.with %}
+          <div class="tl-team">
+            {% if p.avatars %}<div class="avatars">{% for a in p.avatars %}<img src="{{ site.url }}/assets/home/img/{{ a }}" alt="">{% endfor %}</div>{% endif %}
+            <span class="with">{{ p.with }}</span>
+          </div>
+          {% endif %}
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+
+</div>
+
+<!-- Luke 12 bottom-sheet peek -->
+<div class="peek-backdrop" data-peek-backdrop aria-hidden="true"></div>
+<aside class="peek" data-peek role="dialog" aria-modal="true" aria-label="Luke 12:13 to 21">
+  <div class="peek-head">
+    <div class="peek-grip"></div>
+    <div class="row">
+      <div>
+        <div class="peek-kicker">The parable of the rich fool</div>
+        <h2>Luke 12:13&ndash;21</h2>
+      </div>
+      <button class="peek-close" data-peek-close aria-label="Close">&times;</button>
+    </div>
+  </div>
+  <div class="peek-body">
+    <p>
+      <span class="vn">13</span>One of the multitude said to him, &ldquo;Teacher, tell my brother to divide the inheritance with me.&rdquo;
+      <span class="vn">14</span>But he said to him, &ldquo;Man, who made me a judge or an arbitrator over you?&rdquo;
+      <span class="vn">15</span>He said to them, &ldquo;Beware! Keep yourselves from covetousness, for a man&rsquo;s life doesn&rsquo;t consist of the abundance of the things which he possesses.&rdquo;
+      <span class="vn">16</span>He spoke a parable to them, saying, &ldquo;The ground of a certain rich man produced abundantly.
+      <span class="vn">17</span>He reasoned within himself, saying, &lsquo;What will I do, because I don&rsquo;t have room to store my crops?&rsquo;
+      <span class="vn">18</span>He said, &lsquo;This is what I will do. I will pull down my barns, build bigger ones, and there I will store all my grain and my goods.
+      <span class="vn">19</span>I will tell my soul, &ldquo;Soul, you have many goods laid up for many years. Take your ease, eat, drink, and be merry.&rdquo;&rsquo;
+      <span class="vn">20</span>&ldquo;But God said to him, &lsquo;You foolish one, tonight your soul is required of you. The things which you have prepared&mdash;whose will they be?&rsquo;
+      <span class="vn">21</span>So is he who lays up treasure for himself, and is not rich toward God.&rdquo;
+    </p>
+  </div>
+  <div class="peek-foot">
+    <span>World English Bible &middot; public domain</span>
+    <a href="https://trysojourn.app/topics/generosity/" target="_blank" rel="noopener">Read about Generosity on Sojourn &rarr;</a>
+  </div>
+</aside>
+<script src="{{ '/assets/js/nocturne-peek.js' | relative_url }}"></script>
