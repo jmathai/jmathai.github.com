@@ -33,6 +33,7 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','{{ site.google_analytics }}');</script>
   {% endif %}
+  <script defer async data-host="jaisenmathai.com" src="https://liteanalytics.com/lite.js"></script>
 </head>
 <body>
 {% if page.layout == 'post' %}{% assign fwrap = ' wrap--article' %}{% elsif page.layout == 'archive' %}{% assign fwrap = ' wrap--narrow' %}{% else %}{% assign fwrap = '' %}{% endif %}
