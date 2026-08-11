@@ -28,7 +28,7 @@
   <link rel="canonical" href="{{ site.url }}{{ page.url | remove:'index.html' }}">
   <link href="{{ site.url }}/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
   <link rel="shortcut icon" href="{{ '/favicon.png' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/nocturne.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/nocturne.css' | relative_url }}?v={% if site.github.build_revision %}{{ site.github.build_revision }}{% else %}{{ site.time | date: '%s' }}{% endif %}">
   {% if site.google_analytics %}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','{{ site.google_analytics }}');</script>
