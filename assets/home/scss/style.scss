@@ -1,0 +1,907 @@
+@import 'bourbon/bourbon'; // http://bourbon.io/
+
+@import '../partials/variables'; // colors, fonts etc...
+
+@import '../partials/mixins'; // custom mixins
+
+@import '../partials/layout'; // responsive grid and media queries
+
+/* -------------------------------- 
+
+Primary style
+
+-------------------------------- */
+
+html * {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+*, *:after, *:before {
+	@include box-sizing(border-box);
+}
+
+body {
+	font: {
+		size: 100%;
+		family: $primary-font; // variables inside partials > _variables.scss
+	}
+	color: $main-text;
+	background-color: $background;
+}
+
+a {
+	color: $link;
+	text-decoration: none;
+	font-family: $secondary-font;
+}
+
+img {
+	max-width: 100%;
+}
+
+h1, h2 {
+	font-family: $secondary-font;
+	font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+.hidden {
+  display: none;
+}
+
+/* -------------------------------- 
+
+Modules - reusable parts of our design
+
+-------------------------------- */
+
+.cd-container { /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
+	width: 90%;
+	max-width: $L; // breakpoints inside partials > _layout.scss
+	margin: 0 auto;
+
+	&::after { /* clearfix */
+		content: '';
+		display: table;
+		clear: both;
+	}
+}
+
+/* -------------------------------- 
+
+Main components 
+
+-------------------------------- */
+
+header {
+	height: 152px !important;
+  padding: 10px;
+  transition: background-image 1.5s ease-in-out;
+  background-color: rbg(127, 140, 151);
+  background-size: 100%;
+  background-position: 0% 0%;
+  background-image: url("../img/header-small.gif");
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+  &.blur {
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+  }
+  &.crisp {
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+    filter: blur(0px);
+    background-image: url("../img/header-medium.jpg");
+  }
+
+	h1 {
+		color: $color-3;
+		@include font-size(12px);
+    line-height: 1.2em;
+    width: 200px;
+
+    text-shadow: 0px 2px 3px rgba(255,255,255,0.5);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+
+    small {
+      display: block;
+      font-style: italic;
+      line-height: 1.2em;
+		  @include font-size(6px);
+      text-align: right;
+      margin-top: 3px;
+    }
+	}
+
+  @include MQ(M) {
+    height: 416px !important;
+    padding: 25px;
+    &.crisp{
+      background-image: url("../img/header-medium.jpg");
+    }
+
+    h1 {
+      @include font-size(18px);
+      width: 570px;
+
+      small {
+        @include font-size(14px);
+        margin-top: 10px;
+      }
+    }
+  }
+
+  @include MQ(L) {
+    height: 658px !important;
+    &.crisp {
+      background-image: url("../img/header-large.jpg");
+    }
+  }
+
+  @media only screen and (min-width: 640px) and (max-width: 768px) {
+    height: 180px !important;
+    h1 {
+      width: 290px;
+    }
+  }
+
+  input, button {
+    text-align: center;
+    border: none;
+    opacity: .75;
+
+    @include font-size(30px);
+    border-radius: 10px;
+    padding: 5px 10px;
+
+    &[type="tel"] {
+      &::-webkit-input-placeholder {
+        @include font-size(12px);
+      }
+      &::-moz-placeholder {
+        @include font-size(12px);
+      }
+      &:-moz-placeholder {
+        @include font-size(12px);
+      }
+      &:-ms-input-placeholder {
+        @include font-size(12px);
+      }
+    }
+
+  	@include MQ(L) {
+      &[type="tel"] {
+        &::-webkit-input-placeholder {
+          @include font-size(15px);
+        }
+        &::-moz-placeholder {
+          @include font-size(15px);
+        }
+        &:-moz-placeholder {
+          @include font-size(15px);
+        }
+        &:-ms-input-placeholder {
+          @include font-size(15px);
+        }
+      }
+    }
+  }
+
+	@include MQ(L) {
+		height: 500px;
+		line-height: 500px;
+
+		h1 {
+			@include font-size(34px);
+		}
+
+    input, button {
+			@include font-size(44px);
+      border-radius: 10px;
+      padding: 5px 10px;
+    }
+	}
+}
+
+h1 {
+  &.subtitle {
+    @include font-size(16px);
+    text-align: center;
+    margin: 10px 0;
+    small {
+      display: block;
+      margin-top: 15px;
+      @include font-size(12px);
+    }
+	  @include MQ(L) {
+      @include font-size(30px);
+      small {
+        @include font-size(15px);
+      }
+    }
+  }
+}
+
+#cd-timeline {
+	position: relative;
+	padding: 2em 0;
+	margin: {
+		bottom: 2em;
+	}
+
+	&::before {
+		/* this is the vertical line */
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 18px;
+		height: 100%;
+		width: 4px;
+		background: darken($background, 5%);
+	}
+
+	@include MQ(L) {
+		margin: {
+			bottom: 3em;
+		}
+
+		&::before {
+			left: 50%;
+			margin-left: -2px;
+		}
+	}
+}
+
+.cd-timeline-block {
+	position: relative;
+	margin: 2em 0;
+	@include clearfix;
+
+	&:first-child {
+		margin-top: 0;
+	}
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+
+	@include MQ(L) {
+		margin: 4em 0;
+
+		&:first-child {
+			margin-top: 0;
+		}
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.cd-timeline-img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	box-shadow: 0 0 0 4px $color-3, inset 0 2px 0 rgba(#000, .0), 0 3px 0 4px rgba(#000, .0) ;
+
+	img {
+		display: block;
+		width: 20px;
+		height: 20px;
+		position: relative;
+		left: 50%;
+		top: 50%;
+		margin-left: -10px;
+		margin-top: -10px;
+
+    &.rounded-logo {
+      border-radius: 3px;
+    }
+
+    @include MQ(M) {
+      &.rounded-logo {
+        border-radius: 5px;
+      }
+    }
+	}
+
+  @include MQ(M) {
+    img {
+      width: 40px;
+      height: 40px;
+      margin-left: -20px;
+      margin-top: -20px;
+    }
+  }
+
+	&.cd-picture {
+		background: #dedede;
+
+    .elodie-logo {
+      display: block;
+      position: relative;
+      top: 50%;
+      left: 50%;
+      margin-top: -10px;
+      margin-left: -7px;
+      font-family: 'Georgia';
+      @include font-size(20px);
+      font-weight: 900;
+      color: #2086ac;
+    }
+
+    @include MQ(M) {
+      .elodie-logo {
+        margin-top: -14px;
+        margin-left: -10px;
+        @include font-size(30px);
+      }
+    }
+	}
+
+	&.cd-movie {
+		background: $color-2;
+	}
+
+	&.cd-location {
+		background: $color-5;
+	}
+
+	@include MQ(L) {
+		width: 60px;
+		height: 60px;
+		left: 50%;
+		margin-left: -30px;
+
+		/* Force Hardware Acceleration in WebKit */
+		-webkit-transform: translateZ(0);
+		-webkit-backface-visibility: hidden;
+
+		.cssanimations &.is-hidden {
+			visibility: hidden;
+		}
+
+		.cssanimations &.bounce-in {
+			visibility: visible;
+			@include animation(cd-bounce-1 .6s);
+		}
+	}
+}
+
+@include keyframes(cd-bounce-1) {
+	0% {
+		opacity: 0;
+		@include transform(scale(.5));
+	}
+
+	60% {
+		opacity: 1;
+		@include transform(scale(1.2));
+	}
+
+	100% {
+		@include transform(scale(1));
+	}
+}
+
+.cd-timeline-content {
+  @include font-size(24px);
+	position: relative;
+	margin-left: 60px;
+	background: $color-3;
+	@include border-radius;
+	padding: 1em;
+	//box-shadow: 0 3px 0 darken($background, 5%);
+	@include clearfix;
+
+	h2 {
+		color: $color-1;
+    a {
+      color: $color-1;
+      text-decoration: none;
+    }
+    small {
+      @include font-size(12px);
+      font-weight: normal;
+      font-style: italic;
+      padding-top: 3px;
+      color: #404040;
+      display: block;
+    }
+    img {
+      position: absolute;
+      margin-left: 5px;
+      width: 1em;
+      height: 1em;
+    }
+	}
+
+	p, .cd-read-more, .cd-date {
+		@include font-size(13px);
+	}
+
+	.cd-read-more, .cd-date {
+		display: inline-block;
+	}
+
+	p {
+		margin: 1em 0;
+		line-height: 1.6;
+		a {
+			color: #0d78a6;
+			text-decoration: underline;
+		}
+		&.site {
+			font-size: 11px;
+			a {
+				color: #0d78a6;
+				text-decoration: none;
+			}
+		}
+	}
+
+	.cd-read-more {
+		float: right;
+		padding: .8em 1em;
+		background: $link;
+		color: $color-3;
+		@include border-radius;
+
+		.no-touch &:hover {
+			background-color: lighten($link, 5%);
+		}
+	}
+
+	.cd-date {
+		float: left;
+		padding: .8em 0;
+		opacity: .7;
+	}
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: 16px;
+		right: 100%;
+		height: 0;
+		width: 0;
+		border: 7px solid transparent;
+		border-right: 7px solid $color-3;
+	}
+
+	@include MQ(M) {
+		h2 {
+			@include font-size(20px);
+		}
+
+		p {
+			@include font-size(16px);
+		}
+
+		.cd-read-more, .cd-date {
+			@include font-size(14px);
+		}
+	}
+
+	@include MQ(L) {
+		margin-left: 0;
+		padding: 1.6em;
+		width: 45%;
+
+		&::before {
+			top: 24px;
+			left: 100%;
+			border-color: transparent;
+			border-left-color: $color-3;
+		}
+
+		.cd-read-more {
+			float: left;
+		}
+
+		.cd-date {
+			position: absolute;
+			width: 100%;
+			left: 122%;
+			top: 6px;
+			@include font-size(16px);
+		}
+
+		.cd-timeline-block:nth-child(even) & {
+			float: right;
+
+			&::before {
+				top: 24px;
+				left: auto;
+				right: 100%;
+				border-color: transparent;
+				border-right-color: $color-3;
+			}
+
+			.cd-read-more {
+				float: right;
+			}
+
+			.cd-date {
+				left: auto;
+				right: 122%;
+				text-align: right;
+			}
+		}
+
+		.cssanimations &.is-hidden {
+			visibility: hidden;
+		}
+
+		.cssanimations &.bounce-in {
+			visibility: visible;
+			@include animation(cd-bounce-2 .6s);
+		}
+	}
+}
+
+@include MQ(L) {
+	/* inverse bounce effect on even content blocks */
+	.cssanimations .cd-timeline-block:nth-child(even) .cd-timeline-content.bounce-in {
+		@include animation(cd-bounce-2-inverse .6s);
+	}
+}
+
+@include keyframes(cd-bounce-2) {
+	0% {
+		opacity: 0;
+		@include transform(translateX(-100px));
+	}
+
+	60% {
+		opacity: 1;
+		@include transform(translateX(20px));
+	}
+
+	100% {
+		@include transform(translateX(0));
+	}
+}
+
+@include keyframes(cd-bounce-2-inverse) {
+	0% {
+		opacity: 0;
+		@include transform(translateX(100px));
+	}
+
+	60% {
+		opacity: 1;
+		@include transform(translateX(-20px));
+	}
+
+	100% {
+		@include transform(translateX(0));
+	}
+}
+
+/* -------------------------------- 
+
+Timeline components 
+
+-------------------------------- */
+.contributors {
+	position: absolute;
+	top: 23px;
+	right: 12px;
+	li {
+		display: inline-block;
+		img {
+			display: block;
+			width: 25px;
+			height: 25px;
+			border-radius: 50%;
+			border: 1px solid gray;
+		}
+	}
+  @include MQ(M) {
+    top: 12px;
+    li {
+      margin-right: 3px;
+      img {
+        width: 45px;
+        height: 45px;
+      }
+    }
+  }
+}
+
+.technologies {
+	padding: 0;
+	li {
+		display: inline-block;
+		margin-bottom: 18px;
+		.pill {
+			font-size: 12px;
+			color: white;
+			background-color: #000;
+			padding: 5px 11px;
+			@include border-top-radius(15px);
+			@include border-bottom-radius(15px);
+		}
+
+		.python {
+			background-color: #2b5b84;
+		}
+
+		.nodejs {
+			background-color: #026e00;
+		}
+
+		.aws {
+			background-color: #f8991d;
+		}
+
+		.sass {
+			background-color: #c6538c;
+		}
+
+		.less, .css {
+			background-color: #1d365d;
+		}
+
+		.bootstrap {
+			background-color: #6f5499;
+		}
+
+		.jquery {
+			background-color: #7acef4;
+		}
+
+		.github {
+			background-color: #333;
+		}
+
+		.html5, .html {
+			background-color: #e76a00;
+		}
+
+		.electron {
+			background-color: #a5ecfa;
+		}
+
+		.mapquest {
+			background-color: #0d78a6;
+		}
+
+		.php {
+			background-color: #8892bf;
+		}
+
+		.prototype {
+			background-color: #f66d5d;
+		}
+
+		.scriptaculous {
+			background-color: #9dc569;
+		}
+
+		.mysql {
+			background-color: #3e78a6;
+		}
+
+		.javascript {
+			background-color: #f2d50a;
+		}
+
+		.backbone {
+			background-color: #4162a8;
+		}
+
+		.gearman {
+			background-color: #404040;
+		}
+
+		.dropbox {
+			background-color: #2895f1;
+		}
+
+		.box {
+			background-color: #0471ba;
+		}
+
+		.flickr {
+			background-color: #128fdc;	
+		}
+
+		.usc {
+			background-color: #9a1c1d;
+		}
+
+		.stamps {
+			background-color: #2159a8;
+		}
+
+    .twitter {
+      background-color: #1da1f2;
+    }
+
+    .facebook {
+      background-color: #3a5795;
+    }
+
+    .twilio {
+      background-color: #F22F46;
+    }
+    
+    .ia {
+      background-color: #333;
+    }
+
+    .angular {
+      background-color: #6F0101;
+    }
+
+    .gulp {
+      background-color: #cf4646;
+    }
+
+    .npm {
+      background-color: #cb3837;
+    }
+
+    .vagrant {
+      background-color: #48b4fb;
+    }
+
+    .codeigniter {
+    	background-color: #bf3e11;
+    }
+
+    .gmaps {
+    	background-color: #4285f4;
+    }
+
+    .geolite {
+    	background-color: #233540;
+    }
+	}
+}
+/* -------------------------------- 
+
+About components 
+
+-------------------------------- */
+section {
+  &.cd-about {
+    @include font-size(18px);
+    line-height: 1.5;
+    letter-spacing: 0.005em;
+    width: 90%;
+    max-width: $M; // breakpoints inside partials > _layout.scss
+    margin: 0 auto;
+
+    &::after { /* clearfix */
+      content: '';
+      display: table;
+      clear: both;
+    }
+
+    p {
+      margin-bottom: 1.5em;
+    }
+
+  }
+  @include MQ(M) {
+    &.cd-about {
+      @include font-size(24px);
+      width: 60%;
+    }
+  }
+
+  &.profiles { 
+    ul {
+      &.profile {
+        margin: auto;
+        padding: 0;
+        width: 150px;
+        > li {
+          display: inline-block;
+          width: 150px;
+          padding: 0;
+          margin: 5px 0;
+          > p {
+            text-align: center;
+            @include font-size(22px);
+            padding: 10px 0 0;
+          }
+          img {
+            &.profile {
+              display: block;
+              margin: auto;
+              width: 150px;
+              height: 150px;
+              border-radius: 50%;
+            }
+          }
+        }
+
+        ul {
+          margin: 5px 0 5px 28px;
+          padding: 0;
+          &.links {
+            li {
+              display: inline-block;
+              margin: 10px 2px 20px;
+            }
+            i {
+              margin-right: 3px;
+            }
+            span {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+
+    @include MQ(M) {
+      ul {
+        &.profile {
+          width: 300px;
+          > li {
+            width: 300px;
+            img {
+              &.profile {
+                width: 200px;
+                height: 200px;
+              }
+            }
+            > p {
+              @include font-size(22px);
+              padding: 10px 0 0;
+            }
+          }
+
+          ul {
+            margin: 5px 0 5px;
+            &.links {
+              li {
+                display: block;
+                text-align: center;
+                /*margin: 10px 0 10px 70px;*/
+              }
+              span {
+                display: inline;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* ---------------------------------
+
+Fontello
+
+---------------------------------- */
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?29750463');
+  src: url('../font/fontello.eot?29750463#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff?29750463') format('woff'),
+       url('../font/fontello.ttf?29750463') format('truetype'),
+       url('../font/fontello.svg?29750463#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

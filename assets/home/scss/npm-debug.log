@@ -1,0 +1,29 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/jaisenmathai/.nvm/v0.10.39/bin/node',
+1 verbose cli   '/Users/jaisenmathai/.nvm/v0.10.39/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'fe' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.39
+4 verbose run-script [ 'prefe', 'fe', 'postfe' ]
+5 info prefe jmkh@1.0.0
+6 info fe jmkh@1.0.0
+7 verbose unsafe-perm in lifecycle true
+8 info jmkh@1.0.0 Failed to exec fe script
+9 error jmkh@1.0.0 fe: `cat style.scss | ./node_modules/node-sass/bin/node-sass > ../css/style.css`
+9 error Exit status 1
+10 error Failed at the jmkh@1.0.0 fe script.
+10 error This is most likely a problem with the jmkh package,
+10 error not with npm itself.
+10 error Tell the author that this fails on your system:
+10 error     cat style.scss | ./node_modules/node-sass/bin/node-sass > ../css/style.css
+10 error You can get their info via:
+10 error     npm owner ls jmkh
+10 error There is likely additional logging output above.
+11 error System Darwin 15.4.0
+12 error command "/Users/jaisenmathai/.nvm/v0.10.39/bin/node" "/Users/jaisenmathai/.nvm/v0.10.39/bin/npm" "run" "fe"
+13 error cwd /Users/jaisenmathai/Downloads/Chrome/jmkh/scss
+14 error node -v v0.10.39
+15 error npm -v 1.4.28
+16 error code ELIFECYCLE
+17 verbose exit [ 1, true ]
