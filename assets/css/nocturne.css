@@ -50,7 +50,7 @@ a:hover { color: var(--color-accent-800); }
 
 /* Nav */
 .site-nav { position: sticky; top: 0; z-index: 20; background: color-mix(in srgb, var(--color-bg) 82%, transparent); backdrop-filter: blur(10px); border-bottom: 1px solid var(--color-divider); }
-.nav-inner { padding: 16px clamp(20px,5vw,64px); display: flex; align-items: center; gap: 20px; }
+.nav-inner { max-width: 1080px; margin: 0 auto; padding: 16px clamp(20px,5vw,64px); display: flex; align-items: center; gap: 20px; }
 .site-nav a { font-size: 14px; color: var(--color-neutral-600); }
 .site-nav a.current { color: var(--color-accent); }
 
