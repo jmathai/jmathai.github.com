@@ -4,8 +4,7 @@
 # with / avatars: collaborator label + optional avatar filenames under /assets/home/img/
 
 - name: Sojourn
-  mono: "S"
-  mono_bg: "#A32E22"
+  icon: cd-icon-sojourn.png
   dates: "Jul 2026 – Present"
   desc: "An experiment in using AI for good. Sojourn is a new way to explore scripture, designed so you spend more time in scripture and less time chatting with machines."
   link: "https://trysojourn.app"

@@ -13,3 +13,5 @@ group :test do
 end
 
 gem "webrick", "~> 1.7"
+gem "ffi", "< 1.17"
+gem "jekyll-sass-converter", "< 3"

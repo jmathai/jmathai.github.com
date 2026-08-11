@@ -82,6 +82,7 @@ a:hover { color: var(--color-accent-800); }
 .focus h2 { font-family: var(--font-heading); font-weight: 500; font-size: clamp(24px,3vw,32px); line-height: 1.2; margin: 0 0 14px; color: #f3f5fe; }
 .focus > .focus-inner > p { font-size: 17px; line-height: 1.65; max-width: 58ch; margin: 0 0 22px; color: color-mix(in srgb, #eef0fb 90%, transparent); }
 .roles { display: flex; flex-direction: column; gap: 12px; margin-bottom: 22px; }
+.roles .role { font-size: 16px; line-height: 1.5; }
 .roles .role b { font-weight: 600; color: #f3f5fe; }
 .roles .role span { color: color-mix(in srgb, #eef0fb 65%, transparent); }
 .roles .role a { color: inherit; text-decoration: underline; }
@@ -121,7 +122,7 @@ a:hover { color: var(--color-accent-800); }
 .yr-list { border-left: 1px solid var(--color-divider); padding: 0 0 8px; }
 .yr-list a { display: grid; grid-template-columns: 1fr auto; gap: 12px 20px; align-items: baseline; padding: 16px 8px 16px 28px; border-bottom: 1px solid var(--color-divider); color: var(--color-text); }
 .yr-list a:hover { background: color-mix(in srgb, var(--color-accent-200) 60%, transparent); color: var(--color-accent-800); }
-.yr-list .t { font-family: var(--font-heading); font-weight: 500; font-size: 17px; }
+.yr-list .t { font-family: var(--font-heading); font-weight: 500; font-size: 17px; line-height: 1.4; letter-spacing: 0.01em; }
 .yr-list .d { font-size: 13px; color: var(--color-neutral-600); font-feature-settings: 'tnum' 1; white-space: nowrap; }
 
 /* Post / article */
@@ -181,14 +182,17 @@ a:hover { color: var(--color-accent-800); }
 
 @media (max-width: 760px) {
   .hero { grid-template-columns: 1fr; gap: 28px; }
-  .hero-photo { width: 128px; }
+  .hero-photo { display: none; }
 }
 @media (max-width: 640px) {
-  .tl-item { grid-template-columns: 1fr; }
-  .tl-date { justify-content: flex-start; text-align: left; padding: 0 0 4px 44px; min-height: 0; }
+  .tl-item { grid-template-columns: 1fr; position: relative; }
+  .tl-date { position: absolute; top: 0; right: 0; left: auto; height: 44px; padding: 0; justify-content: flex-end; text-align: right; }
+  .tl-body { margin-left: 22px; padding-right: 8px; }
+  .tl-body h3 { padding-right: 120px; }
 }
 @media (max-width: 600px) {
   .yr-row { grid-template-columns: 1fr; }
   .yr-label { position: static; margin-bottom: 8px; }
+  .yr-list a { grid-template-columns: 1fr; gap: 4px; align-items: start; }
 }
 @media (max-width: 520px) { .nav-inner { gap: 14px; } }
