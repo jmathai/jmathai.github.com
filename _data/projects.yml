@@ -10,6 +10,13 @@
   link: "https://trysojourn.app"
   link_label: "trysojourn.app"
 
+- name: Luke 12:13
+  icon: cd-icon-luke1213.png
+  dates: "June 2025 – Present"
+  desc: 'Exploring ways to systematize radical generosity. I&rsquo;ve written about how God&rsquo;s leading me towards <a href="/generosity/">generosity</a>.'
+  with: "with Rachel"
+  avatars: [jaisen.jpg, rachel.jpg]
+
 - name: Preppy
   icon: cd-icon-preppy.png
   dates: "Jan 2025 – Present"
