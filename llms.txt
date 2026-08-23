@@ -1,0 +1,24 @@
+---
+layout: none
+permalink: /llms.txt
+sitemap: false
+---
+# Jaisen Mathai
+
+> Personal site of Jaisen Mathai — entrepreneur and software engineer writing about faith, generosity, and building software. Previously led product at Google and founded multiple startups (including OpenPhoto/Trovebox). Author of Elodie, an open-source photo management tool.
+
+## About
+- [About this site]({{ site.url }}/about/)
+- [Generosity]({{ site.url }}/generosity/): Systematizing radical generosity, inspired by Luke 12:13-21.
+- [Startup journey (OpenPhoto/Trovebox)]({{ site.url }}/openphoto-trovebox/)
+- [Download Elodie]({{ site.url }}/download-elodie/): Open-source photo management.
+
+## Articles
+{% for post in site.posts %}- [{{ post.title }}]({{ site.url }}{{ post.url }}){% if post.description %}: {{ post.description }}{% endif %} ({{ post.date | date: "%Y-%m-%d" }})
+{% endfor %}
+
+## Links
+- GitHub: https://github.com/jmathai
+- Twitter/X: https://x.com/jmathai
+- LinkedIn: https://www.linkedin.com/in/jaisenmathai
+- RSS/Atom feed: {{ site.url }}/feed.xml

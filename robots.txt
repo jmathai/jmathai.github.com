@@ -1,0 +1,7 @@
+# jaisenmathai.com
+# Search engines and AI answer engines are welcome to crawl and cite this site.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://jaisenmathai.com/sitemap.xml

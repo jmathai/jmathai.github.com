@@ -1,13 +1,12 @@
 title:            Jaisen Mathai
-description:      
+description:      "Jaisen Mathai — entrepreneur and software engineer writing about faith, generosity, and building software. Previously led product at Google and founded multiple startups."
 logo:             bio-photo-2.jpg
 #disqus_shortname: jaisenmathai
 search:           true
 # Change url to your domain. Leave localhost server or blank when working locally.
 # You don't need to specify the protocol if you want it available on http and https. Example: //localhost:4000
 #url:              //localhost:4000
-#url:              //jaisenmathai.com
-url: 
+url:              https://jaisenmathai.com
 
 # Owner/author information
 owner:
