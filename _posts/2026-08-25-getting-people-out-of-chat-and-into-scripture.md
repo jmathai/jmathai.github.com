@@ -5,7 +5,7 @@ description: "Sojourn's goal is to get you out of the chat and into scripture. A
 category: faith-and-ai
 logo:  skip
 tags: [sojourn,ai]
-image:
+Images:
   feature: main-iron-sharpens-iron.jpg
 comments: false
 share: true
@@ -17,9 +17,30 @@ I wanted to explore how AI could help deepen my faith. I enjoyed using Claude to
 
 *Let’s set aside the fact that LLMs hallucinate scripture, Sojourn solves that but it’s for another post.*
 
-I used [a few weeks of latent time](/articles/latent-product-development/) to think about what was missing in my experience with Claude. I wanted a very lightweight way to peek into scripture with similar lightweight ways to fully immerse myself in it. I also wanted a way to work back to earlier context.
+I used [a few weeks of latent time](/articles/latent-product-development/) to think about what was missing in my experience with Claude. I wanted a very lightweight way to peek into scripture with similar lightweight ways to fully immerse myself in it. I also wanted a way to work back to earlier context. I sketched out how that would look and it turned out that I loved the experience - *(see [Sojourn - Bible Study](https://trysojourn.app))*. Here’s how it looks.
 
-I sketched out how that would look and it turned out that I loved the experience - *(see [Sojourn - Bible Study](https://trysojourn.app))*. So I thought that others may also. I published the app to TestFlight and shared it with people I knew. Turns out that they liked it also.
+<figure class="shots">
+	<div class="shots-row shots-row--4">
+		<figure>
+			<img src="/images/photos/2026-08-25-sojourn-envy-chat-response.png" alt="TODO: describe this screenshot">
+			<figcaption>1. Citations are exact, tappable</figcaption>
+		</figure>
+		<figure>
+          	<img src="/images/photos/2026-08-25-sojourn-envy-verse-card.png" alt="TODO: describe this screenshot">
+			<figcaption>2. The full verse, one tap away</figcaption>
+		</figure>
+		<figure>
+			<img src="/images/photos/2026-08-25-sojourn-envy-chapter-view.png" alt="TODO: describe this screenshot">
+			<figcaption>3. Read the full chapter</figcaption>
+		</figure>
+		<figure>
+			<img src="/images/photos/2026-08-25-sojourn-envy-chapter-highlight.png" alt="TODO: describe this screenshot">
+			<figcaption>4. Access the surrounding chapters</figcaption>
+		</figure>
+	</div>
+</figure>
+
+I thought that others may appreciate exploring scripture this way. I published the app to TestFlight and shared it with people I knew. Turns out that they did like it!
 
 <figure class="shots">
 	<div class="shots-row">
@@ -30,7 +51,7 @@ I sketched out how that would look and it turned out that I loved the experience
 	<figcaption>Notes from early TestFlight users.</figcaption>
 </figure>
 
-The feedback motivated me to publish it on the App Store to the world for free. Would strangers find it as useful as friends? Turns out, yes!
+The feedback motivated me to publish it on the App Store to the world for free. Would strangers find it as useful as friends? Turns out, yes. They also liked it!
 
 Devotional time is deeply personal and [Sojourn’s privacy policy](https://trysojourn.app/privacy/) reflects that. The app doesn’t ask for any information before you can use it and chats are never saved.
 
