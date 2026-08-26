@@ -4,7 +4,7 @@ title: "Giving In To Generosity"
 description: "Internalizing what the Bible says about sacrificial generosity."
 category: generosity
 logo:  skip
-tags: []
+tags: [generosity]
 image:
   feature: main-van-ferrari.jpg
 comments: false

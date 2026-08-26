@@ -6,6 +6,7 @@ nav_section: writing
 {% assign cat = page.category %}
 {% if cat == 'generosity' %}{% assign eyebrow = 'Generosity' %}
 {% elsif cat == 'openphoto-trovebox' %}{% assign eyebrow = 'Startup Journey' %}
+{% elsif cat == 'faith-and-ai' %}{% assign eyebrow = 'Faith and AI' %}
 {% elsif cat and cat != '' %}{% assign eyebrow = cat | replace: '-', ' ' | capitalize %}
 {% else %}{% assign eyebrow = 'Writing' %}{% endif %}
 {% assign words = content | strip_html | number_of_words %}
