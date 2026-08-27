@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My AI App Measures Success When People Stop Chatting With It"
+title: "Getting People Out Of Chat And Into Scripture"
 description: "Sojourn's goal is to get you out of the chat and into scripture. AI should point you to something better than itself."
 category: faith-and-ai
 logo:  skip
