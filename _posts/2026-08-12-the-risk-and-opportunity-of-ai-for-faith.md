@@ -31,7 +31,7 @@ Then the printing press made scripture reproducible at scale. The internet made 
 
 AI isn’t held accountable by the truth. Whatever it tells you, it says it with confidence. Even when it performs verifiable tasks incorrectly. Like misquoting scripture; which the YouVersion CEO claims it can do 15-60% of the time. We trust the response without understanding how it was formed. It’s simply too large of a responsibility to hand companies like Google, OpenAI or Anthropic.
 
-And the risk isn’t new or hypothetical; there’s research backing it up. John Dyer’s research on using Bible apps found that people reading scripture on a screen report more confusion and less spiritual nourishment than those who read it in print. He argues in his book, *[People of the Screen](https://www.thegospelcoalition.org/reviews/people-screen-dyer/)*, that the net effect of screens is efficiency over contemplation. Extend that research to the same medium with a chat interface and you can envision the direction it goes.
+And the risk isn’t new or hypothetical; there’s research backing it up. John Dyer surveyed Bible app users for his book, *[People of the Screen](https://global.oup.com/academic/product/people-of-the-screen-9780197636350)*, and found that 30% of screen readers came away confused, compared to 16% of print readers, and fewer of them felt spiritually nourished. That’s Bible apps without AI. Extend that research to a chat interface and you can envision the direction it goes.
 
 **Where it goes right**
 
