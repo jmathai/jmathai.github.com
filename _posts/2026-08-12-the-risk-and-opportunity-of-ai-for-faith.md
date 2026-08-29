@@ -35,11 +35,11 @@ And the risk isn’t new or hypothetical; there’s research backing it up. John
 
 **Where it goes right**
 
-In the same breath, AI can be immensely powerful. It makes scripture accessible across languages and reading levels in ways study Bibles and apps cannot. I’ve personally asked AI questions I would only ask 1 or 2 people I trust - but at 1am when no one was awake. I’ve also asked it some questions I’m not courageous to ask anyone.
+In the same breath, AI can be immensely powerful. It makes scripture accessible across languages and reading levels in ways study Bibles and apps cannot. I’ve personally asked AI questions I would only ask 1 or 2 people I trust - but at 1am when no one was awake. I’ve also asked it some questions I’m not courageous enough to ask anyone.
 
-I’m exploring this topic with optimism. Can AI deepen faith? Can it direct people away from itself? Can it be made free to use? I’m finding the answers to be *yes* and that has me excited. As Christ followers, we are called to spread the good news. We need to take the reins before the Google’s of the world doing it inadvertently.
+I’m exploring this topic with optimism. Can AI deepen faith? Can it direct people away from itself? Can it be made free to use? I’m finding the answers to be *yes* and that has me excited. As Christ followers, we are called to spread the good news. We need to take the reins before the Googles of the world doing it inadvertently.
 
-For those curious - my current exploration is through and app I created named [Sojourn](https://trysojourn.app). I think it’s doing a good job of [getting people out of chat and into scripture](/faith-and-ai/getting-people-out-of-chat-and-into-scripture/). If you’re exploring, I’d love to chat. 
+For those curious - my current exploration is through an app I created named [Sojourn](https://trysojourn.app). I think it’s doing a good job of [getting people out of chat and into scripture](/faith-and-ai/getting-people-out-of-chat-and-into-scripture/). If you’re exploring, I’d love to chat. 
 
 <div class="peek-backdrop" data-peek-backdrop aria-hidden="true"></div>
 
