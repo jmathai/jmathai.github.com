@@ -64,6 +64,18 @@ share: true
 ---
 ```
 
+### Social share (OG) image
+
+Every post needs an `og:image`. If `image.feature` is set, that photo is used as-is —
+nothing else to do. If not, the post gets a generated 1200x630 card (site colors/type,
+eyebrow + title) at `images/og/<slug>.png`. Generate or refresh it with the `og-images`
+skill (`.claude/skills/og-images/`) whenever you publish a post without `image.feature`,
+or whenever such a post's title changes:
+
+```bash
+.claude/skills/og-images/.venv/bin/python .claude/skills/og-images/generate_og.py <slug>
+```
+
 `post.html` unconditionally renders `<p class="disclaimer">This post was not written with or by AI.</p>` on every post — a deliberate site-wide claim, not a bug. Be aware of it if a post's subject matter concerns AI.
 
 ### Images in post body

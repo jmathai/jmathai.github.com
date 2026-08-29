@@ -7,3 +7,5 @@ node_modules
 Gemfile.lock
 .bundle
 vendor
+.claude/settings.local.json
+.claude/skills/og-images/.venv/

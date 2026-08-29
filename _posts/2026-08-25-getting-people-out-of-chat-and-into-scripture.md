@@ -5,8 +5,6 @@ description: "Sojourn's goal is to get you out of the chat and into scripture. A
 category: faith-and-ai
 logo:  skip
 tags: [sojourn,ai]
-Images:
-  feature: main-iron-sharpens-iron.jpg
 comments: false
 share: true
 ---

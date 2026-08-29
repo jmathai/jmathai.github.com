@@ -8,7 +8,7 @@
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
 
-  {% capture og_image %}{% if page.image.feature %}{{ site.url }}/images/{{ page.image.feature }}{% else %}{{ site.url }}/images/{{ site.logo }}{% endif %}{% endcapture %}
+  {% capture og_image %}{% if page.image.feature %}{{ site.url }}/images/{{ page.image.feature }}{% elsif page.layout == 'post' %}{{ site.url }}/images/og/{{ page.slug }}.png{% else %}{{ site.url }}/images/{{ site.logo }}{% endif %}{% endcapture %}
   <!-- Open Graph -->
   <meta property="og:locale" content="en_US">
   <meta property="og:type" content="article">
@@ -18,7 +18,7 @@
   <meta property="og:site_name" content="{{ site.title }}">
   <meta property="og:image" content="{{ og_image }}">
   {% if site.owner.twitter %}
-  <meta name="twitter:card" content="{% if page.image.feature %}summary_large_image{% else %}summary{% endif %}">
+  <meta name="twitter:card" content="{% if page.image.feature or page.layout == 'post' %}summary_large_image{% else %}summary{% endif %}">
   <meta name="twitter:site" content="@{{ site.owner.twitter }}">
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
