@@ -21,7 +21,7 @@ AI is the first widely adopted technology which doesn’t have that in common.
 
 The Googles and Facebooks of the world make more money the longer you stay on their platform. This is because they can show you more ads. If you spend 20 minutes on Facebook instead of 10, they make twice as much money because they can show you double the number of ads.
 
-**Does BigTech really want to be a mediator?**
+**Does Big Tech really want to be a mediator?**
 
 Set aside the financial motivation. You only have to look at how Google Search has evolved.
 
