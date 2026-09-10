@@ -76,6 +76,27 @@ or whenever such a post's title changes:
 .claude/skills/og-images/.venv/bin/python .claude/skills/og-images/generate_og.py <slug>
 ```
 
+The archive pages (`/articles/`, `/faith-and-ai/`, `/generosity/`, `/openphoto-trovebox/`)
+have their own cards at `images/og/collections/<slug>.png`, carrying the page's
+`eyebrow`, `headline`, and `description`. Nothing on them is derived from the posts a
+collection contains, so **publishing a post does not make them stale**. Regenerate only
+when an archive page's own frontmatter changes, or when a new `layout: archive` page is
+added — `--collections` discovers pages automatically:
+
+```bash
+.claude/skills/og-images/.venv/bin/python .claude/skills/og-images/generate_og.py --collections
+```
+
+Recompress any card you generate, per Image optimization below:
+
+```bash
+oxipng -o max --strip safe -a -q images/og/<slug>.png
+```
+
+Avoid `--all` for routine work. It rewrites every existing post card, and since the
+committed ones are already oxipng-compressed, the rewrite is pixel-identical but
+byte-different — which dirties files you didn't touch.
+
 `post.html` unconditionally renders `<p class="disclaimer">This post was not written with or by AI.</p>` on every post — a deliberate site-wide claim, not a bug. Be aware of it if a post's subject matter concerns AI.
 
 ### Images in post body
