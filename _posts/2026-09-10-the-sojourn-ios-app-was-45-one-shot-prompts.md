@@ -58,7 +58,7 @@ A feature I really enjoy is the *home screen widget*. It was 2,466 lines of code
 	<figcaption>The home screen widget - one issue, one prompt, one PR.</figcaption>
 </figure>
 
-Another feature I’m testing out is *emailing yourself a conversation*. It was 2,412 lines of code across 21 files, and it spans the client, the backend, and a delivery provider. Also one issue.
+Another feature I’m testing out is *emailing yourself a conversation*. It was 2,412 lines of code across 21 files, and it spans the client, the backend, and an email delivery provider. Also one issue.
 
 <figure>
 	<img src="/images/photos/2026-09-10-sojourn-email-conversation.png" alt="The bottom of a Sojourn conversation showing an Email this to me action above the message input">
