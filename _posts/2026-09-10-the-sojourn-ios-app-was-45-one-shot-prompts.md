@@ -39,12 +39,16 @@ Every feature is stored as a GitHub issue. Once I feel the feature is adequately
 ### <code>/gh-issue</code>
 Implementing a feature is as simple as me using the <code>/gh-issue</code> skill and passing the *issue number* to it. I generally get up and leave the room at this point. The skill does all sorts of cool things like looking up other issues or pull requests if they’re mentioned. Sometimes I’ll have two unimplemented features each with their own GitHub issue and I make sure they reference each other. This way, when implementing the first it knows to look up the second and proceed accordingly.
 
+Once finished, it automatically creates a pull request.
+
 I often kick this off before going to bed and wake up to a new feature in my app.
 
 ### Publishing and deploying
 I still do this by hand. But it’s still fully automated through scripts like <code>run.sh</code> which runs the app in the simulator, <code>deploy-to-device.sh</code> which installs it directly on my iPhone, and <code>release.sh</code> which publishes it App Store Connect to be published.
 
 Nothing is one-off or done by hand. If I have to do it once, it gets automated into a skill or script. I recently switched laptops and getting up and running was quite smooth once I transferred App Store Connect keys.
+
+For other projects, I have a <code>/gh-pr</code> skill which merges the pull request and deploys it. Works great for web apps but I don’t want every feature to be published to Test Flight or the App Store - so I batch them as I see fit.
 
 ### Some examples
 A feature I really enjoy is the *home screen widget*. It was 2,466 lines of code across 27 files. This included a new WidgetKit extension, a shared app group, a verse pool, deep links back into the app, and the XcodeGen config to build it. One issue. One prompt. One PR.
