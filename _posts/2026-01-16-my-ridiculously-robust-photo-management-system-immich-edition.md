@@ -5,8 +5,6 @@ description: "How I added Immich to my already robust photo management system to
 category: articles
 logo:  skip
 tags: []
-image:
-  feature: main-photo-workflow-immich.png?1
 comments: false
 share: true
 ---
