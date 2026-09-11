@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Sojourn iOS App Was 45 One-Shot Prompts"
+title: "Sojourn for iOS Was 45 One-Shot Prompts"
 description: "Sojourn was built as 45 closed GitHub issues, each one a single cold-start prompt. Here's what that process is good at, and where it falls apart."
 logo:  skip
 tags: [sojourn,ai]
