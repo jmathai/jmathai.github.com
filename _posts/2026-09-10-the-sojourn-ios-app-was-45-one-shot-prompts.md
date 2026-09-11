@@ -12,7 +12,7 @@ share: true
 
 [Sojourn: Topical Bible Study](https://trysojourn.app) is an app I published without typing a single line of its code.
 
-That part isn't interesting anymore. Plenty of people are writing code with AI. What I think is interesting is the process. Since ChatGPT 3.5, I’ve been a little bit obsessed about LLMs writing code. Not assisting me writing code, doing it all for me. While the process has evolved **a lot**, I’m going to talk about where it’s at now and explain the process.
+That part isn't interesting anymore. Plenty of people are writing code with AI. What I think is interesting is the process. Since ChatGPT 3.5, I’ve been a little bit obsessed about LLMs writing code. Not assisting me writing code, doing it all for me. While the process has evolved **a lot**, I’m going to talk about where it’s at now and give an explaination.
 
 ### About the app
 The app is an iOS app written in Swift. It has a streaming chat interface which parses the incoming text in real time. This is done to eliminate hallucinations of scripture by replacing LLM generated citations with text from an app-bundled database. All scripture references are guaranteed to be correct and users can tap on them to explore surrounding verses and chapters. The UX of the app holds a high bar in terms of performance and usability.
@@ -71,4 +71,4 @@ So far I’ve created 49 GitHub issues and closed 45 of them in a matter of week
 Now that you know how the sausage is made, download [Sojourn: Topical Bible Study](https://apps.apple.com/us/app/trysojourn/id6792011966) and let me know what you think by clicking my email address in the footer.
 
 ### Caveats
-I happen to have an immense breadth of experience. I've been doing this professional for decades including launching several startups. That’s given me pretty deep expertise across design, development, infrastructure, marketing...you name it. It’s a unique advantage when paired with AI and one I’m grateful for.
+I happen to have an immense breadth of experience. I've been building things professionally for decades including launching several startups. That’s given me pretty deep expertise across design, development, infrastructure, marketing...you name it. It’s a unique advantage when paired with AI and one I’m grateful for.
