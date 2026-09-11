@@ -68,7 +68,7 @@ Excellent. The limiting factor is shepherding the user experience of the app. Ju
 
 So far I’ve created 49 GitHub issues and closed 45 of them in a matter of weeks. That’s 45 features implemented. The 4 open issues are features or bug fixes I haven’t felt are important enough to do yet.
 
-Now that you know how the sausage is made, download [Sojourn: Topical Bible Study](https://apps.apple.com/us/app/trysojourn/id6792011966) and let me know what you think.
+Now that you know how the sausage is made, download [Sojourn: Topical Bible Study](https://apps.apple.com/us/app/trysojourn/id6792011966) and let me know what you think by clicking my email address in the footer.
 
 ### Caveats
 I happen to have an immense breadth of experience. I've been doing this professional for decades including launching several startups. That’s given me pretty deep expertise across design, development, infrastructure, marketing...you name it. It’s a unique advantage when paired with AI and one I’m grateful for.
