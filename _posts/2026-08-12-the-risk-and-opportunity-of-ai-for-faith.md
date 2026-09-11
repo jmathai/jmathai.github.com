@@ -39,7 +39,7 @@ In the same breath, AI can be immensely powerful. It makes scripture accessible 
 
 I’m exploring this topic with optimism. Can AI deepen faith? Can it direct people away from itself? Can it be made free to use? I’m finding the answers to be *yes* and that has me excited. As Christ followers, we are called to spread the good news. We need to take the reins before the Googles of the world doing it inadvertently.
 
-For those curious - my current exploration is through an app I created named [Sojourn](https://trysojourn.app). I think it’s doing a good job of [getting people out of chat and into scripture](/faith-and-ai/getting-people-out-of-chat-and-into-scripture/). If you’re exploring, I’d love to chat. 
+For those curious - my current exploration is through an app I created named [Sojourn: Topical Bible Study](https://trysojourn.app). I think it’s doing a good job of [getting people out of chat and into scripture](/faith-and-ai/getting-people-out-of-chat-and-into-scripture/). If you’re exploring, I’d love to chat. 
 
 <div class="peek-backdrop" data-peek-backdrop aria-hidden="true"></div>
 

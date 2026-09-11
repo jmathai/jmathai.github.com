@@ -51,7 +51,7 @@ I thought that others may appreciate exploring scripture this way. I published t
 
 The feedback motivated me to publish it on the App Store to the world for free. Would strangers find it as useful as friends? Turns out, yes. They also liked it!
 
-Devotional time is deeply personal and [Sojourn’s privacy policy](https://trysojourn.app/privacy/) reflects that. The app doesn’t ask for any information before you can use it and chats are never saved.
+Devotional time is deeply personal and [Sojourn: Topical Bible Study’s privacy policy](https://trysojourn.app/privacy/) reflects that. The app doesn’t ask for any information before you can use it and chats are never saved.
 
 **Getting people out of chat and into scripture**
 

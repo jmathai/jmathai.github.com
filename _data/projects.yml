@@ -3,10 +3,10 @@
 # mono / mono_bg: fallback letter tile when there is no icon
 # with / avatars: collaborator label + optional avatar filenames under /assets/home/img/
 
-- name: Sojourn
+- name: "Sojourn: Topical Bible Study"
   icon: cd-icon-sojourn.png
   dates: "Jul 2026 – Present"
-  desc: "An experiment in using AI for good. Sojourn is a new way to explore scripture, designed so you spend more time in scripture and less time chatting with machines."
+  desc: "An experiment in using AI for good. Sojourn: Topical Bible Study is a new way to explore scripture, designed so you spend more time in scripture and less time chatting with machines."
   link: "https://trysojourn.app"
   link_label: "trysojourn.app"
 

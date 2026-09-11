@@ -51,7 +51,7 @@ They didn’t rely on the mediator. They went to the source.
 
 So, then, what does AI that’s helpful to deepen our faith look? I think it starts with incentive.
 
-My exploration into this space, [Sojourn - Bible Study](https://trysojourn.app), measures success when [you get out of chat and into scripture](/faith-and-ai/getting-people-out-of-chat-and-into-scripture/) and is free to use. I’m learning first hand the incentives which point this new technology towards a deepened faith.
+My exploration into this space, [Sojourn: Topical Bible Study](https://trysojourn.app), measures success when [you get out of chat and into scripture](/faith-and-ai/getting-people-out-of-chat-and-into-scripture/) and is free to use. I’m learning first hand the incentives which point this new technology towards a deepened faith.
 
 AI is a powerful tool for good … when in the right hands.
 
