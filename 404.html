@@ -1,0 +1,33 @@
+---
+layout: nocturne
+permalink: /404.html
+footer_wrap: " wrap--narrow"
+title: "Page Not Found"
+description: "That page isn't here. Some writing that is, though."
+---
+
+<div class="wrap wrap--narrow">
+  <header class="page-head notfound">
+    <div class="eyebrow-row">
+      <span class="eyebrow-line"></span>
+      <span class="eyebrow">Error 404</span>
+    </div>
+    <div class="nf-mark" aria-hidden="true">404</div>
+    <h1>This page isn&rsquo;t here.</h1>
+    <p>Either the link was mistyped, or I moved something and didn&rsquo;t leave a forwarding address. Sorry about that &mdash; here&rsquo;s the way back.</p>
+    <div class="collections nf-actions">
+      <a href="{{ '/' | relative_url }}">Home &rarr;</a>
+      <a href="{{ '/articles/' | relative_url }}">All writing &rarr;</a>
+      <a href="mailto:{{ site.owner.email }}">Tell me what broke &rarr;</a>
+    </div>
+  </header>
+
+  <section class="nf-recent">
+    <h2>Recent writing</h2>
+    <div class="yr-list">
+      {% for post in site.posts limit: 5 %}
+      <a href="{{ post.url | relative_url }}"><span class="t">{{ post.title }}</span><span class="d">{{ post.date | date: '%B %-d, %Y' }}</span></a>
+      {% endfor %}
+    </div>
+  </section>
+</div>

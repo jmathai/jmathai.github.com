@@ -207,3 +207,16 @@ a:hover { color: var(--color-accent-800); }
   .yr-list a { grid-template-columns: 1fr; gap: 4px; align-items: start; }
 }
 @media (max-width: 520px) { .nav-inner { gap: 14px; } }
+
+/* 404 */
+.notfound { text-align: center; padding-bottom: clamp(24px,3vw,36px); }
+.notfound .eyebrow-row { justify-content: center; }
+.nf-mark { font-family: var(--font-heading); font-weight: 500; font-size: clamp(88px,15vw,160px); line-height: 0.9; letter-spacing: -0.02em; font-feature-settings: 'tnum' 1; color: color-mix(in srgb, var(--color-accent-400) 42%, transparent); margin: 0 0 12px; }
+.notfound h1 { margin-left: 0; }
+.notfound p { margin-left: auto; margin-right: auto; }
+.nf-actions { justify-content: center; margin-top: 32px; }
+.nf-recent { padding-bottom: 48px; }
+.nf-recent h2 { font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-neutral-600); font-weight: 600; margin: 0 0 4px; }
+.nf-recent .yr-list { border-left: 0; padding: 0; }
+.nf-recent .yr-list a { padding-left: 8px; }
+@media (max-width: 600px) { .nf-recent .yr-list a { grid-template-columns: 1fr; gap: 4px; align-items: start; } }

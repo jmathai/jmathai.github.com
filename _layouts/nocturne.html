@@ -36,7 +36,7 @@
   <script defer async data-host="jaisenmathai.com" src="https://liteanalytics.com/lite.js"></script>
 </head>
 <body>
-{% if page.layout == 'post' %}{% assign fwrap = ' wrap--article' %}{% elsif page.layout == 'archive' %}{% assign fwrap = ' wrap--narrow' %}{% else %}{% assign fwrap = '' %}{% endif %}
+{% if page.footer_wrap %}{% assign fwrap = page.footer_wrap %}{% elsif page.layout == 'post' %}{% assign fwrap = ' wrap--article' %}{% elsif page.layout == 'archive' %}{% assign fwrap = ' wrap--narrow' %}{% else %}{% assign fwrap = '' %}{% endif %}
 {% if page.layout == 'post' or page.layout == 'archive' %}{% assign in_writing = true %}{% endif %}
 
   <nav class="site-nav">
