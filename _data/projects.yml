@@ -28,8 +28,8 @@
 
 - name: Lattice
   icon: cd-icon-lattice.png
-  dates: "Sept 2024 – June 2025"
-  desc: "A platform which lets people without any technical expertise create applications."
+  dates: "Sept 2024 – Present"
+  desc: 'A playground for my ideas. It started as a portfolio for interior designers, where my wife was the first customer, and evolved into a social media manager for them. Then it became <a href="https://vibe.withlattice.com" target="_blank" rel="noopener">a platform to build applications through natural language</a>, before vibe coding had a name, followed by <a href="https://pm.withlattice.com" target="_blank" rel="noopener">a tool for product managers</a>. Today it&rsquo;s an LLM API that guarantees accuracy of scripture.'
   link: "https://withlattice.com"
   link_label: "withlattice.com"
   with: "with Kevin"
