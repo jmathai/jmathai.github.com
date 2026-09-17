@@ -37,7 +37,9 @@ I have a penchant for building things, trying to get others to use them, and try
 
 If it's inevitable that I do that, why not try and weave generosity into it?
 
-I'm experimenting with a business model where the operating costs are near zero and all of the profits go to charity. You can read more about how I think that can work on <a href="https://withlattice.com/mission">Lattice's mission page</a>.
+I'm interested in how artificial intelligence changes what a business model has to be. Work that used to take a team and a budget can now be done by one person for almost nothing. When building and running something costs close to zero, charging for it stops being a requirement.
+
+<a href="https://trysojourn.app">Sojourn: Topical Bible Study</a> is my example. It's free to use with nothing to buy, so the only thing it has to do is get people further into scripture.
 
 This idea particularly interests me because it lets me pursue something that feels natural to me while orienting it towards generosity from the start.
 
