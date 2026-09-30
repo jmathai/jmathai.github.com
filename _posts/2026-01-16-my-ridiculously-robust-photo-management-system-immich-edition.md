@@ -4,7 +4,7 @@ title: "My Ridiculously Robust Photo Management System (Immich Edition)"
 description: "How I added Immich to my already robust photo management system to make it ridiculously robust."
 category: articles
 logo:  skip
-tags: []
+tags: [photo-management]
 comments: false
 share: true
 ---
