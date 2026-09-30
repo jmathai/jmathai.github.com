@@ -64,6 +64,20 @@ share: true
 ---
 ```
 
+### Body conventions
+
+- **No opening `<hr>`.** The body starts directly with the first paragraph or figure.
+  Earlier posts opened with a horizontal rule under the byline; those have all been
+  removed. `<hr>` is still fine *mid-post* as a genuine section separator (see
+  `2014-09-15-video-log.md`, which uses one between each log entry) — just never as the
+  first element.
+- **Plain `<img ...>`, not self-closing `<img ... />`.** Kramdown accepts both; the
+  repo is normalized on the plain form.
+- **Every image needs real alt text.** Describe what is actually in the frame rather
+  than restating the caption — the two are read together, so a caption of
+  "My last day at Yahoo!" pairs with alt text describing the mug of coffee. Never ship
+  `alt=""` or `alt="image"`.
+
 ### Social share (OG) image
 
 Every post needs an `og:image`. If `image.feature` is set, that photo is used as-is —

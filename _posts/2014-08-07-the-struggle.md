@@ -106,7 +106,7 @@ We even met with Sony 4 times in San Diego.
 Nothing.
 
 <figure>
-	<img src="/images/photos/2013-10-04-cigars-with-brian.jpg" alt="image" />
+	<img src="/images/photos/2013-10-04-cigars-with-brian.jpg" alt="Two men standing indoors smoking cigars, a large wall clock and shuttered windows behind them.">
 	<figcaption>Smoking cigars with our sales lead to celebrate one of our meetings. Credit: <a href="/">Jaisen Mathai</a> CC BY.</figcaption>
 </figure>
 

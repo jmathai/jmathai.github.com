@@ -9,8 +9,6 @@ comments: false
 share: true
 ---
 
-<hr>
-
 [Sojourn: Topical Bible Study](https://trysojourn.app) is an app I published without typing a single line of its code.
 
 That part isn't interesting anymore. Plenty of people are writing code with AI. What I think is interesting is the process. Since ChatGPT 3.5, I’ve been a little bit obsessed about LLMs writing code. Not assisting me writing code, doing it all for me. While the process has evolved **a lot**, I’m going to talk about where it’s at now and give an explaination.

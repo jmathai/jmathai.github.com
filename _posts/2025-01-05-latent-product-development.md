@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Latent Product Development"
-description: "The life and journey of a blockchain transaction."
+description: "The best product ideas surface from a restful mind, not a 24-month roadmap. What makes room for latent thinking."
 category: articles
 logo:  skip
 tags: []

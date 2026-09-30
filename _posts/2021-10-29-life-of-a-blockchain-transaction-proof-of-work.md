@@ -14,8 +14,12 @@ share: true
 ---
 
 This article is also available as a thread on Twitter.
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The life of a crypto/blockchain transaction. Proof of Work version. <a href="https://twitter.com/hashtag/web3?src=hash&amp;ref_src=twsrc%5Etfw">#web3</a><br><br>// THREAD //<br><br>👇🏾</p>&mdash; Jaisen Mathai (@jmathai) <a href="https://twitter.com/jmathai/status/1454110729867464710?ref_src=twsrc%5Etfw">October 29, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-
+<figure>
+	<a href="https://web.archive.org/web/20211029161212/https://twitter.com/jmathai/status/1454110729867464710">
+		<img src="/images/photos/2021-10-29-blockchain-transaction-thread-tweet.png" alt="Tweet from @jmathai: The life of a crypto/blockchain transaction. Proof of Work version. #web3 // THREAD //">
+	</a>
+	<figcaption>The thread this article is based on. October 29, 2021.</figcaption>
+</figure>
 The life of a crypto/blockchain transaction. Proof of Work version.
 <style type="text/css">
   ol.blockchain-thread li {

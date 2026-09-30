@@ -9,8 +9,6 @@ comments: false
 share: true
 ---
 
-<hr>
-
 Generative AI is simultaneously the most powerful and most dangerous technology to our faith.
 
 Scripture has always taken the shape of the medium which carried it. In the Old Testament, Israel carried God’s word across generations through oral tradition.

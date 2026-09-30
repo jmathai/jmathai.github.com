@@ -9,8 +9,6 @@ comments: false
 share: true
 ---
 
-<hr>
-
 Throughout history, immense trust has been placed in those who could translate the Bible. Either into a new language or into layman’s terms. Mediation, what stands between you and the original text, is sacred.
 
 Every new technology has pushed the envelope on mediation. The printing press, the Internet, mobile devices. But they all shared one thing in common: they increased accessibility to trusted versions of scripture.

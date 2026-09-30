@@ -9,8 +9,6 @@ comments: false
 share: true
 ---
 
-<hr>
-
 When my son turned 2, I decided to set up an email address for him. It wasn’t to secure an email address with his name. It was so I could send him notes and give them to him once he became an adult. If you’ve ever been a parent, you know too well those fleeting moments which pass you by and vanish. I wanted to capture them and I thought being able to do so in an email was a good idea.
 
 That was in 2012. Fast forward over a decade and it turns out that my wife and I stuck with it. I checked last week and there are over 120 emails in there. Fleeting moments which we were able to capture. I’m really grateful for each one of them.

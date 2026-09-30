@@ -26,7 +26,7 @@ That's when the seeds for OpenPhoto were planted though they lay dormant for sev
 I was newly married and we had just moved to the San Francisco Bay Area from Ohio to start my new job at Yahoo!. The last thing I wanted to think about was pursuing another idea. Instead Rachel and I spent the next 3 years discovering and falling in love with Sunnyvale; the city we moved to.
 
 <figure>
-	<img src="/images/photos/2007-11-20-first-day-at-yahoo.jpg" alt="image" />
+	<img src="/images/photos/2007-11-20-first-day-at-yahoo.jpg" alt="Jaisen at a desk in a row of yellow Yahoo! cubicles, wearing a cap and green track jacket, with moving boxes stacked behind him.">
 	<figcaption>My first day at Yahoo!. November 20, 2007. Credit: <a href="/">Jaisen Mathai</a> CC BY.</figcaption>
 </figure>
 
@@ -43,11 +43,15 @@ With Yahoo! owning Flickr I didn't want there to be any muddy waters.
 It wasn't an easy decision but one I don't regret looking back.
 
 <figure>
-	<img src="/images/photos/2011-05-31-last-latte-at-yahoo.jpg" alt="image" />
+	<img src="/images/photos/2011-05-31-last-latte-at-yahoo.jpg" alt="A white mug patterned with green clovers holding a foamy latte, beside a jar labelled Vanilla.">
 	<figcaption>My last day at Yahoo!. May 31, 2011. Credit: <a href="/">Jaisen Mathai</a> CC BY.</figcaption>
 </figure>
 
 I'd eventually miss the free lattes I enjoyed at Yahoo! but my body was probably better off.
 
-<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/collinstm">@collinstm</a> 80k calories in my first year at Yahoo! via white chocolate mochas.</p>&mdash; Jaisen Mathai (@jmathai) <a href="https://twitter.com/jmathai/status/217743726112538625">June 26, 2012</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<figure>
+	<a href="https://x.com/jmathai/status/217743726112538625">
+		<img src="/images/photos/2012-06-26-yahoo-latte-calories-tweet.png" alt="Tweet from @jmathai replying to @collinstm: 80k calories in my first year at Yahoo! via white chocolate mochas.">
+	</a>
+	<figcaption>On the free lattes I left behind. June 26, 2012.</figcaption>
+</figure>

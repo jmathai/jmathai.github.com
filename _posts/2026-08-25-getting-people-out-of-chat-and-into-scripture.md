@@ -9,8 +9,6 @@ comments: false
 share: true
 ---
 
-<hr>
-
 I wanted to explore how AI could help deepen my faith. I enjoyed using Claude to research topics which were on my mind. It does a good job finding and quoting scripture but a poor job of letting me explore surrounding verses. I wanted an experience similar to what I was having but optimized to get me into scripture and not stay in chat.
 
 *Let’s set aside the fact that LLMs hallucinate scripture, Sojourn solves that but it’s for another post.*

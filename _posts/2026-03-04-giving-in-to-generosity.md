@@ -11,8 +11,6 @@ comments: false
 share: true
 ---
 
-<hr>
-
 The Bible has a lot to say about generosity. While it doesn't only talk about money, that's what I'm writing about today.
 
 Secularly speaking, I've had a very healthy relationship with money. I live within my means and save diligently.
